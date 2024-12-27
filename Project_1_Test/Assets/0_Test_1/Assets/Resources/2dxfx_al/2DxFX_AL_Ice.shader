@@ -1,0 +1,41 @@
+Shader "2DxFX/AL/Ice" {
+	Properties {
+		[PerRendererData] _MainTex ("Sprite Texture", 2D) = "white" {}
+		[HideInInspector] _MainTex2 ("Pattern (RGB)", 2D) = "white" {}
+		[HideInInspector] _Alpha ("Alpha", Range(0, 1)) = 1
+		[HideInInspector] _Color ("Tint", Vector) = (1,1,1,1)
+		[HideInInspector] _Value1 ("_Value1", Range(0, 1)) = 0
+		[HideInInspector] _Value2 ("_Value2", Range(0, 1)) = 0
+		[HideInInspector] _Value3 ("_Value3", Range(0, 1)) = 0
+		[HideInInspector] _Value4 ("_Value4", Range(0, 1)) = 0
+		[HideInInspector] _Value5 ("_Value5", Range(0, 1)) = 0
+		[HideInInspector] _SrcBlend ("_SrcBlend", Float) = 0
+		[HideInInspector] _DstBlend ("_DstBlend", Float) = 0
+		[HideInInspector] _BlendOp ("_BlendOp", Float) = 0
+		[HideInInspector] _Z ("_Z", Float) = 0
+	}
+	//DummyShaderTextExporter
+	SubShader{
+		Tags { "RenderType"="Opaque" }
+		LOD 200
+		CGPROGRAM
+#pragma surface surf Standard
+#pragma target 3.0
+
+		sampler2D _MainTex;
+		fixed4 _Color;
+		struct Input
+		{
+			float2 uv_MainTex;
+		};
+		
+		void surf(Input IN, inout SurfaceOutputStandard o)
+		{
+			fixed4 c = tex2D(_MainTex, IN.uv_MainTex) * _Color;
+			o.Albedo = c.rgb;
+			o.Alpha = c.a;
+		}
+		ENDCG
+	}
+	Fallback "Transparent/VertexLit"
+}

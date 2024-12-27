@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7541e7d720e20337ee557bb8cd1444c6, type: 3}
+  m_Name: DataNotifications
+  m_EditorClassIdentifier:
+  list_NotificationDays:
+  - id: 0
+    list_Times:
+    - timePush: 2
+      list_Title:
+      - strEng: It's time to draw🎨
+        strVie: Đến giờ vẽ rồi
+      list_StrInfor:
+      - strEng: Let's draw together
+        strVie: Hãy vẽ cùng nhau nào🎨🎨
+  - id: 1
+    list_Times:
+    - timePush: 12
+      list_Title:
+      - strEng: '🎁Big gift🎁 '
+        strVie: '🎁Món quà lớn🎁 '
+      - strEng: '🖼️ Draw time!! 🖼️ '
+        strVie: '🖼️Đến giờ vẽ rồi🖼️ '
+      list_StrInfor:
+      - strEng: Daily reward is ready, Get it now!🎁
+        strVie: Quà tặng hàng ngày đã sẵn sàng, đến nhận nó nào!
+      - strEng: ' Have you finished your lunch? Let''s draw together! '
+        strVie: Bạn ăn trưa xong rồi chứ? Hãy vẽ cùng nhau nào
+    - timePush: 19
+      list_Title:
+      - strEng: 'Tired day huh? 😩 '
+        strVie: 'Một ngày mệt mỏi nhỉ?😩 '
+      list_StrInfor:
+      - strEng: It's time to relax with Draw to Save! 😌😌
+        strVie: Đã đến lúc thư giãn cùng Draw to Save!😌😌
+  - id: 2
+    list_Times:
+    - timePush: 12
+      list_Title:
+      - strEng: '🎁Big gift🎁 '
+        strVie: '🎁Món quà lớn🎁 '
+      - strEng: Challenge you
+        strVie: Thử thách bạn 🎖️
+      list_StrInfor:
+      - strEng: You have a gift. Take it now!
+        strVie: Bạn có một món quà, hãy tới nhận nó!
+      - strEng: Can you pass all of levels? 🧐🧐
+        strVie: Bạn có thể vượt qua tất cả các level chứ? 🧐🧐
+  - id: 3
+    list_Times:
+    - timePush: 20
+      list_Title:
+      - strEng: 'So many keys 🗝️🗝️🗝️ '
+        strVie: Rất nhiều chìa khóa🗝️🗝️
+      list_StrInfor:
+      - strEng: 'So many keys waiting for you! Get it now!🗝️🗝️ '
+        strVie: Rất nhiều chìa khóa đang đợi bạn, hãy tới nhận nó ngay nào!🗝️🗝️
+    - timePush: 20
+      list_Title:
+      - strEng: '😣 It''s hard 😣 '
+        strVie: Trò chơi này khá khó đấy 😣
+      list_StrInfor:
+      - strEng: Only 200 IQ can pass all levels!🧐🧐
+        strVie: Chỉ những ai có 200 IQ mới có thể vượt qua tất cả các level thôi, bạn muốn thử chứ?🧐🧐
+  - id: 4
+    list_Times:
+    - timePush: 11
+      list_Title:
+      - strEng: '🎁Big gift🎁 '
+        strVie: Quà lớn đã tới🎁
+      - strEng: ' You are the best! 👑 '
+        strVie: '👑 Bạn là nhất👑 '
+      list_StrInfor:
+      - strEng: 'Daily reward is ready, Get it now! '
+        strVie: Quà tặng hàng ngày đã sẵn sàng, đến nhận nó nào!
+      - strEng: ⏰You are a smart human, It's time to show it!⏰
+        strVie: Bạn là một người thông minh, hãy thể hiện điều đó nào⏰
+  - id: 5
+    list_Times:
+    - timePush: 12
+      list_Title:
+      - strEng: ' It''s coming🎉🎉 '
+        strVie: ' Có gì đó đang tới🎉🎉 '
+      - strEng: 'Tired day huh?😫 '
+        strVie: 'Một ngày làm việc mệt mỏi phải không?😫 '
+      list_StrInfor:
+      - strEng: 'Only 1 day to receive the biggest reward, let''s take it! '
+        strVie: Chỉ còn 1 ngày nữa là có thể nhận món quà lớn nhất rồi, hãy nhận quà hôm nay đi nào!!
+      - strEng: Let's Draw to Save help you 😇😇
+        strVie: Hãy để Draw to Save giúp bạn nhé 😇😇
+  - id: 6
+    list_Times:
+    - timePush: 20
+      list_Title:
+      - strEng: '🎁Big gift🎁 '
+        strVie: '🎁Món quà siêu to khổng lồ🎁 '
+      - strEng: 'This game is for you 👌👌 '
+        strVie: '👌Trò chơi này là dành cho bạn👌 '
+      list_StrInfor:
+      - strEng: 'The biggest reward of the week is ready!🤩🤩 '
+        strVie: 'Món quà lớn nhất trong tuần đã sẵn sàng🤩🤩 '
+      - strEng: Only 200 IQ can pass all levels! 💡💡
+        strVie: Chỉ những ai có 200 IQ mới có thể vượt qua tất cả các level! 💡💡
+  - id: 7
+    list_Times:
+    - timePush: 12
+      list_Title:
+      - strEng: ' 🏅Challenge you🏅 '
+        strVie: '👌Trò chơi này là dành cho bạn👌 '
+      list_StrInfor:
+      - strEng: Can you pass all of levels?
+        strVie: Chỉ những ai có 200 IQ mới có thể vượt qua tất cả các level! 💡💡
+    - timePush: 20
+      list_Title:
+      - strEng: ' It''s time to draw 🎨🎨🎨 '
+        strVie: Đến giờ vẽ rồi
+      - strEng: '😫Tired day huh?😫 '
+        strVie: Một ngày mệt mỏi nhỉ?😫
+      list_StrInfor:
+      - strEng: Let's draw together!
+        strVie: Hãy vẽ cùng nhau nào🎨🎨
+      - strEng: 😚It's time to relax, let Draw to Save help you!😚
+        strVie: 😚Bỏ qua mọi thứ và thư giãn thôi, hãy để Draw to Save giúp bạn😚

@@ -1,0 +1,955 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36eb68c4bddf588e88ba48400103dd75, type: 3}
+  m_Name: DataHintLevel
+  m_EditorClassIdentifier:
+  listTip:
+  - indexLevel: 1
+    idLevel: 1
+    tipVie: 'Đừng rơi vào tình yêu nhé '
+    tipEng: 'Don''t fall in love '
+  - indexLevel: 2
+    idLevel: 2
+    tipVie: 'Cứu '
+    tipEng: 'Help meeee '
+  - indexLevel: 3
+    idLevel: 3
+    tipVie: 'Bạn có thể cứu anh ấy chứ? '
+    tipEng: 'Could you save him? '
+  - indexLevel: 4
+    idLevel: 4
+    tipVie: 'Cẩn thận vỏ chuối '
+    tipEng: 'Be careful of the banana peel '
+  - indexLevel: 5
+    idLevel: 5
+    tipVie: 'Phải làm sao, phải làm sao '
+    tipEng: 'What should i do? '
+  - indexLevel: 6
+    idLevel: 6
+    tipVie: 'Hãy giảm cân '
+    tipEng: 'Please lose your weight '
+  - indexLevel: 7
+    idLevel: 7
+    tipVie: 'Hãy giúp anh ấy '
+    tipEng: 'Help him '
+  - indexLevel: 8
+    idLevel: 8
+    tipVie: Cẩn thận với con chim
+    tipEng: Be careful with the bird
+  - indexLevel: 9
+    idLevel: 9
+    tipVie: 'Hãy cứu anh ấy '
+    tipEng: 'Save him please '
+  - indexLevel: 10
+    idLevel: 10
+    tipVie: 'Ngăn chặn 1 vụ ám sát '
+    tipEng: 'Stop the murder '
+  - indexLevel: 11
+    idLevel: 11
+    tipVie: 'Ngăn chặn vụ nổ '
+    tipEng: 'Stop the explosion '
+  - indexLevel: 12
+    idLevel: 12
+    tipVie: 'Làm thế nào để cứu anh ấy bây giờ '
+    tipEng: 'How to save him? '
+  - indexLevel: 13
+    idLevel: 13
+    tipVie: 'Gió to quá '
+    tipEng: 'What a big wind '
+  - indexLevel: 14
+    idLevel: 14
+    tipVie: 'Bảo vệ cô gái '
+    tipEng: Protect the girl
+  - indexLevel: 15
+    idLevel: 15
+    tipVie: Hãy giúp anh ấy dừng lại
+    tipEng: Help him stop
+  - indexLevel: 16
+    idLevel: 16
+    tipVie: Làm thế nào để cứu anh ấy
+    tipEng: How to save him?
+  - indexLevel: 17
+    idLevel: 17
+    tipVie: 'Ai đó cứu tôiii '
+    tipEng: 'Help me !! '
+  - indexLevel: 18
+    idLevel: 18
+    tipVie: 'Bạn có thể cứu anh ấy chứ? '
+    tipEng: 'Could you save him? '
+  - indexLevel: 19
+    idLevel: 19
+    tipVie: 'Đừng làm vỡ lọ hoa '
+    tipEng: 'Don''t break the flowerpot '
+  - indexLevel: 20
+    idLevel: 20
+    tipVie: 'Hãy cứu anh ấy '
+    tipEng: 'Please save his life '
+  - indexLevel: 21
+    idLevel: 21
+    tipVie: 'Hãy cứu anh ấy '
+    tipEng: 'Please save him '
+  - indexLevel: 22
+    idLevel: 22
+    tipVie: 'Cho cá ăn '
+    tipEng: 'Feed the Fish '
+  - indexLevel: 23
+    idLevel: 23
+    tipVie: 'Giúp anh ấy đấm trúng '
+    tipEng: 'Help him punch! '
+  - indexLevel: 24
+    idLevel: 24
+    tipVie: 'Hãy giúp anh ấy '
+    tipEng: 'Please help him '
+  - indexLevel: 25
+    idLevel: 25
+    tipVie: 'Đừng để bị ướt '
+    tipEng: 'Don''t get wet '
+  - indexLevel: 26
+    idLevel: 26
+    tipVie: 'Ngăn chặn vụ tai nạn '
+    tipEng: 'Prevent the accident '
+  - indexLevel: 27
+    idLevel: 27
+    tipVie: 'Hãy giúp anh ấy 1 tay '
+    tipEng: 'Give him a hand '
+  - indexLevel: 28
+    idLevel: 28
+    tipVie: 'Làm thế nào để cứu anh ấy '
+    tipEng: 'How to save him? '
+  - indexLevel: 29
+    idLevel: 29
+    tipVie: 'Phải làm sao, phải làm sao '
+    tipEng: 'What shoud i do? '
+  - indexLevel: 30
+    idLevel: 30
+    tipVie: 'Cẩn thận cái búa '
+    tipEng: Be careful with the hammer
+  - indexLevel: 31
+    idLevel: 31
+    tipVie: 'Tiêu diệt kẻ xấu '
+    tipEng: 'Protect the girl and kill the bad guy '
+  - indexLevel: 32
+    idLevel: 32
+    tipVie: 'Cứuuuuu '
+    tipEng: 'Help me !! '
+  - indexLevel: 33
+    idLevel: 33
+    tipVie: 'Bắt lấy tên trộm '
+    tipEng: 'Catch the thief '
+  - indexLevel: 34
+    idLevel: 34
+    tipVie: 'Bảo vệ khỏi Virus '
+    tipEng: 'Protect from Virus '
+  - indexLevel: 35
+    idLevel: 35
+    tipVie: Hãy giúp bác sĩ tiêm
+    tipEng: Help the doctor inject the patient
+  - indexLevel: 36
+    idLevel: 36
+    tipVie: 'Bảo vệ cô ấy '
+    tipEng: 'Protect her '
+  - indexLevel: 37
+    idLevel: 37
+    tipVie: 'Giúp anh ấy ghi bàn '
+    tipEng: 'Help him score '
+  - indexLevel: 38
+    idLevel: 38
+    tipVie: 'Đưa bóng vào rổ '
+    tipEng: 'Put the ball in the basket '
+  - indexLevel: 39
+    idLevel: 39
+    tipVie: 'Hãy giúp anh ấy '
+    tipEng: 'Save his life '
+  - indexLevel: 40
+    idLevel: 40
+    tipVie: Giúp cô ấy đưa bóng vào lỗ
+    tipEng: Put the ball in the hole
+  - indexLevel: 41
+    idLevel: 41
+    tipVie: 'Giúp anh ấy ăn gà tây '
+    tipEng: 'Help him eat '
+  - indexLevel: 42
+    idLevel: 42
+    tipVie: 'Bảo vệ ca sĩ của chúng ta '
+    tipEng: 'Protect our singer '
+  - indexLevel: 43
+    idLevel: 43
+    tipVie: 'Hãy giúp anh ấy ngủ ngon '
+    tipEng: 'Help him sleep well '
+  - indexLevel: 44
+    idLevel: 44
+    tipVie: 'Cẩn thận chó dữ !!! '
+    tipEng: 'Beware of dog !! '
+  - indexLevel: 45
+    idLevel: 45
+    tipVie: 'Mưa rồiii '
+    tipEng: 'It''s raining '
+  - indexLevel: 46
+    idLevel: 46
+    tipVie: 'Nhậu đê '
+    tipEng: 'Cheers !!! '
+  - indexLevel: 47
+    idLevel: 47
+    tipVie: 'Hãy cẩn thận '
+    tipEng: 'Be careful '
+  - indexLevel: 48
+    idLevel: 48
+    tipVie: 'Nguy hiểm, điện cao thế '
+    tipEng: 'Danger! High Voltage! '
+  - indexLevel: 49
+    idLevel: 49
+    tipVie: 'Đừng để tiền rơi '
+    tipEng: 'Don''t lose money '
+  - indexLevel: 50
+    idLevel: 50
+    tipVie: 'Đừng để nó chạy thoát '
+    tipEng: 'Don''t let it get away '
+  - indexLevel: 51
+    idLevel: 51
+    tipVie: 'Giữ thăng bằng cho anh ấy '
+    tipEng: 'Keep his balance '
+  - indexLevel: 52
+    idLevel: 52
+    tipVie: 'Hoàn thành bát mì '
+    tipEng: 'Complete the noodle '
+  - indexLevel: 53
+    idLevel: 53
+    tipVie: 'Giúp anh ấy nhảy xuống '
+    tipEng: 'Help him jump down '
+  - indexLevel: 54
+    idLevel: 54
+    tipVie: 'Bảo vệ đồng đội '
+    tipEng: 'Protect him '
+  - indexLevel: 55
+    idLevel: 55
+    tipVie: 'Đừng để bị thủng lưới '
+    tipEng: 'Don''t get conceded '
+  - indexLevel: 56
+    idLevel: 56
+    tipVie: 'Cứu vớiiii '
+    tipEng: 'Help me '
+  - indexLevel: 57
+    idLevel: 57
+    tipVie: 'Trời lạnh quá '
+    tipEng: 'So cold '
+  - indexLevel: 58
+    idLevel: 58
+    tipVie: 'Hãy cứu sống anh ấy '
+    tipEng: 'Please save him '
+  - indexLevel: 59
+    idLevel: 59
+    tipVie: 'Giúp anh ấy tới vạch đích '
+    tipEng: 'Help him to the finish line '
+  - indexLevel: 60
+    idLevel: 60
+    tipVie: 'Hãy vẽ mũi tên '
+    tipEng: 'Draw the arrow '
+  - indexLevel: 61
+    idLevel: 61
+    tipVie: 'Cẩn thận cảnh sát '
+    tipEng: 'Be careful of the police '
+  - indexLevel: 62
+    idLevel: 62
+    tipVie: 'Hãy cẩn thận '
+    tipEng: 'Be careful '
+  - indexLevel: 63
+    idLevel: 63
+    tipVie: 'Bắt nó lại '
+    tipEng: 'Catch him !! '
+  - indexLevel: 64
+    idLevel: 64
+    tipVie: 'Cô ấy thích gì nhỉ? '
+    tipEng: 'What does she like? '
+  - indexLevel: 65
+    idLevel: 65
+    tipVie: 'Tập thể dục nào '
+    tipEng: 'Let''s Running '
+  - indexLevel: 66
+    idLevel: 66
+    tipVie: 'Cho xin miếng nước '
+    tipEng: 'Where is my water? '
+  - indexLevel: 67
+    idLevel: 67
+    tipVie: 'Bóng bay của tui.... '
+    tipEng: 'My Balloon '
+  - indexLevel: 68
+    idLevel: 68
+    tipVie: 'Cho anh ấy đồ ăn '
+    tipEng: 'Give him food '
+  - indexLevel: 69
+    idLevel: 69
+    tipVie: 'Sặc! Cứu với '
+    tipEng: 'Give him oxy '
+  - indexLevel: 70
+    idLevel: 70
+    tipVie: 'Vừa mới ngoi lên mà !!! '
+    tipEng: 'Help me '
+  - indexLevel: 71
+    idLevel: 71
+    tipVie: 'Phanh hỏng phanh hỏng '
+    tipEng: 'Brake failure '
+  - indexLevel: 72
+    idLevel: 72
+    tipVie: 'Giúp anh ấy về đích '
+    tipEng: 'Help him to the finish '
+  - indexLevel: 73
+    idLevel: 73
+    tipVie: 'Đưa bóng vào rổ '
+    tipEng: 'Put all in the basket '
+  - indexLevel: 74
+    idLevel: 74
+    tipVie: 'Bảo vệ cả 2 người '
+    tipEng: 'Protect all '
+  - indexLevel: 75
+    idLevel: 75
+    tipVie: 'Phải làm sao, phải làm sao '
+    tipEng: 'What should i do? '
+  - indexLevel: 76
+    idLevel: 76
+    tipVie: 'Cẩn thận có đá lở '
+    tipEng: 'Falling rocks '
+  - indexLevel: 77
+    idLevel: 77
+    tipVie: 'Hãy giúp anh ấy '
+    tipEng: 'Please help him '
+  - indexLevel: 78
+    idLevel: 78
+    tipVie: 'Hãy cứu anh ấy '
+    tipEng: 'Save his life '
+  - indexLevel: 79
+    idLevel: 79
+    tipVie: 'Chú khỉ nghịch ngợm '
+    tipEng: 'Bad monkey '
+  - indexLevel: 80
+    idLevel: 80
+    tipVie: 'Hãy cứu anh ấy '
+    tipEng: 'Protect him '
+  - indexLevel: 81
+    idLevel: 81
+    tipVie: 'Hãy giành chiến thắng '
+    tipEng: 'Beat him '
+  - indexLevel: 82
+    idLevel: 82
+    tipVie: 'Không đụng vào '
+    tipEng: 'Don''t touch '
+  - indexLevel: 83
+    idLevel: 83
+    tipVie: 'Đi qua đi đừng sợ '
+    tipEng: 'I want to go home '
+  - indexLevel: 84
+    idLevel: 84
+    tipVie: 'Làm sao để cứu anh ấy? '
+    tipEng: 'How to help him? '
+  - indexLevel: 85
+    idLevel: 85
+    tipVie: 'Anh ấy cần sự giúp đỡ của bạn '
+    tipEng: 'He needs your help '
+  - indexLevel: 86
+    idLevel: 86
+    tipVie: 'Ai đó cứu tôiii '
+    tipEng: 'Save him '
+  - indexLevel: 87
+    idLevel: 87
+    tipVie: 'Bạn có thể cứu anh ấy chứ? '
+    tipEng: 'Could you help him '
+  - indexLevel: 88
+    idLevel: 88
+    tipVie: 'Hãy cứu anh ấy '
+    tipEng: 'Save his life '
+  - indexLevel: 89
+    idLevel: 89
+    tipVie: 'Chuẩn bị về nhà thôii '
+    tipEng: 'Prepare to go home '
+  - indexLevel: 90
+    idLevel: 90
+    tipVie: 'Gét gô '
+    tipEng: 'I''m coming home '
+  - indexLevel: 91
+    idLevel: 91
+    tipVie: 'Giúp anh ấy hạ cánh an toàn '
+    tipEng: 'Help him to land safely '
+  - indexLevel: 92
+    idLevel: 92
+    tipVie: 'Chạy ngay đi '
+    tipEng: 'Run for your life '
+  - indexLevel: 93
+    idLevel: 93
+    tipVie: 'Tiếp tục chạyyy '
+    tipEng: 'Keep running '
+  - indexLevel: 94
+    idLevel: 94
+    tipVie: Hãy bảo vệ anh ấy
+    tipEng: Protect him
+  - indexLevel: 95
+    idLevel: 95
+    tipVie: 'Hãy cứu anh ấy '
+    tipEng: 'How to help him? '
+  - indexLevel: 96
+    idLevel: 96
+    tipVie: 'Giúp anh ấy trốn thoát '
+    tipEng: 'Help him escape '
+  - indexLevel: 97
+    idLevel: 97
+    tipVie: 'Giúp anh ấy tham gia đại hội thể thao '
+    tipEng: 'Let''s go to sport event '
+  - indexLevel: 98
+    idLevel: 98
+    tipVie: 'Đưa bóng vào lỗ '
+    tipEng: 'Hit the ball into the hole '
+  - indexLevel: 99
+    idLevel: 99
+    tipVie: 'Hãy giúp anh ấy '
+    tipEng: 'Help him '
+  - indexLevel: 100
+    idLevel: 100
+    tipVie: 'Hãy đưa anh ấy đến đích '
+    tipEng: 'Let him reach the destination '
+  - indexLevel: 101
+    idLevel: 101
+    tipVie: 'Hãy giúp anh ấy '
+    tipEng: 'Help him '
+  - indexLevel: 102
+    idLevel: 102
+    tipVie: 'Bảo vệ anh ấy '
+    tipEng: 'Protect him '
+  - indexLevel: 103
+    idLevel: 103
+    tipVie: 'Đưa bóng vào rổ '
+    tipEng: 'Throw the ball into the basket '
+  - indexLevel: 104
+    idLevel: 104
+    tipVie: 'Đánh bại đối thủ '
+    tipEng: 'Finish him '
+  - indexLevel: 105
+    idLevel: 105
+    tipVie: 'Giúp anh ấy về đích '
+    tipEng: 'Help him to the finish '
+  - indexLevel: 106
+    idLevel: 106
+    tipVie: 'Hãy vẽ vũ khí để tiêu diệt kẻ địch '
+    tipEng: 'Draw a weapon to defeat the enemy '
+  - indexLevel: 107
+    idLevel: 107
+    tipVie: 'Hãy vẽ quả bóng '
+    tipEng: 'Draw a ball '
+  - indexLevel: 108
+    idLevel: 108
+    tipVie: 'Hãy vẽ mũi tên '
+    tipEng: 'Draw an arrow to the target '
+  - indexLevel: 109
+    idLevel: 109
+    tipVie: 'Hãy giúp anh ấy phá kỷ lục '
+    tipEng: 'Help him break the record '
+  - indexLevel: 110
+    idLevel: 110
+    tipVie: 'Trao cho anh ấy huân chương '
+    tipEng: 'Give him the medal '
+  - indexLevel: 111
+    idLevel: 111
+    tipVie: 'Hãy tiêu diệt kẻ thù '
+    tipEng: 'Defeat the enemy '
+  - indexLevel: 112
+    idLevel: 112
+    tipVie: 'Hãy bắt lấy cái búa '
+    tipEng: 'Catch the hammer '
+  - indexLevel: 113
+    idLevel: 113
+    tipVie: 'Vẽ tia laze để tiêu diệt kẻ thù '
+    tipEng: 'Draw a laser to defeat the enemy '
+  - indexLevel: 114
+    idLevel: 114
+    tipVie: 'Đừng để đá rơi '
+    tipEng: 'Don''t let the stone fall '
+  - indexLevel: 115
+    idLevel: 115
+    tipVie: 'Hãy giúp cô ấy 1 tay '
+    tipEng: 'Give her a hand '
+  - indexLevel: 116
+    idLevel: 116
+    tipVie: 'Vẽ tia laze để bắn trúng mục tiêu '
+    tipEng: 'Draw a laser to defeat the target '
+  - indexLevel: 117
+    idLevel: 117
+    tipVie: 'Đánh bại hắn '
+    tipEng: 'Defeat the enemy '
+  - indexLevel: 118
+    idLevel: 118
+    tipVie: 'Bạn có thể giúp người nhện chứ '
+    tipEng: 'Could you help him '
+  - indexLevel: 119
+    idLevel: 119
+    tipVie: 'Làm thế nào để cứu anh ấy? '
+    tipEng: 'How to save him? '
+  - indexLevel: 120
+    idLevel: 120
+    tipVie: 'Hãy vẽ mũi tên '
+    tipEng: 'Draw an arrow '
+  - indexLevel: 121
+    idLevel: 121
+    tipVie: 'Hãy đưa anh ấy đến đích '
+    tipEng: 'Let him reach the destination '
+  - indexLevel: 122
+    idLevel: 122
+    tipVie: 'Hãy đưa anh ấy đến đích '
+    tipEng: 'Let him reach the destination '
+  - indexLevel: 123
+    idLevel: 123
+    tipVie: 'Hãy đưa anh ấy đến đích '
+    tipEng: 'Let him reach the destination '
+  - indexLevel: 124
+    idLevel: 124
+    tipVie: 'Hãy đưa anh ấy đến đích '
+    tipEng: 'Let him reach the destination '
+  - indexLevel: 125
+    idLevel: 125
+    tipVie: 'Hãy đưa anh ấy đến đích '
+    tipEng: 'Let him reach the destination '
+  - indexLevel: 126
+    idLevel: 126
+    tipVie: 'Hãy đưa anh ấy đến đích '
+    tipEng: 'Let him reach the destination '
+  - indexLevel: 127
+    idLevel: 127
+    tipVie: 'Hãy đưa anh ấy đến đích '
+    tipEng: 'Let him reach the destination '
+  - indexLevel: 128
+    idLevel: 128
+    tipVie: 'Hãy đưa anh ấy đến đích '
+    tipEng: 'Let him reach the destination '
+  - indexLevel: 129
+    idLevel: 129
+    tipVie: 'Hãy đưa anh ấy đến đích '
+    tipEng: 'Let him reach the destination '
+  - indexLevel: 130
+    idLevel: 130
+    tipVie: 'Hãy đưa anh ấy đến đích '
+    tipEng: 'Let him reach the destination '
+  - indexLevel: 131
+    idLevel: 131
+    tipVie: 'Hãy giúp con mèo '
+    tipEng: 'Help the cat '
+  - indexLevel: 132
+    idLevel: 132
+    tipVie: 'Cho chúng nó ăn '
+    tipEng: 'Help them eat '
+  - indexLevel: 133
+    idLevel: 133
+    tipVie: 'Hãy ăn hết cá '
+    tipEng: 'Let''s eat all the fish '
+  - indexLevel: 134
+    idLevel: 134
+    tipVie: 'Hãy ăn hết cá '
+    tipEng: 'Let''s eat all the fish '
+  - indexLevel: 135
+    idLevel: 135
+    tipVie: 'Hãy ăn con cá lớn '
+    tipEng: 'Let''s eat the big fish '
+  - indexLevel: 136
+    idLevel: 136
+    tipVie: 'Tiền của ai thế nhỉ? '
+    tipEng: 'How to collect money '
+  - indexLevel: 137
+    idLevel: 137
+    tipVie: 'Làm thế nào để trộm kim cương '
+    tipEng: 'How to collect the diamond '
+  - indexLevel: 138
+    idLevel: 138
+    tipVie: 'Lấy lại chiếc túi '
+    tipEng: 'Take back the bag '
+  - indexLevel: 139
+    idLevel: 139
+    tipVie: 'Hết giấy mất rồi '
+    tipEng: 'Help him '
+  - indexLevel: 140
+    idLevel: 140
+    tipVie: 'Cô ấy đang dỗi '
+    tipEng: 'His girl friend is angry '
+  - indexLevel: 141
+    idLevel: 141
+    tipVie: 'Giọng cô ấy tệ quá '
+    tipEng: 'Her voice is so bad '
+  - indexLevel: 142
+    idLevel: 142
+    tipVie: 'Ngăn con bé khóc '
+    tipEng: 'How to stop her crying '
+  - indexLevel: 143
+    idLevel: 143
+    tipVie: 'Hãy cứu anh ấy '
+    tipEng: 'Help him '
+  - indexLevel: 144
+    idLevel: 144
+    tipVie: 'Bảo vệ môi trường '
+    tipEng: 'Protect the enviroment '
+  - indexLevel: 145
+    idLevel: 145
+    tipVie: 'Ăn trộm chiếc nhẫn '
+    tipEng: 'Steal the ring '
+  - indexLevel: 146
+    idLevel: 146
+    tipVie: 'Phải vượt ngục thôi '
+    tipEng: 'Steal the key '
+  - indexLevel: 147
+    idLevel: 147
+    tipVie: 'Hình như thiếu quả gì đó thì phải '
+    tipEng: 'We need tomatoes '
+  - indexLevel: 148
+    idLevel: 148
+    tipVie: 'Cho anh ta đồ ăn '
+    tipEng: 'Give him food '
+  - indexLevel: 149
+    idLevel: 149
+    tipVie: 'Hãy cứu con mèo '
+    tipEng: 'Save the cat '
+  - indexLevel: 150
+    idLevel: 150
+    tipVie: 'Xin con cá nhé bạn ơi '
+    tipEng: 'Steal the fish '
+  - indexLevel: 151
+    idLevel: 151
+    tipVie: 'Hãy đưa cô ấy đến đích '
+    tipEng: 'Let her reach the destination '
+  - indexLevel: 152
+    idLevel: 152
+    tipVie: 'Hãy đưa cô ấy đến đích '
+    tipEng: 'Let her reach the destination '
+  - indexLevel: 153
+    idLevel: 153
+    tipVie: 'Hãy đưa cô ấy đến đích '
+    tipEng: 'Let her reach the destination '
+  - indexLevel: 154
+    idLevel: 154
+    tipVie: 'Hãy đưa cô ấy đến đích '
+    tipEng: 'Let her reach the destination '
+  - indexLevel: 155
+    idLevel: 155
+    tipVie: 'Hãy đưa cô ấy đến đích '
+    tipEng: 'Let her reach the destination '
+  - indexLevel: 156
+    idLevel: 156
+    tipVie: 'Hãy đưa cô ấy đến đích '
+    tipEng: 'Let her reach the destination '
+  - indexLevel: 157
+    idLevel: 157
+    tipVie: 'Hãy đưa cô ấy đến đích '
+    tipEng: 'Let her reach the destination '
+  - indexLevel: 158
+    idLevel: 158
+    tipVie: 'Hãy đưa cô ấy đến đích '
+    tipEng: 'Let her reach the destination '
+  - indexLevel: 159
+    idLevel: 159
+    tipVie: 'Hãy đưa cô ấy đến đích '
+    tipEng: 'Let her reach the destination '
+  - indexLevel: 160
+    idLevel: 160
+    tipVie: 'Hãy đưa cô ấy đến đích '
+    tipEng: 'Let her reach the destination '
+  - indexLevel: 161
+    idLevel: 161
+    tipVie: 'Hãy đưa cô ấy đến đích '
+    tipEng: 'Let her reach the destination '
+  - indexLevel: 162
+    idLevel: 162
+    tipVie: 'Hãy đưa cô ấy đến đích '
+    tipEng: 'Let her reach the destination '
+  - indexLevel: 163
+    idLevel: 163
+    tipVie: 'Hãy đưa cô ấy đến đích '
+    tipEng: 'Let her reach the destination '
+  - indexLevel: 164
+    idLevel: 164
+    tipVie: 'Hãy đưa cô ấy đến đích '
+    tipEng: 'Let her reach the destination '
+  - indexLevel: 165
+    idLevel: 165
+    tipVie: 'Hãy đưa cô ấy đến đích '
+    tipEng: 'Let her reach the destination '
+  - indexLevel: 166
+    idLevel: 166
+    tipVie: 'Hãy đưa chiếc xe máy về đích '
+    tipEng: 'Let the motorcycle reach the finish line '
+  - indexLevel: 167
+    idLevel: 167
+    tipVie: 'Hãy đưa chiếc xe máy về đích '
+    tipEng: 'Let the motorcycle reach the finish line '
+  - indexLevel: 168
+    idLevel: 168
+    tipVie: 'Hãy đưa chiếc xe máy về đích '
+    tipEng: 'Let the motorcycle reach the finish line '
+  - indexLevel: 169
+    idLevel: 169
+    tipVie: 'Hãy đưa chiếc xe máy về đích '
+    tipEng: 'Let the motorcycle reach the finish line '
+  - indexLevel: 170
+    idLevel: 170
+    tipVie: 'Hãy đưa chiếc xe máy về đích '
+    tipEng: 'Let the motorcycle reach the finish line '
+  - indexLevel: 171
+    idLevel: 171
+    tipVie: 'Hãy đưa chiếc xe máy về đích '
+    tipEng: 'Let the motorcycle reach the finish line '
+  - indexLevel: 172
+    idLevel: 172
+    tipVie: 'Hãy đưa chiếc xe máy về đích '
+    tipEng: 'Let the motorcycle reach the finish line '
+  - indexLevel: 173
+    idLevel: 173
+    tipVie: 'Hãy đưa chiếc xe máy về đích '
+    tipEng: 'Let the motorcycle reach the finish line '
+  - indexLevel: 174
+    idLevel: 174
+    tipVie: 'Hãy đưa chiếc xe máy về đích '
+    tipEng: 'Let the motorcycle reach the finish line '
+  - indexLevel: 175
+    idLevel: 175
+    tipVie: 'Hãy đưa chiếc xe máy về đích '
+    tipEng: 'Let the motorcycle reach the finish line '
+  - indexLevel: 176
+    idLevel: 176
+    tipVie: 'Hãy đưa chiếc xe máy về đích '
+    tipEng: 'Let the motorcycle reach the finish line '
+  - indexLevel: 177
+    idLevel: 177
+    tipVie: 'Hãy đưa chiếc xe máy về đích '
+    tipEng: 'Let the motorcycle reach the finish line '
+  - indexLevel: 178
+    idLevel: 178
+    tipVie: 'Hãy đưa chiếc xe máy về đích '
+    tipEng: 'Let the motorcycle reach the finish line '
+  - indexLevel: 179
+    idLevel: 179
+    tipVie: 'Hãy đưa chiếc xe máy về đích '
+    tipEng: 'Let the motorcycle reach the finish line '
+  - indexLevel: 180
+    idLevel: 180
+    tipVie: 'Hãy đưa chiếc xe máy về đích '
+    tipEng: 'Let the motorcycle reach the finish line '
+  - indexLevel: 181
+    idLevel: 181
+    tipVie: 'Hãy cho anh ấy bình yên '
+    tipEng: 'Can you help him? '
+  - indexLevel: 182
+    idLevel: 182
+    tipVie: 'Hãy cứu anh ấy '
+    tipEng: 'Please save him '
+  - indexLevel: 183
+    idLevel: 183
+    tipVie: 'S.O.S '
+    tipEng: 'Give him the tissue '
+  - indexLevel: 184
+    idLevel: 184
+    tipVie: 'Ai đó cứu tôiiii '
+    tipEng: 'Please save him '
+  - indexLevel: 185
+    idLevel: 185
+    tipVie: 'Cú ném 3 điểm nè '
+    tipEng: 'Help him score '
+  - indexLevel: 186
+    idLevel: 186
+    tipVie: 'Đây mới là cú 3 điểm này '
+    tipEng: 'Help Santa throw the gift into the chimney '
+  - indexLevel: 187
+    idLevel: 187
+    tipVie: 'Làm thế nào để giữ an toàn cho anh ấy '
+    tipEng: 'How could he be safe '
+  - indexLevel: 188
+    idLevel: 188
+    tipVie: 'Cẩn thận kìa '
+    tipEng: 'How to save him? '
+  - indexLevel: 189
+    idLevel: 189
+    tipVie: 'Thu thập nước để tưới hoa '
+    tipEng: 'Collect water to water the flowers '
+  - indexLevel: 190
+    idLevel: 190
+    tipVie: 'Dẫn anh ấy đến lối ra '
+    tipEng: 'Guide him to the exit '
+  - indexLevel: 191
+    idLevel: 191
+    tipVie: 'Dẫn anh ấy đến lối ra '
+    tipEng: 'Guide him to the exit '
+  - indexLevel: 192
+    idLevel: 192
+    tipVie: 'Dẫn anh ấy đến lối ra '
+    tipEng: 'Guide him to the exit '
+  - indexLevel: 193
+    idLevel: 193
+    tipVie: 'Dẫn anh ấy đến lối ra '
+    tipEng: 'Guide him to the exit '
+  - indexLevel: 194
+    idLevel: 194
+    tipVie: 'Vẽ con ếch '
+    tipEng: 'Draw a frog '
+  - indexLevel: 195
+    idLevel: 195
+    tipVie: 'Bắt lấy con bướm '
+    tipEng: 'Catch the butterfly! '
+  - indexLevel: 196
+    idLevel: 196
+    tipVie: 'Vẽ vũ khí để tiêu diệt quái vật '
+    tipEng: 'Draw a weapon to defeat the enemy '
+  - indexLevel: 197
+    idLevel: 197
+    tipVie: 'Vẽ vũ khí để mở chiếc rương này '
+    tipEng: 'Draw a weapon to open the chest '
+  - indexLevel: 198
+    idLevel: 198
+    tipVie: 'Sử dụng quả bom để phá hủy lâu đài '
+    tipEng: 'Fire the bomb and destroy the castle '
+  - indexLevel: 199
+    idLevel: 199
+    tipVie: 'Vẽ vũ khí để chặt đôi quả dưa hấu '
+    tipEng: 'Draw a weapon to split a watermelon '
+  - indexLevel: 200
+    idLevel: 200
+    tipVie: 'Vẽ chiếc gậy và đưa bóng vào lỗ '
+    tipEng: 'Draw a club and put the ball in the hole '
+  - indexLevel: 201
+    idLevel: 201
+    tipVie: ' '
+    tipEng: ' '
+  - indexLevel: 202
+    idLevel: 202
+    tipVie: ' '
+    tipEng: ' '
+  - indexLevel: 203
+    idLevel: 203
+    tipVie: ' '
+    tipEng: ' '
+  - indexLevel: 204
+    idLevel: 204
+    tipVie: ' '
+    tipEng: ' '
+  - indexLevel: 205
+    idLevel: 205
+    tipVie: ' '
+    tipEng: ' '
+  - indexLevel: 206
+    idLevel: 206
+    tipVie: ' '
+    tipEng: ' '
+  - indexLevel: 207
+    idLevel: 207
+    tipVie: ' '
+    tipEng: ' '
+  - indexLevel: 208
+    idLevel: 208
+    tipVie: ' '
+    tipEng: ' '
+  - indexLevel: 209
+    idLevel: 209
+    tipVie: ' '
+    tipEng: ' '
+  - indexLevel: 210
+    idLevel: 210
+    tipVie: ' '
+    tipEng: ' '
+  - indexLevel: 211
+    idLevel: 211
+    tipVie: ' '
+    tipEng: ' '
+  - indexLevel: 212
+    idLevel: 212
+    tipVie: ' '
+    tipEng: ' '
+  - indexLevel: 213
+    idLevel: 213
+    tipVie: ' '
+    tipEng: ' '
+  - indexLevel: 214
+    idLevel: 214
+    tipVie: ' '
+    tipEng: ' '
+  - indexLevel: 215
+    idLevel: 215
+    tipVie: ' '
+    tipEng: ' '
+  - indexLevel: 216
+    idLevel: 216
+    tipVie: ' '
+    tipEng: ' '
+  - indexLevel: 217
+    idLevel: 217
+    tipVie: ' '
+    tipEng: ' '
+  - indexLevel: 218
+    idLevel: 218
+    tipVie: ' '
+    tipEng: ' '
+  - indexLevel: 219
+    idLevel: 219
+    tipVie: ' '
+    tipEng: ' '
+  - indexLevel: 220
+    idLevel: 220
+    tipVie: ' '
+    tipEng: ' '
+  - indexLevel: 221
+    idLevel: 221
+    tipVie: ' '
+    tipEng: ' '
+  - indexLevel: 222
+    idLevel: 222
+    tipVie: ' '
+    tipEng: ' '
+  - indexLevel: 223
+    idLevel: 223
+    tipVie: ' '
+    tipEng: ' '
+  - indexLevel: 224
+    idLevel: 224
+    tipVie: ' '
+    tipEng: ' '
+  - indexLevel: 225
+    idLevel: 225
+    tipVie: ' '
+    tipEng: ' '
+  - indexLevel: 226
+    idLevel: 226
+    tipVie: ' '
+    tipEng: ' '
+  - indexLevel: 227
+    idLevel: 227
+    tipVie: ' '
+    tipEng: ' '
+  - indexLevel: 228
+    idLevel: 228
+    tipVie: ' '
+    tipEng: ' '
+  - indexLevel: 229
+    idLevel: 229
+    tipVie: ' '
+    tipEng: ' '
+  - indexLevel: 230
+    idLevel: 230
+    tipVie: 'Hãy cẩn thận quả bóng '
+    tipEng: 'Be careful with the ball '
+  - indexLevel: 231
+    idLevel: 231
+    tipVie: 'Bảo vệ anh ấy '
+    tipEng: 'Can you save him? '
+  - indexLevel: 232
+    idLevel: 232
+    tipVie: 'Hãy cứu anh ấy '
+    tipEng: 'Please save him '
+  - indexLevel: 233
+    idLevel: 233
+    tipVie: 'Bảo vệ nhà vua '
+    tipEng: 'Protect the king '
+  - indexLevel: 234
+    idLevel: 234
+    tipVie: 'Đừng để quả bóng nổ '
+    tipEng: 'Don''t let the ball explode '
+  - indexLevel: 235
+    idLevel: 235
+    tipVie: 'Đưa anh ấy về đích '
+    tipEng: 'Let him reach the destination '

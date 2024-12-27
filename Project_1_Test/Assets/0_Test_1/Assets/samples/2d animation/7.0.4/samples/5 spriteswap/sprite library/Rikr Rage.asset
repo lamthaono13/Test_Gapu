@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1884915483, guid: f68e4d9210748575b7313c5ba1460876, type: 3}
+  m_Name: Rikr Rage
+  m_EditorClassIdentifier:
+  m_Labels:
+  - m_Name: Head
+    m_Hash: 130111906
+    m_CategoryList:
+    - m_Name: Head
+      m_Hash: 130111906
+      m_Sprite: {fileID: 21300000, guid: 4edf190cb75b91c49b6e10894dc01744, type: 2}
+  - m_Name: Body
+    m_Hash: 2073732236
+    m_CategoryList:
+    - m_Name: Body
+      m_Hash: 2073732236
+      m_Sprite: {fileID: 21300000, guid: 703b8bc618f466e4b91c7116b9485d5a, type: 2}
+  - m_Name: Arm Right
+    m_Hash: -1619980263
+    m_CategoryList:
+    - m_Name: Arm Right
+      m_Hash: -1619980263
+      m_Sprite: {fileID: 21300000, guid: ec8e6246eb903ab429a534e32efafa1e, type: 2}
+  - m_Name: Arm Left
+    m_Hash: 1968732370
+    m_CategoryList:
+    - m_Name: Arm Left
+      m_Hash: 1968732370
+      m_Sprite: {fileID: 21300000, guid: 9edb798b866a08e48b2404a67463f3f4, type: 2}
+  - m_Name: Leg Right
+    m_Hash: -1137668046
+    m_CategoryList:
+    - m_Name: Leg Right
+      m_Hash: -1137668046
+      m_Sprite: {fileID: 21300000, guid: e61e1adebe4d9254ea34825c1f8b5af2, type: 2}
+  - m_Name: Leg Left
+    m_Hash: -306189275
+    m_CategoryList:
+    - m_Name: Leg Right
+      m_Hash: -1137668046
+      m_Sprite: {fileID: 21300000, guid: 1a273d7b21d9df3498551264c4c49922, type: 2}
+  m_ModificationHash: 637902782857246538
