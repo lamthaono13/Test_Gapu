@@ -6,13 +6,15 @@ using UnityEngine.Events;
 
 public class GameActionManager : MonoBehaviour
 {
-    public GameAction GameStartAction;
+    //public GameAction GameStartAction;
 
-    public GameAction PauseAction;
+    //public GameAction PauseAction;
 
-    public GameAction StartCountAction;
+    //public GameAction StartCountAction;
 
-    public GameAction EndGameAction;
+    //public GameAction EndGameAction;
+
+    public List<GameAction> GameActions; 
 
     public void Init()
     {
@@ -23,13 +25,23 @@ public class GameActionManager : MonoBehaviour
 
     public void InitActionGame()
     {
-        GameStartAction = new GameAction(MainGameAction.GameStart.ToString());
+        GameActions = new List<GameAction>();
 
-        PauseAction = new GameAction(MainGameAction.Pause.ToString());
+        for (int i = 0; i < System.Enum.GetValues(typeof(MainGameAction)).Length; i++)
+        {
+            GameActions.Add(new GameAction(((MainGameAction)i).ToString()));
+        }
 
-        StartCountAction = new GameAction(MainGameAction.StartCount.ToString());
+        //GameStartAction = new GameAction(MainGameAction.GameStart.ToString());
 
-        EndGameAction = new GameAction(MainGameAction.EndGame.ToString());
+        //PauseAction = new GameAction(MainGameAction.Pause.ToString());
+
+        //EndGameAction = new GameAction(MainGameAction.EndGame.ToString());
+    }
+
+    public GameAction GetAction(int id)
+    {
+        return GameActions[id];
     }
 }
 
@@ -37,7 +49,6 @@ public enum MainGameAction
 {
     GameStart,
     Pause,
-    StartCount,
     EndGame
 }
 

@@ -6,14 +6,14 @@ public class CountTimeManager : MonoBehaviour
 {
     private bool canCount;
 
-    private float timeCount;
+    [SerializeField] private float timeCount;
 
     private float count;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -25,33 +25,33 @@ public class CountTimeManager : MonoBehaviour
             {
                 count -= Time.deltaTime;
 
-                LevelManager.Instance.UiGameManager.UiGameplay.UiCountTime.SetTime(count, false);
+                LevelManager.Instance.MapManager.UiMapManager.UiGameplay.GetUiPoppup<UiCountTime>((int)TypePopupDraw.CountTime).SetTime(count, false);
             }
             else
             {
                 canCount = false;
 
-                LevelManager.Instance.UiGameManager.UiGameplay.UiCountTime.SetTime(count, true);
+                LevelManager.Instance.MapManager.UiMapManager.UiGameplay.GetUiPoppup<UiCountTime>((int)TypePopupDraw.CountTime).SetTime(count, true);
 
-                LevelManager.Instance.GameActionManager.EndGameAction.ForceAction();
+                LevelManager.Instance.GameActionManager.GetAction((int)MainGameAction.EndGame).ForceAction();
             }
         }
     }
 
-    public void Init(float _timeCount)
+    public void Init()
     {
-        timeCount = _timeCount;
-
-        LevelManager.Instance.GameActionManager.StartCountAction.ActionAdd(OnStartCount);
+        LevelManager.Instance.MapManager.MapActionManager.GetAction((int)DrawGameAction.StartCount).ActionAdd(OnStartCount);
     }
 
     public void OnStartCount()
     {
         count = timeCount;
 
-        LevelManager.Instance.UiGameManager.UiGameplay.UiCountTime.SetTime(count, false);
+        Debug.Log(LevelManager.Instance.MapManager.UiMapManager.UiGameplay.GetCanvas((int)TypePopupDraw.CountTime));
 
-        LevelManager.Instance.UiGameManager.UiGameplay.UiCountTime.Show(true);
+        LevelManager.Instance.MapManager.UiMapManager.UiGameplay.GetUiPoppup<UiCountTime>((int)TypePopupDraw.CountTime).SetTime(count, false);
+
+        LevelManager.Instance.MapManager.UiMapManager.UiGameplay.GetUiPoppup<UiCountTime>((int)TypePopupDraw.CountTime).Show(true);
 
         canCount = true;
     }

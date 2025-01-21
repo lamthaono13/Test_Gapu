@@ -9,6 +9,10 @@ public class SoundManager : MonoBehaviour
 
     [SerializeField] private AudioClip audioLose;
 
+    [SerializeField] private AudioSource audioSourceTrue;
+
+    [SerializeField] private AudioSource audioSourceFalse;
+
     [SerializeField] private AudioSource audioSourceBgLobby;
 
     [SerializeField] private AudioSource audioSourceInGame;
@@ -40,6 +44,8 @@ public class SoundManager : MonoBehaviour
     [SerializeField] private AudioSource audioSourceEnermyBoom;
 
     [SerializeField] private AudioSource audioSourceThrow;
+
+    [SerializeField] private AudioSource audioSourceDraw;
 
     [SerializeField] private PoolSoundManager poolSoundManager;
 
@@ -105,8 +111,14 @@ public class SoundManager : MonoBehaviour
         {
             if (isTrue)
             {
-                audioSourceInGame.Play();
-                //PlaySoundBgLobby(false);
+
+                if (!audioSourceInGame.isPlaying)
+                {
+                    audioSourceInGame.Play();
+                }
+
+
+                PlaySoundBgLobby(false);
                 //PlaySoundEndGame(false, GameResult.NoDeciced);
             }
             else
@@ -231,6 +243,37 @@ public class SoundManager : MonoBehaviour
         if (GameManager.Instance.DataManager.GetSetting(TypeSetting.Sound))
         {
             audioSourceThrow.Play();
+        }
+    }
+
+    public void PlaySoundDraw(bool isTrue)
+    {
+        if (GameManager.Instance.DataManager.GetSetting(TypeSetting.Sound))
+        {
+            if (isTrue)
+            {
+                audioSourceDraw.Play();
+            }
+            else
+            {
+                audioSourceDraw.Stop();
+            }
+        }
+    }
+
+    public void PlaySoundTrue()
+    {
+        if (GameManager.Instance.DataManager.GetSetting(TypeSetting.Sound))
+        {
+            audioSourceTrue.Play();
+        }
+    }
+
+    public void PlaySoundFalse()
+    {
+        if (GameManager.Instance.DataManager.GetSetting(TypeSetting.Sound))
+        {
+            audioSourceFalse.Play();
         }
     }
 }

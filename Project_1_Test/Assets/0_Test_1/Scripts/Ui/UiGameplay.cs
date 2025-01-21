@@ -5,32 +5,23 @@ using UnityEngine.UI;
 
 public class UiGameplay : UiCanvas
 {
-    [SerializeField] private Button btnBack;
+    //[SerializeField] private UiResultGame uiResultGame;
 
-    [SerializeField] private Button btnReplay;
+    //[SerializeField] private UiCountTime uiCountTime;
 
-    [SerializeField] private UiResultGame uiResultGame;
+    //public UiResultGame UiResultGame => uiResultGame;
 
-    [SerializeField] private UiCountTime uiCountTime;
+    //public UiCountTime UiCountTime => uiCountTime;
 
-    public UiResultGame UiResultGame => uiResultGame;
+    public List<UiCanvas> UiPoppups;
 
-    public UiCountTime UiCountTime => uiCountTime;
-
-    private void Start()
+    public T GetUiPoppup<T>(int id)
     {
-        btnBack.onClick.AddListener(OnClickBtnBack);
-
-        btnReplay.onClick.AddListener(OnClickBtnReplay);
+        return UiPoppups[id].gameObject.GetComponent<T>();
     }
 
-    private void OnClickBtnBack()
+    public UiCanvas GetCanvas(int id)
     {
-        GameManager.Instance.LoadingManager.OnLoading(TypeLoading.LoadingToLobby, () => { GameManager.Instance.LoadLobby(""); });
-    }
-
-    private void OnClickBtnReplay()
-    {
-        GameManager.Instance.LoadingManager.OnLoading(TypeLoading.LoadingToLobby, () => { GameManager.Instance.LoadLevel(""); });
+        return UiPoppups[id];
     }
 }

@@ -13,6 +13,11 @@ public class ObjectBase : MonoBehaviour
 
     //private UnityAction endGame;
 
+    protected virtual void Start()
+    {
+        Init();
+    }
+
     public virtual void Init()
     {
         //gameStart += OnGameStart;
@@ -20,10 +25,10 @@ public class ObjectBase : MonoBehaviour
         //startCount += OnStartCount;
         //endGame += OnEndGame;
 
-        LevelManager.Instance.GameActionManager.GameStartAction.ActionAdd(OnGameStart);
-        LevelManager.Instance.GameActionManager.PauseAction.ActionAdd(OnPause);
-        LevelManager.Instance.GameActionManager.StartCountAction.ActionAdd(OnStartCount);
-        LevelManager.Instance.GameActionManager.EndGameAction.ActionAdd(OnEndGame);
+        LevelManager.Instance.MapManager.MapActionManager.GetAction((int)DrawGameAction.StartGame).ActionAdd(OnGameStart);
+        LevelManager.Instance.MapManager.MapActionManager.GetAction((int)DrawGameAction.Pause).ActionAdd(OnPause);
+        LevelManager.Instance.MapManager.MapActionManager.GetAction((int)DrawGameAction.StartCount).ActionAdd(OnStartCount);
+        LevelManager.Instance.MapManager.MapActionManager.GetAction((int)DrawGameAction.EndGame).ActionAdd(OnEndGame);
     }
 
     public virtual void OnGameStart()
@@ -53,9 +58,9 @@ public class ObjectBase : MonoBehaviour
         //startCount -= OnStartCount;
         //endGame -= OnEndGame;
 
-        LevelManager.Instance.GameActionManager.GameStartAction.ActionRemove(OnGameStart);
-        LevelManager.Instance.GameActionManager.PauseAction.ActionRemove(OnPause);
-        LevelManager.Instance.GameActionManager.StartCountAction.ActionRemove(OnStartCount);
-        LevelManager.Instance.GameActionManager.EndGameAction.ActionRemove(OnEndGame);
+        LevelManager.Instance.MapManager.MapActionManager.GetAction((int)DrawGameAction.StartGame).ActionRemove(OnGameStart);
+        LevelManager.Instance.MapManager.MapActionManager.GetAction((int)DrawGameAction.Pause).ActionRemove(OnPause);
+        LevelManager.Instance.MapManager.MapActionManager.GetAction((int)DrawGameAction.StartCount).ActionRemove(OnStartCount);
+        LevelManager.Instance.MapManager.MapActionManager.GetAction((int)DrawGameAction.EndGame).ActionRemove(OnEndGame);
     }
 }

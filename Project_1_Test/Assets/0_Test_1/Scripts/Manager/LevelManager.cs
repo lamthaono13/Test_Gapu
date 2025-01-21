@@ -7,21 +7,23 @@ public class LevelManager : MonoBehaviour
 {
     public static LevelManager Instance;
 
-    [SerializeField] private float timeCount;
-
     [SerializeField] private float timeWaitLoadDataDone;
+
+    [SerializeField] private Camera cameraGame;
 
     [SerializeField] private GameActionManager gameActionManager;
 
     [SerializeField] private UiGameManager uiGameManager;
 
-    [SerializeField] private LinesDrawer linesDrawer;
+    //[SerializeField] private LinesDrawer linesDrawer;
 
     [SerializeField] private GameResultManager gameResultManager;
 
-    private MapManager mapManager;
+    [SerializeField] private MapManager mapManager;
 
-    [SerializeField] private CountTimeManager countTimeManager;
+    //[SerializeField] private CountTimeManager countTimeManager;
+
+    public Camera CameraGame => cameraGame;
 
     public GameResultManager GameResultManager => gameResultManager;
 
@@ -29,7 +31,9 @@ public class LevelManager : MonoBehaviour
 
     public UiGameManager UiGameManager => uiGameManager;
 
-    public TypeLevel TypeLevel { get; private set; }
+    public MapManager MapManager => mapManager;
+
+    private int currentLevel;
 
     // Start is called before the first frame update
 
@@ -49,51 +53,55 @@ public class LevelManager : MonoBehaviour
 
     private void Init()
     {
+        currentLevel = GameManager.Instance.DataManager.GetLevel();
+
         gameResultManager.Init();
 
         gameActionManager.Init();
 
-        linesDrawer.Init();
+        //linesDrawer.Init();
 
         mapManager.Init();
 
-        countTimeManager.Init(timeCount);
+        //countTimeManager.Init(timeCount);
 
         //
 
-        gameActionManager.EndGameAction.ActionAdd(OnEndGame);
+        gameActionManager.GetAction((int)MainGameAction.EndGame).ActionAdd(OnEndGame);
     }
 
     IEnumerator WaitForLoadingData()
     {
         yield return new WaitForSeconds(timeWaitLoadDataDone);
+
+        GameManager.Instance.SoundManager.PlaySoundInGame(true);
+
         GameManager.Instance.OnLoadingSceneDone(GameState.IN_GAME);
     }
 
     public void OnEndGame()
     {
-        StartCoroutine(WaitEndGame());
+        //StartCoroutine(WaitEndGame());
     }
 
-    IEnumerator WaitEndGame()
+    //IEnumerator WaitEndGame()
+    //{
+    //    yield return new WaitForSeconds(1);
+
+    //    if(gameResultManager.GetGameResult() != GameResult.Lose)
+    //    {
+    //        gameResultManager.SetGameResult(GameResult.Win);
+    //    }
+
+    //    yield return new WaitForSeconds(1);
+
+    //    //gameActionManager.GetAction((int)MainGameAction.GameStart).ForceAction();
+
+    //    GameManager.Instance.LoadingManager.OnLoading(TypeLoading.LoadingToLobby, () => { GameManager.Instance.LoadLevel(""); });
+    //}
+
+    public int GetCurrentLevel()
     {
-        yield return new WaitForSeconds(1);
-
-        if(gameResultManager.GetGameResult() != GameResult.Lose)
-        {
-            gameResultManager.SetGameResult(GameResult.Win);
-        }
-
-        yield return new WaitForSeconds(1);
-
-        gameActionManager.GameStartAction.ForceAction();
-
-        GameManager.Instance.LoadingManager.OnLoading(TypeLoading.LoadingToLobby, () => { GameManager.Instance.LoadLevel(""); });
+        return currentLevel;
     }
-}
-
-public enum TypeLevel
-{
-    Protect,
-    Prevent
 }

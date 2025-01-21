@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class UiGameManager : MonoBehaviour
 {
-    [SerializeField] private UiGameplay uiGameplay;
+    [SerializeField] private UiMain uiMain;
 
-    public UiGameplay UiGameplay => uiGameplay;
+    public UiMain UiMain => uiMain;
 
     public void Init()
     {

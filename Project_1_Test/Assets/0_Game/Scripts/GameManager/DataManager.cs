@@ -15,6 +15,8 @@ public class DataManager : MonoBehaviour
 
     //public DataUnlock DataUnlock => dataUnlock;
 
+    public delegate void EventChangeKey();
+
     public delegate void EventChangeMusic(bool isActive);
 
     public delegate void EventChangeSound(bool isActive);
@@ -32,6 +34,8 @@ public class DataManager : MonoBehaviour
     public delegate void EventChangeLevelAlly();
 
     public delegate void EventDoneUnlockLv3();
+
+    public EventChangeKey OnChangeKey;
 
     public EventChangeMusic OnChangeMusic;
 
@@ -90,6 +94,20 @@ public class DataManager : MonoBehaviour
         //InitRebornTicket();
 
         //OnChangeTicket += InitRebornTicket;
+    }
+
+    public void AddKey(int keyAdd)
+    {
+        int a = GetKey();
+
+        PlayerPrefs.SetInt("Key", a + keyAdd);
+
+        OnChangeKey?.Invoke();
+    }
+
+    public int GetKey()
+    {
+        return PlayerPrefs.GetInt("Key", 0);
     }
 
     public bool CheckIsHack()
@@ -361,10 +379,6 @@ public class DataManager : MonoBehaviour
 
     public void SetLevel(int levelSet)
     {
-        int maxLevelPerMap = 15;
-
-        SetMap(((levelSet - 1) / maxLevelPerMap) + 1);
-
         PlayerPrefs.SetInt(Help.DATA_LEVEL, levelSet);
     }
 

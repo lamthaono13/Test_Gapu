@@ -20,7 +20,7 @@ public class GameResultManager : MonoBehaviour
     {
         gameResult = _gameResult;
 
-        LevelManager.Instance.UiGameManager.UiGameplay.UiResultGame.Show(true);
+        LevelManager.Instance.MapManager.UiMapManager.UiGameplay.GetUiPoppup<UiResultGame>((int)TypePopupDraw.ResultGame).Show(true);
     }
 }
 

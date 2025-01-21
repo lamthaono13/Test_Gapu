@@ -17,6 +17,8 @@ public class HumanBase : CharBase
         {
             LevelManager.Instance.GameResultManager.SetGameResult(GameResult.Lose);
 
+            GameManager.Instance.SoundManager.PlaySoundFalse();
+
             Destroy(gameObject);
         }
     }
