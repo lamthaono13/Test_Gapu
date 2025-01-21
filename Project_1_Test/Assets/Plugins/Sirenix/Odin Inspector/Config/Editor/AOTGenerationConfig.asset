@@ -16,208 +16,162 @@ MonoBehaviour:
   deleteDllAfterBuilds: 1
   AutomateForAllAOTPlatforms: 1
   automateForPlatforms: 0900000014000000
-  lastScan: 638344468040730292
+  lastScan: 638586468094348043
   supportSerializedTypes:
-  - TypeName: System.Boolean, mscorlib
+  - TypeName: DataEachBackGround, Assembly-CSharp
     IsCustom: 0
     Emit: 1
-  - TypeName: Buy, Assembly-CSharp
+  - TypeName: DataEachHammer, Assembly-CSharp
     IsCustom: 0
     Emit: 1
-  - TypeName: ConfigBaseIndex, Assembly-CSharp
+  - TypeName: DataManager+ChangeGem, Assembly-CSharp
     IsCustom: 0
     Emit: 1
-  - TypeName: DataCard, Assembly-CSharp
+  - TypeName: DataManager+ChangeGold, Assembly-CSharp
     IsCustom: 0
     Emit: 1
-  - TypeName: DataConfigForTypeChar, Assembly-CSharp
+  - TypeName: DataManager+ChangeMusic, Assembly-CSharp
     IsCustom: 0
     Emit: 1
-  - TypeName: DataConfigIndexGrow, Assembly-CSharp
+  - TypeName: DataManager+ChangeSkin, Assembly-CSharp
     IsCustom: 0
     Emit: 1
-  - TypeName: DataEachAnimation, Assembly-CSharp
+  - TypeName: UnityEngine.GameObject, UnityEngine.CoreModule
     IsCustom: 0
     Emit: 1
-  - TypeName: DataEachMapRender, Assembly-CSharp
-    IsCustom: 0
-    Emit: 1
-  - TypeName: DataEachRewardStage, Assembly-CSharp
-    IsCustom: 0
-    Emit: 1
-  - TypeName: DataEachUnlock, Assembly-CSharp
-    IsCustom: 0
-    Emit: 1
-  - TypeName: DataEquipSlot, Assembly-CSharp
-    IsCustom: 0
-    Emit: 1
-  - TypeName: DataGrowConfigLevel, Assembly-CSharp
-    IsCustom: 0
-    Emit: 1
-  - TypeName: DataLevel, Assembly-CSharp
-    IsCustom: 0
-    Emit: 1
-  - TypeName: DataMap, Assembly-CSharp
-    IsCustom: 0
-    Emit: 1
-  - TypeName: DataSpecialObject, Assembly-CSharp
-    IsCustom: 0
-    Emit: 1
-  - TypeName: DataSqawn, Assembly-CSharp
-    IsCustom: 0
-    Emit: 1
-  - TypeName: DataTurnEnermy, Assembly-CSharp
-    IsCustom: 0
-    Emit: 1
-  - TypeName: DirectionSqawn, Assembly-CSharp
-    IsCustom: 0
-    Emit: 1
-  - TypeName: ElementGetGem, Assembly-CSharp
-    IsCustom: 0
-    Emit: 1
-  - TypeName: ElementGetGold, Assembly-CSharp
-    IsCustom: 0
-    Emit: 1
-  - TypeName: ElementGetSpecial, Assembly-CSharp
-    IsCustom: 0
-    Emit: 1
-  - TypeName: ElementGetTicket, Assembly-CSharp
-    IsCustom: 0
-    Emit: 1
-  - TypeName: System.Single, mscorlib
-    IsCustom: 0
-    Emit: 1
-  - TypeName: System.Int32, mscorlib
-    IsCustom: 0
-    Emit: 1
-  - TypeName: System.Collections.Generic.List`1[[Buy, Assembly-CSharp]], mscorlib
-    IsCustom: 0
-    Emit: 1
-  - TypeName: System.Collections.Generic.List`1[[ConfigBaseIndex, Assembly-CSharp]],
+  - TypeName: System.Collections.Generic.List`1[[DataEachBackGround, Assembly-CSharp]],
       mscorlib
     IsCustom: 0
     Emit: 1
-  - TypeName: System.Collections.Generic.List`1[[DataEachAnimation, Assembly-CSharp]],
+  - TypeName: System.Collections.Generic.List`1[[DataEachHammer, Assembly-CSharp]],
       mscorlib
     IsCustom: 0
     Emit: 1
-  - TypeName: System.Collections.Generic.List`1[[DataEachMapRender, Assembly-CSharp]],
+  - TypeName: System.Collections.Generic.List`1[[UnityEngine.GameObject, UnityEngine.CoreModule]],
       mscorlib
     IsCustom: 0
     Emit: 1
-  - TypeName: System.Collections.Generic.List`1[[DataEachRewardStage, Assembly-CSharp]],
-      mscorlib
-    IsCustom: 0
-    Emit: 1
-  - TypeName: System.Collections.Generic.List`1[[DataEachUnlock, Assembly-CSharp]],
-      mscorlib
-    IsCustom: 0
-    Emit: 1
-  - TypeName: System.Collections.Generic.List`1[[DataGrowConfigLevel, Assembly-CSharp]],
-      mscorlib
-    IsCustom: 0
-    Emit: 1
-  - TypeName: System.Collections.Generic.List`1[[DataLevel, Assembly-CSharp]], mscorlib
-    IsCustom: 0
-    Emit: 1
-  - TypeName: System.Collections.Generic.List`1[[DataSpecialObject, Assembly-CSharp]],
-      mscorlib
-    IsCustom: 0
-    Emit: 1
-  - TypeName: System.Collections.Generic.List`1[[DataSqawn, Assembly-CSharp]], mscorlib
-    IsCustom: 0
-    Emit: 1
-  - TypeName: System.Collections.Generic.List`1[[DataTurnEnermy, Assembly-CSharp]],
-      mscorlib
-    IsCustom: 0
-    Emit: 1
-  - TypeName: System.Collections.Generic.List`1[[ElementGetGem, Assembly-CSharp]],
-      mscorlib
-    IsCustom: 0
-    Emit: 1
-  - TypeName: System.Collections.Generic.List`1[[ElementGetGold, Assembly-CSharp]],
-      mscorlib
-    IsCustom: 0
-    Emit: 1
-  - TypeName: System.Collections.Generic.List`1[[ElementGetSpecial, Assembly-CSharp]],
-      mscorlib
-    IsCustom: 0
-    Emit: 1
-  - TypeName: System.Collections.Generic.List`1[[ElementGetTicket, Assembly-CSharp]],
-      mscorlib
-    IsCustom: 0
-    Emit: 1
-  - TypeName: System.Collections.Generic.List`1[[System.Collections.Generic.List`1[[ConfigBaseIndex,
-      Assembly-CSharp]], mscorlib]], mscorlib
-    IsCustom: 0
-    Emit: 1
-  - TypeName: System.Collections.Generic.List`1[[System.Collections.Generic.List`1[[DataEachUnlock,
-      Assembly-CSharp]], mscorlib]], mscorlib
-    IsCustom: 0
-    Emit: 1
-  - TypeName: System.Collections.Generic.List`1[[System.Collections.Generic.List`1[[System.Collections.Generic.List`1[[ConfigBaseIndex,
-      Assembly-CSharp]], mscorlib]], mscorlib]], mscorlib
-    IsCustom: 0
-    Emit: 1
-  - TypeName: System.Collections.Generic.List`1[[System.Collections.Generic.List`1[[System.Collections.Generic.List`1[[DataEachUnlock,
-      Assembly-CSharp]], mscorlib]], mscorlib]], mscorlib
-    IsCustom: 0
-    Emit: 1
-  - TypeName: System.Collections.Generic.List`1[[System.Collections.Generic.List`1[[System.Collections.Generic.List`1[[UnityEngine.Sprite,
-      UnityEngine.CoreModule]], mscorlib]], mscorlib]], mscorlib
-    IsCustom: 0
-    Emit: 1
-  - TypeName: System.Collections.Generic.List`1[[System.Collections.Generic.List`1[[UnityEngine.Sprite,
+  - TypeName: System.Collections.Generic.List`1[[System.Collections.Generic.List`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule]], mscorlib]], mscorlib
     IsCustom: 0
     Emit: 1
-  - TypeName: System.Collections.Generic.List`1[[System.Collections.Generic.List`1[[UiCardUnit,
+  - TypeName: System.Collections.Generic.List`1[[System.Collections.Generic.List`1[[ObjectMapBoss,
       Assembly-CSharp]], mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[System.Collections.Generic.List`1[[TypeChild,
+      Assembly-CSharp]], mscorlib]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[ObjectMapBoss, Assembly-CSharp]],
+      mscorlib
     IsCustom: 0
     Emit: 1
   - TypeName: System.Collections.Generic.List`1[[UnityEngine.Sprite, UnityEngine.CoreModule]],
       mscorlib
     IsCustom: 0
     Emit: 1
-  - TypeName: System.Collections.Generic.List`1[[TypeEquip, Assembly-CSharp]], mscorlib
+  - TypeName: System.Collections.Generic.List`1[[TypeChild, Assembly-CSharp]], mscorlib
     IsCustom: 0
     Emit: 1
-  - TypeName: System.Collections.Generic.List`1[[UiCardUnit, Assembly-CSharp]], mscorlib
+  - TypeName: ObjectMapBoss, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: TypeHammerEarn, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: MS.Internal.Xml.XPath.ClonableStack`1[[DataEachRateLottery, Assembly-CSharp]],
+      System.Xml
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DataEachChest, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DataEachElementSkin, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DataEachHiddenShop, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DataEachRateHiddenShop, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DataEachRateLottery, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DataEachSqawn, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DataEarnHiddenShop, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DataPriceHiddenShop, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DataSqawn, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: DataTypeRankChild, Assembly-CSharp
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Int32, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[DataEachChest, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[DataEachElementSkin, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[DataEachHiddenShop, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[DataEachRateHiddenShop, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[DataEachRateLottery, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[DataEachSqawn, Assembly-CSharp]],
+      mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[DataSqawn, Assembly-CSharp]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[DataTypeRankChild, Assembly-CSharp]],
+      mscorlib
     IsCustom: 0
     Emit: 1
   - TypeName: UnityEngine.Sprite, UnityEngine.CoreModule
     IsCustom: 0
     Emit: 1
-  - TypeName: System.String, mscorlib
+  - TypeName: TypeBonusLottery, Assembly-CSharp
     IsCustom: 0
     Emit: 1
-  - TypeName: TypeAnimation, Assembly-CSharp
+  - TypeName: TypeChild, Assembly-CSharp
     IsCustom: 0
     Emit: 1
-  - TypeName: TypeBuy, Assembly-CSharp
+  - TypeName: TypeEarnChest, Assembly-CSharp
     IsCustom: 0
     Emit: 1
-  - TypeName: TypeEquip, Assembly-CSharp
+  - TypeName: TypeEarnHiddenShop, Assembly-CSharp
     IsCustom: 0
     Emit: 1
-  - TypeName: TypeGroup, Assembly-CSharp
+  - TypeName: TypePrice, Assembly-CSharp
     IsCustom: 0
     Emit: 1
-  - TypeName: TypeId, Assembly-CSharp
+  - TypeName: TypePriceHiddenShop, Assembly-CSharp
     IsCustom: 0
     Emit: 1
-  - TypeName: TypeMap, Assembly-CSharp
+  - TypeName: TypeRankChild, Assembly-CSharp
     IsCustom: 0
     Emit: 1
-  - TypeName: TypeShapeMap, Assembly-CSharp
-    IsCustom: 0
-    Emit: 1
-  - TypeName: TypeTier, Assembly-CSharp
-    IsCustom: 0
-    Emit: 1
-  - TypeName: UiCardUnit, Assembly-CSharp
-    IsCustom: 0
-    Emit: 1
-  - TypeName: UnityEngine.Vector3, UnityEngine.CoreModule
+  - TypeName: TypeSqawn, Assembly-CSharp
     IsCustom: 0
     Emit: 1

@@ -19,7 +19,9 @@ public class LevelManager : MonoBehaviour
 
     [SerializeField] private GameResultManager gameResultManager;
 
-    [SerializeField] private MapManager mapManager;
+    private MapManager mapManager;
+
+    [SerializeField] private DataGame dataGame;
 
     //[SerializeField] private CountTimeManager countTimeManager;
 
@@ -61,13 +63,43 @@ public class LevelManager : MonoBehaviour
 
         //linesDrawer.Init();
 
-        mapManager.Init();
+        InitMap();
 
         //countTimeManager.Init(timeCount);
 
         //
 
         gameActionManager.GetAction((int)MainGameAction.EndGame).ActionAdd(OnEndGame);
+    }
+
+    private void InitMap()
+    {
+        GameObject objMap;
+
+        TypeLevel typeLevel = dataGame.ListLevels[GetCurrentLevel()].TypeLevel;
+
+        switch (typeLevel)
+        {
+            case TypeLevel.Draw:
+
+                objMap = Instantiate(ResourceManager.Instance.Load("Map/Draw/MapManager"), this.transform);
+
+                break;
+            case TypeLevel.XepHinh:
+
+                objMap = Instantiate(ResourceManager.Instance.Load("Map/Draw/MapManager"), this.transform);
+
+                break;
+            default:
+
+                objMap = Instantiate(ResourceManager.Instance.Load("Map/Draw/MapManager"), this.transform);
+
+                break;
+        }
+
+        mapManager = objMap.GetComponent<MapManager>();
+
+        mapManager.Init();
     }
 
     IEnumerator WaitForLoadingData()

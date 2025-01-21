@@ -59,18 +59,19 @@ public class LinesDrawer : MonoBehaviour, IPointerDownHandler, IPointerMoveHandl
 	{
         if (interactable && isInInteractZone)
         {
-            
 
-            //if (Input.GetMouseButtonDown(0))
-            //    BeginDraw();
+#if UNITY_EDITOR
 
-            //if (currentLine != null)
-            //    Draw();
+			if (Input.GetMouseButtonDown(0))
+                BeginDraw();
 
-            //if (Input.GetMouseButtonUp(0))
-            //    EndDraw();
+            if (currentLine != null)
+                Draw();
 
-            if (Input.touchCount > 0)
+            if (Input.GetMouseButtonUp(0))
+                EndDraw();
+#endif
+			if (Input.touchCount > 0)
 			{
 				//if (!isInInteractZone && currentLine != null)
 				//{
@@ -144,9 +145,11 @@ public class LinesDrawer : MonoBehaviour, IPointerDownHandler, IPointerMoveHandl
 	{
 		GameManager.Instance.SoundManager.PlaySoundDraw(true);
 
-		//Vector2 mousePosition = cam.ScreenToWorldPoint ( Input.mousePosition );
+#if UNITY_EDITOR
+		Vector2 mousePosition = cam.ScreenToWorldPoint ( Input.mousePosition );
+#else
 		Vector2 mousePosition = cam.ScreenToWorldPoint (positionTouch);
-
+#endif
 		//Check if mousePos hits any collider with layer "CantDrawOver", if true cut the line by calling EndDraw( )
 		RaycastHit2D hit = Physics2D.CircleCast ( mousePosition, lineWidth / 3f, Vector2.zero, 1f, cantDrawOverLayer );
 
@@ -154,6 +157,7 @@ public class LinesDrawer : MonoBehaviour, IPointerDownHandler, IPointerMoveHandl
 			EndDraw ( );
 		else
 			currentLine.AddPoint ( mousePosition );
+
 	}
 
 	// End Draw ------------------------------------------------

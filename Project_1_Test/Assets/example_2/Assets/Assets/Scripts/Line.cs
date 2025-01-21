@@ -13,6 +13,8 @@ public class Line : MonoBehaviour {
 	//The minimum distance between line's points.
 	float pointsMinDistance = 0.1f;
 
+	float pointsMaxDistance = 0.2f;
+
 	//Circle collider added to each line's point
 	float circleColliderRadius;
 
@@ -20,6 +22,44 @@ public class Line : MonoBehaviour {
 		//If distance between last point and new point is less than pointsMinDistance do nothing (return)
 		if ( pointsCount >= 1 && Vector2.Distance ( newPoint, GetLastPoint ( ) ) < pointsMinDistance )
 			return;
+
+
+
+		if (pointsCount >= 1 && Vector2.Distance(newPoint, GetLastPoint()) > pointsMaxDistance)
+        {
+			float a = Vector2.Distance(newPoint, GetLastPoint());
+
+			int b = (int)(a / pointsMaxDistance);
+
+			float k = a - b * pointsMaxDistance;
+
+			float h = k / a;
+
+			Vector2 dir = newPoint - GetLastPoint();
+
+			Vector2 thua = dir * h;
+
+			Vector2 conlai = dir - thua;
+
+			Vector2 phan = conlai / b;
+
+			for(int i = 0; i < b; i++)
+            {
+				Vector2 pointAdd = GetLastPoint() + phan;
+
+				points.Add(pointAdd);
+				pointsCount++;
+
+				//Add Circle Collider to the Point
+				//CircleCollider2D circleCollider = this.gameObject.AddComponent<CircleCollider2D>();
+				//circleCollider.offset = newPoint;
+				//circleCollider.radius = circleColliderRadius;
+
+				//Line Renderer
+				lineRenderer.positionCount = pointsCount;
+				lineRenderer.SetPosition(pointsCount - 1, pointAdd);
+			}
+        }
 
 		points.Add ( newPoint );
 		pointsCount++;

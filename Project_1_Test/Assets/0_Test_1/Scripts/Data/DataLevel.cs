@@ -15,5 +15,6 @@ public class DataLevel : SerializedScriptableObject
 
 public enum TypeLevel
 {
-    Draw
+    Draw,
+    XepHinh
 }
