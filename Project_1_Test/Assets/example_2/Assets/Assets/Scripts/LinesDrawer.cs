@@ -172,7 +172,9 @@ public class LinesDrawer : MonoBehaviour, IPointerDownHandler, IPointerMoveHandl
 				Destroy(currentLine.gameObject);
 				//currentLine = null;
 
-			} else {
+			} 
+			else 
+			{
 				//Add the line to "CantDrawOver" layer
 				currentLine.gameObject.layer = cantDrawOverLayerIndex;
 

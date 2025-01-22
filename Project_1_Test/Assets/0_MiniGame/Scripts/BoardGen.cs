@@ -100,8 +100,8 @@ public class BoardGen : MonoBehaviour
     mGameObjectTransparent.GetComponent<SpriteRenderer>().sortingLayerName = "Transparent";
 
     mGameObjectTransparent.transform.SetParent(gameObject.transform);
-        mGameObjectTransparent.transform.localScale = Vector3.one;
-        mGameObjectOpaque.gameObject.SetActive(false);
+    mGameObjectTransparent.transform.localScale = Vector3.one;
+    mGameObjectOpaque.gameObject.SetActive(false);
 
     SetCameraPosition();
 
