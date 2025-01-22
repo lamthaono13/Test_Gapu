@@ -113,24 +113,8 @@ public class LevelManager : MonoBehaviour
 
     public void OnEndGame()
     {
-        //StartCoroutine(WaitEndGame());
+
     }
-
-    //IEnumerator WaitEndGame()
-    //{
-    //    yield return new WaitForSeconds(1);
-
-    //    if(gameResultManager.GetGameResult() != GameResult.Lose)
-    //    {
-    //        gameResultManager.SetGameResult(GameResult.Win);
-    //    }
-
-    //    yield return new WaitForSeconds(1);
-
-    //    //gameActionManager.GetAction((int)MainGameAction.GameStart).ForceAction();
-
-    //    GameManager.Instance.LoadingManager.OnLoading(TypeLoading.LoadingToLobby, () => { GameManager.Instance.LoadLevel(""); });
-    //}
 
     public int GetCurrentLevel()
     {

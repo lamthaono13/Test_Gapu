@@ -319,29 +319,6 @@ public class GameManager : MonoBehaviour
     {
         return currentTimeScale;
     }
-
-    //[Button]
-    public void HackGold(long number)
-    {
-        dataManager.AddGold(number, "Hack");
-    }
-
-    //[Button]
-    public void HackGem(long number)
-    {
-        //dataManager.AddGem(number, "Hack");
-    }
-
-    //[Button]
-    public void HackTicket(int number)
-    {
-        //dataManager.AddTicket(number, "Hack");
-    }
-
-    public void CallRatePoppup()
-    {
-        //rateManager.ShowPopup();
-    }
 }
 
 public enum TypeLoadScene

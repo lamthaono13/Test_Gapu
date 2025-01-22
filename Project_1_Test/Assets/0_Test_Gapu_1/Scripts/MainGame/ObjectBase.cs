@@ -5,14 +5,6 @@ using UnityEngine.Events;
 
 public class ObjectBase : MonoBehaviour
 {
-    //private UnityAction gameStart;
-
-    //private UnityAction pause;
-
-    //private UnityAction startCount;
-
-    //private UnityAction endGame;
-
     protected virtual void Start()
     {
         Init();
@@ -20,11 +12,6 @@ public class ObjectBase : MonoBehaviour
 
     public virtual void Init()
     {
-        //gameStart += OnGameStart;
-        //pause += OnPause;
-        //startCount += OnStartCount;
-        //endGame += OnEndGame;
-
         LevelManager.Instance.MapManager.MapActionManager.GetAction((int)DrawGameAction.StartGame).ActionAdd(OnGameStart);
         LevelManager.Instance.MapManager.MapActionManager.GetAction((int)DrawGameAction.Pause).ActionAdd(OnPause);
         LevelManager.Instance.MapManager.MapActionManager.GetAction((int)DrawGameAction.StartCount).ActionAdd(OnStartCount);
@@ -53,11 +40,6 @@ public class ObjectBase : MonoBehaviour
 
     protected virtual void OnDestroy()
     {
-        //gameStart -= OnGameStart;
-        //pause -= OnPause;
-        //startCount -= OnStartCount;
-        //endGame -= OnEndGame;
-
         LevelManager.Instance.MapManager.MapActionManager.GetAction((int)DrawGameAction.StartGame).ActionRemove(OnGameStart);
         LevelManager.Instance.MapManager.MapActionManager.GetAction((int)DrawGameAction.Pause).ActionRemove(OnPause);
         LevelManager.Instance.MapManager.MapActionManager.GetAction((int)DrawGameAction.StartCount).ActionRemove(OnStartCount);

@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class DrawMapManager : MapManager
 {
-    //[SerializeField] private List<ObjectBase> listAllObject;
-
-    [SerializeField] private LinesDrawer linesDrawer;
-
     [SerializeField] private CountTimeManager countTimeManager;
+
+    private float timeCheckResultGame = 1;
+    private float timeWaitShowResultGame = 1;
 
     public override void Init()
     {
@@ -17,18 +16,6 @@ public class DrawMapManager : MapManager
         countTimeManager.Init();
     }
 
-    //public override void Init()
-    //{
-    //    base.Init();
-
-    //    //for (int i = 0; i < listAllObject.Count; i++)
-    //    //{
-    //    //    listAllObject[i].Init();
-    //    //}
-
-    //    countTimeManager.Init();
-    //}
-
     public override void OnEndGame()
     {
         StartCoroutine(WaitEndGame());
@@ -36,16 +23,18 @@ public class DrawMapManager : MapManager
 
     IEnumerator WaitEndGame()
     {
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(timeCheckResultGame);
 
         if (LevelManager.Instance.GameResultManager.GetGameResult() != GameResult.Lose)
         {
             LevelManager.Instance.GameResultManager.SetGameResult(GameResult.Win);
 
+            uiMapManager.UiGameplay.GetUiPoppup<UiResultGame>((int)TypePopupDraw.ResultGame).Show(true);
+
             GameManager.Instance.SoundManager.PlaySoundTrue();
         }
 
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(timeWaitShowResultGame);
 
         //gameActionManager.GetAction((int)MainGameAction.GameStart).ForceAction();
 
@@ -57,7 +46,5 @@ public class DrawMapManager : MapManager
         {
             GameManager.Instance.LoadingManager.OnLoading(TypeLoading.LoadingToLobby, () => { GameManager.Instance.LoadLevel(""); });
         }
-
-
     }
 }
