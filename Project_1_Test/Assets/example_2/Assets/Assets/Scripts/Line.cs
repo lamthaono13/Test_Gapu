@@ -18,6 +18,8 @@ public class Line : MonoBehaviour {
 	//Circle collider added to each line's point
 	float circleColliderRadius;
 
+
+
 	public void AddPoint(Vector2 newPoint) 
 	{
 		//If distance between last point and new point is less than pointsMinDistance do nothing (return)
@@ -90,7 +92,23 @@ public class Line : MonoBehaviour {
 
 	public void SetPointForEdgeCollider()
     {
+		rigidBody.centerOfMass = GetCenterMass();
+
 		if (pointsCount > 1)
 			edgeCollider.points = points.ToArray();
 	}
+
+	private Vector2 GetCenterMass()
+    {
+		Vector2 centerMass = new Vector2();
+
+		for(int i = 0; i < points.Count; i++)
+        {
+			centerMass += points[i];
+        }
+
+		centerMass = centerMass / points.Count;
+
+		return centerMass;
+    }
 }
