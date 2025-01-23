@@ -17,6 +17,8 @@ public class HumanBase : CharBase
         {
             LevelManager.Instance.GameResultManager.SetGameResult(GameResult.Lose);
 
+            LevelManager.Instance.MapManager.UiMapManager.UiGameplay.GetUiPoppup<UiResultGame>((int)TypePopupDraw.ResultGame).Show(true);
+
             GameManager.Instance.SoundManager.PlaySoundFalse();
 
             Destroy(gameObject);

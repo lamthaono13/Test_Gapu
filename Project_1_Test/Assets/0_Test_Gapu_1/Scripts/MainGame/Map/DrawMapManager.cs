@@ -29,8 +29,6 @@ public class DrawMapManager : MapManager
         {
             LevelManager.Instance.GameResultManager.SetGameResult(GameResult.Win);
 
-            uiMapManager.UiGameplay.GetUiPoppup<UiResultGame>((int)TypePopupDraw.ResultGame).Show(true);
-
             GameManager.Instance.SoundManager.PlaySoundTrue();
         }
 
