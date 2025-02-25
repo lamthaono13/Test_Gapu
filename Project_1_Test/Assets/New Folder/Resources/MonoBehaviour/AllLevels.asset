@@ -1,0 +1,4261 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b2dcda868bafbbe4d66ba35b45b0224, type: 3}
+  m_Name: AllLevels
+  m_EditorClassIdentifier:
+  _levelDataDictionary:
+    m_keys:
+    - c0ae24d0-c79e-4eaf-ba41-33f36b205f7d
+    - ef63d451-a590-4e98-a494-68cf9503ac97
+    - 58e0d42b-128a-4a9d-b7c3-cd427799bd97
+    - 1725e4c7-4b0f-4aff-b21f-57aec888d896
+    - 7c275971-8e1d-4726-8211-4c2bb06ba355
+    - 0a2f6c23-ce7f-45c4-81e7-a4b99ec20b2c
+    - 40a764e0-14b9-4ac9-b439-0f0f914cb328
+    - 3c58d44f-e16e-4ea0-94a3-3bd366d89b57
+    - f318ee10-a802-41a6-ac25-451417bceafa
+    - 1e2059f8-405b-44bf-aa18-cc2939ea38b5
+    - d8b1e2af-262b-42ff-9dca-eb7dd6a2e5a1
+    - cb4b2c35-cae9-4f91-918d-85a9cb938659
+    - 0afe5c8c-334e-4954-bf8a-22cb74af5a9e
+    - 9cc25b89-3b9d-4c03-8af3-40c6fda38f0a
+    - a467fc02-02d0-4d95-867f-ca0685deb536
+    - f508f68b-e0df-409b-b221-578208f76061
+    - 229b8206-0b5c-47f9-8007-b2e60d0b3957
+    - 48160a52-d055-4f6f-97f2-9f79753a1d8a
+    - 1efa2e3c-6ac1-4e64-864c-ea557a20f407
+    - 48bc4afa-3688-49c3-aaff-5d9387e312e9
+    - 94d61224-2edc-4708-adbc-12571f47aa4b
+    - 7d2130f2-824e-48b6-baf5-b04227377452
+    - 7e156907-2640-462a-bb97-7ec56657e235
+    - bcc1f047-99f7-41da-b88c-6fd0e5394623
+    - dc425097-ca28-452c-9931-c8e7200762e6
+    - 2e86ac1f-a712-4f97-9054-226b88acd70a
+    - 7d14fe35-6239-4e93-99e0-7b2849fe1492
+    - 3a21dc2a-95ed-42b1-aa96-24af7ffae92a
+    - 648d6ef2-8c27-4583-8fca-4e03d8e16557
+    - 7bf81a57-669f-4969-a86f-44e1c99a4c72
+    - ad8c6c0e-f2cf-41b9-b6e8-fcf8008c481e
+    - 96b8ad13-5f4c-454a-ac4e-4e4332c55c05
+    - 21d3d868-2581-4ab1-aad0-8d77f23cb68c
+    - aca64fc4-ef77-4f3d-af93-a9cb1b79803d
+    - eb4861b6-f71a-4e1f-a43e-feb3af2bd03f
+    - 5671a3c3-e850-45a7-bd0c-98a4af0daaa7
+    - 9ca4182f-1ad0-4e57-a8b8-fec33521ab87
+    - 12b67cd4-da50-49ad-9952-78d35abac0a7
+    - d06da23f-91e6-4192-b734-1d869a565235
+    - fa263821-cfc3-4685-b39a-4d5dafeeb0ba
+    - 654ac917-3986-40d2-9344-0a37639e7a63
+    - df5becc8-31b0-4e97-bb91-8600cbe29f77
+    - 46e218d6-c56e-473a-828c-59be1f45b1e5
+    - af72ed77-ba03-4aa9-b00f-4d1033d0c5e2
+    - b6dae09a-c5e7-4981-8cf3-b44188c6cd9b
+    - 69526d2c-1602-43b5-8d5a-b7873ccb1e42
+    - 760c42b2-c852-4e15-b5a0-2da7165eb1e5
+    - 513bfa94-b956-4f1e-9808-001ab0d5058a
+    - 015926e1-6cdf-4ee2-b015-f734f628c20d
+    - 1ff2fc50-a679-4cf4-9655-0b1e6d641a4f
+    - fd9c2f54-c09a-4138-aad4-c7863f56ae3b
+    - 7e9eca59-ed6d-416b-b938-f42a7557ed01
+    - 6a5c5d12-3a1d-4697-96c2-3188844e43a5
+    - c26d9a8e-a76f-4373-8928-092b296e27f9
+    - 7b6c8d7a-42ff-4686-8148-8b889cf968d8
+    - 321615fd-0f7a-4302-ae04-993398561a87
+    - f8285a82-3d2a-4790-b5dc-a7af7dc6ee23
+    - 2cc890c7-4c28-4ee2-a348-eb9b991b05c2
+    - 5f4c958d-76eb-4f66-97e0-192a351ec3df
+    - 883d84b7-4b80-47a5-ac1b-38af578d9b2a
+    - 0663583b-6169-45e4-9748-0085ae1c11b9
+    - 7662b871-b485-4290-9f60-4c0f9e015092
+    - 4e38dd7d-3a36-4e0c-98ee-514c2ab3174a
+    - 3cd4a0fa-666b-4366-a24b-12e64f57ad1b
+    - 84f30b0b-cbbe-4a01-a8a6-2fa8fb74d430
+    - 17cb266f-f596-4f34-8539-d281aa72f5cc
+    - c403bb72-e462-4fe7-95b6-60c6d59393ea
+    - f41d87de-0440-4fbd-8b07-7c350c0160e1
+    - 8f808c9c-e0a7-4086-ad30-9874ea0929ee
+    - d8ad49f4-d76a-410c-84fc-17b5f550ff77
+    - d4b193d5-748b-4381-8119-395ab7a1e130
+    - 332b3dfb-a079-4d1f-89c5-20f4cb9c18a9
+    - f0cdcccb-148d-4bec-ad1c-a7afdead2caf
+    - 1681c405-9153-4574-9901-48c902653261
+    - 25115108-8d33-4602-b8a4-141c1fe85f2d
+    - 4f1848b0-0df0-44b4-afeb-b51065e2682b
+    - e52028b7-4ea6-46af-a0f7-10fdc25420b1
+    - 36c36827-6493-46c6-a1a2-ac021068082e
+    - d4fd798d-b4ab-4b26-b782-ab18503ced0b
+    - 6e7ea745-fb30-498e-b5b6-0d10f92929c4
+    - 35f2c5c7-ebea-45bb-a43f-722cbc255a5d
+    - 00bbf80e-f8b1-41b6-a2c5-25bb9e0fadd9
+    - 638cbde4-734c-4b95-95eb-ad3b44faab18
+    - e2f40eef-bebc-41e8-9580-9458e6f4f6a3
+    - f53d4beb-d560-4775-9ecb-7aa4d54ce859
+    - 507eb7dc-812f-4b9c-9bbc-1760411d821e
+    - 64793129-4ece-40ed-bffd-5af38f054d68
+    - 2ab78eeb-d0fb-4f8c-94ef-bcb7cf3af560
+    - 0c67f7a7-455c-42e7-bb5c-2071ffa40264
+    - 0261618a-70cb-4954-b24d-c4435aeae2c3
+    - 965e91ad-e262-4fee-a26f-30c46e025734
+    - 1af2a4d3-0945-4cbf-81aa-ecce7fe60a89
+    - 1cb55c0c-b1a6-42e1-bb04-be0c821fa384
+    - e3b0da4f-9144-4a06-93ba-343ea56f7078
+    - 9108f31f-d68f-491b-beb4-54fc601bb3c8
+    - ad9e2118-cd07-451b-8476-e13404712d90
+    - 0fb5212d-c2ba-416e-8c9d-ddce2f7c8246
+    - cb9cb388-04ce-4ef4-865a-9c8fc0425143
+    - 7a09531d-b76c-405a-8dfd-43aae3488964
+    - 0b8da26e-8682-4fe6-8fb5-b690633b7f0a
+    - 8d65f607-71a9-4c03-83d5-2f0f020564bc
+    - f9ef825c-2225-4dbc-8134-b5dd0b7303e5
+    - a7e36710-9943-441a-bca9-5549831b256c
+    - 376e50f9-67b9-49e4-b3c5-5c41a5dc0f01
+    - cb0f1ee0-8848-43c5-8198-36e4595d910c
+    - 9920b819-1aa2-4eec-a3a9-9ac35851e18f
+    - 1f3630a2-8b6e-42a8-8bf9-093b20075224
+    - a50c8896-1fdf-42fc-932a-970d229e8d0d
+    - 10fe2fe2-ce1e-4c5d-a3a4-e9a3f386c46c
+    - a19b2e91-ea73-489e-922c-8efe52ae2d93
+    - be2df413-1eb2-4935-b588-68cc224b38be
+    - c4b7fa54-601d-4247-852f-0941c769b969
+    - 81017d14-7061-4bb2-b49e-c8423e1692d3
+    - e297321a-da16-429e-94bf-094565e1b45b
+    - 9945ed17-05ee-49cc-b76d-a579e3ac7374
+    - c34772e7-81b3-45e2-a773-aed5b39b800d
+    - db1eb967-0bf4-4416-8cd1-ebf7eaf78a68
+    - 5a90c5cb-26fe-427f-9585-c36f3bbe0d40
+    - 995d22ed-380f-4005-8ede-fb3bea32741a
+    - f3d46dd3-5959-4861-8346-40bffe6eb7cc
+    - 31cd3046-6f4d-4ed6-a16b-0ef847fb9a57
+    - 8a600566-3bbf-4ce0-9251-bd357a9addc8
+    - f23205af-9bc3-4f98-b5ec-939cb74e8f1e
+    - e6790c72-3e86-4bc2-aead-3069e0f27e2d
+    - 595ac6b0-7182-49eb-9fc4-350606b97770
+    - 617f9c84-d4fb-4ba4-bcce-9f8b22463940
+    - 509cdbf7-f319-448a-94dc-599931a157b2
+    - 3dfe8478-789e-4662-b660-bc2d768e4fa0
+    - 289c6e6e-14d7-48b3-a949-b8a954583643
+    - 70ff6923-bb9f-4a2b-b180-6f7c7a0717a5
+    - 004b41aa-4a8a-4562-ab68-dba42f5adeaf
+    - ec267b80-65b5-49c9-8fa0-5e422b69be50
+    - 11049483-91ab-4a57-83b3-ff1eeae47316
+    - c8b08260-4b11-46e0-ab3f-1bed0810231d
+    - 94f545a4-9b49-41c8-9b0b-1add4b54f1d1
+    - e8438dab-21d1-45a0-b55a-9e6eac1dc154
+    - 7862e21a-948e-47a0-9f3d-6a0cf52c3a3a
+    - bbd80706-1555-452a-9d2f-2072bb1cabf1
+    - 1d4e8047-d06f-4e2f-9a06-40628c12735d
+    - e8705d43-5337-4a92-98d9-499bb9dbfa46
+    - c18cf206-548a-4521-9cf4-080fdad5687e
+    - 933e43ac-7eec-4356-9d85-6fc463b66fc2
+    - 16ef9f99-1ed8-4a98-b9e4-44fb7cdd7eeb
+    - a3e5219d-4eea-40c7-b91b-41a9c2202f55
+    - 6a4a0d72-aa10-420e-818e-3be0c5fd53be
+    - c88b05c8-b186-45f1-9f48-d29c2e4d5ff9
+    - 87bebe97-5a99-404e-8892-c4de784e9b64
+    - ff294d70-8065-4078-9cc3-4c6c575df1de
+    - 617e764f-2485-41f5-9e60-576978e7ce27
+    - 895c4832-f72e-4e0c-8c2e-62e8c962c174
+    - 4153592a-21eb-4d26-a813-80ca14b7dbfa
+    - 708e85c4-1501-4936-8774-69096fdbff2e
+    - 3b8f0e5c-1d9d-4dea-b05b-763b3ad06344
+    - e385ecb8-1912-4516-8af5-6f00cb4325ee
+    - 1fc9daf2-aa3e-4de2-b989-593a379d01b3
+    - 8241c639-4f94-49cd-adbe-94a75a95bcce
+    - 8eb1550f-1e43-49bb-88d0-6ce0e9e86773
+    - 8c1033e4-3acf-435e-be8d-b58179030637
+    - 9cd1048b-e00e-444b-b67c-3eec005ddf96
+    - e664e2df-5387-49c4-8926-c7420f135658
+    - 9a11af7c-24c7-45c1-8539-9697e06a8e8a
+    - ae940b32-4d92-4987-8ace-e69dd9f60b8c
+    - 8eeaa17e-4837-4faf-ad12-d2e81c12b878
+    - a2fc17e7-929f-4bfa-814a-32f8cc25c232
+    - aae92a8c-0e2f-44d5-b803-ceb6582f6a7e
+    - 8eec1ba3-e829-47ff-8702-d4503f1d1400
+    - e55ab08d-c1bb-4973-892e-d4b19b1b458c
+    - da11e9af-59fe-44b4-a271-cf751a7e41f5
+    - 7a08bab3-1ac8-4bf3-abd9-247aa96e17ae
+    - d9b4a9a5-9e90-48a9-9a25-55531d82e89c
+    - b8ce9689-ef23-4fab-a678-79d96667c9aa
+    - 506e9399-19a4-49e0-aa08-9c0a5696db1c
+    - 2ca627ad-dc05-4771-8040-71030d5ada56
+    - bfdd5392-b498-41d6-8945-4cb1ab82bfd3
+    - fdc45a43-8059-41bf-a0bc-451f5e13f392
+    - 62188149-d688-438b-81c8-05a7a0a573d1
+    - 430c588a-2b6c-419b-8974-d1d3d0c27bf8
+    - 5d6e0420-3154-4cc0-8d4a-345ba3937211
+    - 03f0d41c-b5b2-42fd-a30f-597d7b202ec4
+    - 704e66a6-f02b-44ca-a79c-969338b4b5a1
+    - 1868f646-908c-4cfe-b6f4-fdc4241666ba
+    - 84729b97-e209-4a9b-b826-a228430f26ab
+    - 28dd962c-de5b-4ec3-bce9-2bfd52b693a7
+    - 94a3c168-a173-44e7-bb31-14880cd3047f
+    - e5d06397-755d-4691-a9ec-7496b7a4b3ee
+    - 953d3419-faff-4103-a7c4-1728dfd28f3c
+    - cd19c472-c5fc-434e-9387-1e3261d736bc
+    - 9c551e84-41db-4a02-9b64-4ec6aaedc3bf
+    - f590d93d-7225-4118-937f-2d3d216c6078
+    - d8f25044-d051-4b10-bb05-85a59894daa8
+    - 6ce399fd-4687-47b7-9390-68b3727000e6
+    - 24adf2f3-495c-406d-a8b5-c02f2c522e80
+    - 8bd647ab-29c6-4f4d-8db8-aaf06b135ff5
+    - a049b51c-3f7b-40b9-8d5f-4dcf8bbbcb06
+    - 18deb234-15a9-4a1e-b907-98dae2ccbb77
+    - 442da0fd-fd0c-4a98-af6e-39211663a069
+    - ee37679d-8a13-4d9b-8454-05d8ea642b36
+    - 37fed330-9fa6-4bc1-b374-b4a54f06db72
+    - be29fdc9-1d64-4d8c-8659-ef57e90c783b
+    - 67f2a907-4e5d-416d-84a1-1082238abc28
+    - 31ad6f95-48d0-4c1d-aaa4-a4cd16a60393
+    - 1283e8c8-da58-470c-a623-a68528780587
+    - 4065e8cb-985f-4297-83b9-2b75ab5723f1
+    - 88a54d63-8469-4075-9ec4-20bb6aeed438
+    - cb9821c6-8d65-45c7-8253-cc020cf84980
+    - dec8828b-8040-47d7-b745-c649156ef32d
+    - 980cb9d6-19cd-4428-ac06-145a9b0b70c4
+    - 63035500-9079-4573-891e-2f9803d9ec15
+    - e1a020b8-487c-4e11-b22a-c378b0ecb207
+    - c6759825-d532-4c9e-96ff-6fb0ecd59c30
+    - 5d91260c-8129-4eab-8967-47b5d399ef2b
+    - 1eaf560b-23c5-4363-b504-4fe9167d2fe4
+    - bc3825dd-e3fb-46e0-ba4b-08ad5f4282a3
+    - cd563d8b-43c1-447c-b59e-3b354a3e8caf
+    - 77165372-f6c4-45c3-b409-e8286aaca7a7
+    - ea7977d0-85c3-4ab0-bc6f-4686edeaae6e
+    - cf9188ae-2ca7-4dad-8db8-10d956826fc0
+    - 4b9f913a-d508-492e-bd35-b739258721d6
+    - 88204b88-3277-46f9-877f-8918873cacdf
+    - 7db18553-6bcd-4b31-a2d5-cbb5059dcff4
+    - c8b80bb4-b380-4ad3-bcdc-f6b9bba90d30
+    - fc2e9c4f-23bf-439c-9733-23126be4f235
+    - 79a73431-a7cf-4df3-bc1b-59b6f115d7d2
+    - 7400a3fc-2e89-4b79-8f35-e49430dfb31b
+    - e760240a-8bfb-4065-b8aa-fd41e243b48f
+    - 54f2be78-3a61-40a1-943a-4c2b6d052d37
+    - f6e14bb8-47a6-4b0b-a227-5036400ed5ba
+    - b1626fc9-10df-4323-8202-059c15637db6
+    - 5949deae-8e3f-4669-8301-7876ed71763f
+    - 5958622a-599f-44b7-a46c-468f1d49ddd7
+    - d6567db1-b317-45b6-a502-bb0c6cc587ae
+    - 7ead4f0f-79c6-40a3-a7f2-005bd58f3e80
+    - 5ac8052b-733e-4904-b35c-cc4f6b9f40bd
+    - e9eb113e-c13d-455a-88d2-a4d8dbae11ac
+    - cf03f8b4-09b2-4720-a4d3-c9edee404b71
+    - 3217f3a8-9ee4-47af-a441-d8ded319cf49
+    - 606c3c84-1ca4-49af-a76b-3cc10cae5a9a
+    - ce4f7295-6bca-4ca2-8747-bb9db5ad1079
+    - 21d2157b-14b0-474e-995c-7a6c54049071
+    - 9ceee0bd-0d6d-4d62-b55c-2a23001c9bcb
+    - b819bf1f-7f31-4cf5-9461-8ea574e96efd
+    - e9c339f7-d49c-4000-a278-2fca1d126333
+    - ba8ffe3e-6ba9-4596-be87-fc41710aac36
+    - cd5048ec-61ea-4a3b-8502-9b6b7b0a7812
+    - 0ec77b21-cf0f-4105-8b1f-f72550ba3d59
+    - 2caba925-1e01-4e7e-b5fe-94331e56fac8
+    - 71d6d07d-e661-4562-8b98-cae2815dbe4f
+    - 65ed97c0-9236-47ce-bb12-082f37cdf69a
+    - c0f28202-5e56-4748-8019-6ab2f68e5e0b
+    - b5b1b5b8-d666-4df5-a5e4-642a6afa094f
+    - 710d8228-a643-4280-a82e-810d6156ce5d
+    - f8e42b83-8eb7-4789-b96f-9066ed75c65d
+    - bc76655d-54bd-47be-bd2f-28b51aef4713
+    - 5ec75a14-a024-4149-a083-9aa14a55b795
+    - 625e2eef-7a6d-4743-a1d3-93e0525951f9
+    - 282c17fb-802b-440e-9ba6-c4d0d32a2f7c
+    - 1cf77b85-74a0-47e1-85ac-1a4aa8b38b6f
+    - c3f7ac7a-ce7e-45ae-92e2-de23b26c5d7e
+    - 29c8b8ef-53a9-4560-a452-267e10e7a907
+    - 4f3b8cf9-b816-47c9-a327-fb1a4a0e191f
+    - 1411822f-0425-4fd4-b230-e6dcb4c51f3d
+    - 22fba3d7-2661-4624-bffa-92c024c818b6
+    - d0330624-b978-4234-b5e9-b4dfe80af440
+    - 0ac283cb-1da2-4ba5-813e-05634636aa4e
+    - ff81293b-4bd2-455f-b7f6-1813c669999c
+    - aad64139-d6c2-47ce-856e-9fc54f291894
+    - 27871f9d-2f7d-4dbb-9f0c-43f181c5550b
+    - 2a3ec992-b024-42d6-9fe7-6843ac95a4ad
+    - 80bc2555-dd9f-43bb-9acb-a83c391e9c22
+    - 3ef6a3a2-8141-423b-85cc-ccf9de93a827
+    - 50dab145-f63b-4983-a43b-40233df60ffb
+    - cfff4ff5-6db2-48da-9a28-b5ed54d1dd10
+    - db54e90c-1aa8-4c55-8886-3a6a75528f83
+    - 42717e1b-6a4c-4d70-9f14-4f9a02a33107
+    - 7be335bb-dccf-42dd-b9e7-70e920e705bc
+    - 3412762d-8151-4fa3-a6c4-ac9021ceaae2
+    - d14f9084-8236-4796-8920-d9d8bf9942e7
+    - 2f992f8d-684c-44a4-b9c6-6dd2cdace57a
+    - 49633b4b-b4ff-431b-9a81-1e0223ece820
+    - ecfe1e12-ad80-4b3e-8992-5b364955a5d7
+    - 5c1602b4-a55e-4766-9d63-e454370a9103
+    - 2c8e4b0f-1b04-4e6c-9f38-74beaecbcb2d
+    - 2d420f43-4e03-4727-9201-8b422c753842
+    - c974e66f-297b-4735-8f30-c526816484f0
+    - c9cafb05-8de2-4b95-a39f-cb1cc35c6653
+    - 6b52b7cb-11cf-4dbc-8168-ec6c2fe8392a
+    - 8edbe2de-9f55-4a22-998d-e5ab850713fe
+    - 1621781f-f0d9-457e-b426-83732f69306b
+    - b4ad5300-319d-4cdb-ad0b-795637653868
+    - 9d8ea0cd-873f-457e-8dab-4a5ec8df4ba0
+    - bb033d16-40dc-43c3-a0c3-66a23d463b3b
+    - 5d222815-2568-42e9-acac-0a4dc514db0e
+    - 584dee2f-4dad-4e7a-9f07-9501f9169530
+    - e098ca9b-f9f4-4af6-9771-3529b7277c41
+    - 74bde487-9930-442c-9093-f630237aa053
+    - 6f886f88-8e9b-4355-9444-c3829c62d1ca
+    - 1580a65e-491c-459f-a88a-d73aa6bfe403
+    - 6eb31c9c-69bc-4f50-8e2c-b4b712edbb6a
+    - 7f317f3a-cf8a-4c0e-9e7f-6695dd4fbf46
+    - 75692c5a-912c-4158-abf6-b5c2715c6ce3
+    - 08cf04d8-ff78-46c7-a3a1-b5f1d27b3319
+    - f1a2de06-c259-480e-ad48-66a53ace8e71
+    - 4c2e9688-63ab-46c4-a7ca-affdb1e17197
+    - 28dbe659-3416-4d41-937e-7d58592625e2
+    - 1efa345f-c6b3-47f4-8a34-fd9dc76c265a
+    - 51f8b19d-f694-4c7a-a324-3d9508c1ce9e
+    - a31a6857-6c76-4010-afed-f87eba7e5da2
+    - a93cc6a0-7fab-456e-9aba-d02aba005dee
+    - d56e8698-57ff-4440-abfe-2a77beb81358
+    - d659e94f-3f05-4707-987f-a00b694b6b49
+    - 3589b35f-32d4-4324-a23c-030768f81c46
+    - bf3f2ce4-1bb0-4c5e-8a3e-595d33ce9bbe
+    - 37282030-bd16-4d3f-8896-5d15c10c8e05
+    - abdfdd25-59ed-4c63-b4a3-562221eb1289
+    - ed0e9c12-5b9f-4e73-961f-1e002e2f87b7
+    - 74de8b82-ec72-46ba-93ed-02ef0f6a7b81
+    - 6bc47719-9230-4dc0-b384-5173bc467b4f
+    - 6633a411-21f0-4960-a495-c74eb96e3c89
+    - 98ea3dc7-f46c-4c42-9df3-ebb89cbccebf
+    - af8ecac9-ef9b-4424-8875-d9caf7e9a941
+    - d58cf1fa-6d82-4dfa-b632-7d0fcb7cea62
+    - 24c587b1-462d-44b4-b262-98634bd3ef77
+    - 6d201445-3b18-4f3c-9184-511a64aa1201
+    - 82c84582-1094-4447-a4f0-4d445b3969e7
+    - 660dd9d0-6ea7-4876-beaf-04f1883b89a9
+    - 6e439449-d0f0-49ef-a3d5-e58aeabb5013
+    - 0c40e0f2-730b-4979-8275-e24877cb341f
+    - 2e35bbaf-5782-4546-be9c-9386711eba00
+    - 56c8bbd2-831f-4f86-afd0-3901b8f4ab89
+    - e6fe89be-d50c-4b08-8d04-0125628fc70f
+    - e7f107aa-8952-4db5-ba91-ce8a383944fd
+    - 8e77625a-d86f-46a9-b369-becc251fbb9b
+    - 39462bd0-02b6-4041-8484-6a690e819c37
+    - 2ef8c53e-384f-4db1-a887-0b05d63ceace
+    - 16dec164-6b6d-495f-8887-f6719882b9c7
+    - 2c2beedf-2f65-4b5d-aed3-f951d030fd87
+    - bc6e86bc-e91f-4672-b5d7-81278243f12c
+    - 8f1a5be1-45ea-4faa-be2f-952dfa11f1f7
+    - cf4e1757-42b7-49dc-86ac-2da0b5ab64bd
+    - fe0d6b67-259e-45b9-ac9f-cbfc982b82c1
+    - 6b055816-fc2f-44ce-9519-1000cc946f3f
+    - 302a916f-277d-4eaf-8036-9ff96dd5ee96
+    - 7b32ef92-87fa-4ed8-bc29-1fe2848d0020
+    - fc7ae863-5b64-4be1-a6e1-9ed05b2e1475
+    - 054adf91-9b06-4bb9-8434-26d068aff86a
+    - 88607de0-ac93-40b8-9a36-5dbb6bf3d891
+    - bed2e40e-9a27-4470-aee3-5fc650283a19
+    - 7a01c02a-c2fc-4a3c-8092-639ee2360a57
+    - 1d0bb675-c7bc-4e5a-9902-59a0a17630fc
+    - 1b2ec93f-0f72-4ab3-afbb-fd9dca825b06
+    - 6498e278-6571-4bcc-b4b2-a3dcf1bc0ae8
+    - 1374ff94-c5f4-4586-82a5-f20841bf0a02
+    - 05756789-a197-4ffd-a67f-ccfe9d43ef7c
+    - e79e4bac-83ab-42d2-8e08-81caee7a8bc9
+    - 74729915-8206-4f9a-8025-f1ae1975cbc1
+    - 38448e93-38c8-418d-839e-b339f33c13fe
+    - 1461478a-9258-4cec-988c-9b8e94aa4941
+    - d8a3c13a-22d9-401b-837b-d0abdb08358f
+    - 8f607bac-efe7-4210-9a6b-039baaf8408b
+    - cd8361f6-dcd8-45bc-b44f-97d84a8b6e7a
+    - 8508a7df-127d-49ef-9878-ee93bc5b3f61
+    - 5a4f931e-6253-4875-9d02-f6fe6a75f376
+    - 1507333c-bbdd-47d6-a269-b62e1dbdf343
+    - ec166d7d-d4f3-410e-885f-641a782de395
+    - a2854b98-e3d2-4aa3-8252-482487425dfb
+    - dd24ba3c-b9c4-4cdf-92ac-eb9d978181fa
+    - 5a0e344b-f0f9-43f9-a51e-d27a74c5d1b3
+    - ee57a207-4b56-44f5-b84b-c6c406f48f2a
+    - 9747d7c5-31da-42c3-8584-6758b76bf9b0
+    - 952f6fbf-0855-416b-a5e1-2b06abeeaaa9
+    - e422f1f5-d14a-4ecf-a154-1499d64eecfb
+    - bc32f7d0-3a36-4563-a6ea-011d5668599c
+    - afa4c6fb-bde4-4551-934f-80f8c03f05fa
+    - 7908a385-fe0e-46b2-9157-65400654419f
+    - e0bf56f0-9a97-4e1a-8a2d-f950abf3234e
+    - 19b11b5b-f812-4f34-a5a5-a88ecbaa00f7
+    - 535cd72f-cbf6-47d0-8ffb-67ad7a88f5d1
+    - 80b7b373-56ca-4b0a-9925-a2c983451194
+    - e77779be-829a-47ca-b544-5d9a8bb168fc
+    - b4718c78-de60-471d-9047-f02edfd9a200
+    - 8acbc801-9479-49ff-8f20-31e73c6fa3dd
+    - bdb1c1d6-dc03-43c7-a76e-f6544d7de57b
+    - a808b708-76b3-40b5-b0e9-8602fddabba5
+    - d3650161-f67b-4d40-be2e-0006cad25d53
+    - 12897151-38bc-405c-ac0a-d87533f705c6
+    - d982d58e-6854-4e78-b0b1-2f37ce9e9244
+    - 6f69e644-b704-40da-baba-90cda2133778
+    - f62afb15-9111-44c0-b2e3-abd5b834814d
+    - 44f48bb3-1891-4094-8250-79bf8a3a1845
+    - 9c725343-ab0d-49dc-a062-0bdf9a1411a3
+    - 1477b911-5730-4143-bb31-46e58fda9d4f
+    - 8f5e9385-2f12-4e87-a358-625a2051a4cb
+    - b237ce1d-4593-4c65-b67b-2ba38c004262
+    - f2145c40-d9b9-4b66-b0fe-f82d57a97b76
+    - 5ac283bd-23ce-4501-b0c0-6158c87c835f
+    - eeb8f2d7-5693-4f02-9088-e6fe2b888140
+    - c29614d0-1086-4a6b-8143-9af88d7bf050
+    - f571411c-7df6-4334-b39a-1b6e7e16418f
+    - ebe90068-ac51-4a1b-accc-908c0e2a31dc
+    - abf50458-c12e-4d4d-8ce9-a01519866d78
+    - 3bcc0b4b-1d86-4053-9c8a-0a15e2264b32
+    - 360c23e2-12ba-4065-ac4a-715029eef6ea
+    - 684a8fd4-7cb6-4c24-a525-6181fdbf61b1
+    - b07a0943-450b-482e-ac78-edbaa06a976d
+    - 844218c9-703c-470a-ad1c-586c831906cd
+    - c4a5f67f-1422-40e0-ba57-cae42276f1b7
+    - 9623eaaf-1aca-4ddd-8805-c2f931be8ca1
+    - 2838211a-d590-46e5-a16a-d2c2f1587ac5
+    - d6906038-0e44-4474-8607-0f7a452f1650
+    - 56fc7048-f4bf-4832-8469-ec7f27998396
+    - ae96780b-17a3-46a5-ace0-0cc50b38a9c3
+    - e9673287-3a6a-46ba-be10-a5414dc656b8
+    - 4e61cb81-38bc-4cf7-a877-7a2f0f548779
+    - 1ee4f125-b975-47dc-a622-987bf0db008e
+    - b68a2af5-6c3f-401a-ad8f-7342ba02592d
+    - 9bbb7e29-3e89-4515-9b5f-5cc1cf157811
+    - cd06701f-d780-4d9f-a329-2fe5821c5d1d
+    - e7367fdd-5d99-474f-ab3d-5804be4594f0
+    - 8d89b81f-080d-422a-b8c1-2f709ef39364
+    - 789755aa-7ea6-4f11-83d5-52ecf516da22
+    - 3a17ff30-91a5-4eb8-8e21-41a71407c5f7
+    - bda19fad-46f6-4ab4-807b-0b50aaac8267
+    - 57041f3e-6040-4f5e-be6d-53d4fe144138
+    - 09f9e0dc-470c-4598-ba20-1d718543163e
+    - b7a71fe9-5c82-4a5f-8fc0-2f6db1819eea
+    - d712a802-739d-4e70-b640-fc5448b12281
+    - e9dca8b7-69fc-41a7-a21f-009762c8f628
+    - 7121eeee-ff93-44c4-a456-18e72bf4eba3
+    - 8f79099d-5b17-43ac-9c02-6a66527c1835
+    - 2b587f40-9515-4fda-8a20-08df80fafdd8
+    - c4ac8702-a671-42d5-9e10-f52bd8b7764b
+    - 12ef554c-7fc9-4937-a586-47b3ce9fc626
+    - 904f3b58-7424-4009-9190-88e6fc25e52e
+    - ede801df-d739-44c2-a78d-df45473b0f6a
+    - 92e830ee-e959-4b66-bd78-5fa8609af945
+    - cbc1979b-7e20-46fc-81b7-4367bb8e6f34
+    - d2a90a1a-1df2-4e24-a18f-0bec98ce20a1
+    - ca267e2b-8008-4d7a-b655-448bb2929fdf
+    - 6c0e2d2b-a7a6-4eb4-9c1d-1cd80843646c
+    - 16ca8b33-6adb-4498-b674-6d75b192c929
+    - 40455118-1c38-4860-88ca-9a04729e23f8
+    - d210e043-3ad1-485e-8cab-27dcfe0bcc73
+    - 22a78886-baff-4548-bf3c-8d504a8b73f1
+    - 7a5063c7-b780-4d5a-9cb3-d5c70cec3092
+    - 8c90edb3-a2b7-4282-8f30-da88636e9a6b
+    - d25c2ee1-718c-48dd-bcaf-00ecaffaa823
+    - e9ba8011-3e1a-486a-aeea-1ee5d549a828
+    - be185f42-3ad6-4dd5-a8b0-14e591e662ee
+    - 28d0b63c-7b47-4210-b642-b0f99ed5d9a6
+    - c3c3d498-0b38-43b5-8244-357993dde607
+    - 9818e6f1-7223-4320-8c8b-41522deafc2c
+    - 98fb0ac3-5c12-47f2-8423-966d02dc9190
+    - cde1c766-94e3-4a3c-a3ba-b700b4e05ae8
+    - 36f2e90e-7b00-4541-bc21-18e4687726d1
+    - 4bfcadfc-8a18-4ee4-8338-3e545b917efd
+    - 0328ef6a-5546-4b5f-951c-e9067f87e493
+    - 448c2b78-f775-4c45-bb52-98f904665b45
+    - f332f5ee-bfd5-4f9a-b93a-ad12b0c3d6bd
+    - bfb9e31c-0633-4fde-b899-ec09f3bb2f0c
+    - 7571eb83-fdb8-4d3f-bbae-0efee06e599b
+    - 24298d4f-08c0-46c3-9dd0-fd14e6cbcab7
+    - 0b6797a0-6710-4c48-a9fe-3bae16ef419d
+    - c8a501ad-957d-40d1-8803-fbfac431c5c2
+    - 88bc71aa-6d1f-4612-81f3-19920f9f33e9
+    - 322889a4-172c-4a90-8f58-9584b5eee2ae
+    - 6771cf6b-f578-4787-8c3c-ab18435bd3b6
+    - 8657e700-ed6c-4cf7-a91e-4eb8dcd6a850
+    - c1a10c9b-f492-4f9f-a84e-f4d6fd5dc5c3
+    - cbbff384-7fc3-4da5-abd9-15042b62eec2
+    - 97501f35-a647-47db-9c6b-b12e045c95dc
+    - c39f6e90-3f54-46bf-978e-ed7438069378
+    - 55f887c6-12cb-40b1-af6b-8c31c4d2ab93
+    - aafbc580-b1d9-43cf-bbd0-60a0c8453c30
+    - bed49a9c-e1c7-4259-837a-52bde936a8a8
+    - 3ad3ebd0-e7dc-4a00-8a30-0fb96a967f3e
+    - b06aca3c-1f1f-43de-811c-933aec867ebd
+    - 1597cab1-791f-4260-b559-5474c631937d
+    - 3d3a3288-cc31-47bc-b43b-872d57d2b5ae
+    - 82c6962f-df27-4bf4-9a6d-84bbf7b3c667
+    - fee42060-0b12-4b71-ab1f-b9a92a7685db
+    - 271234f0-d395-4555-8bce-26fa84d16f3d
+    - d1e08452-46b3-42c2-b42b-cfbea18aa8ac
+    - 92d4e709-990b-470e-ba17-6b9c14a031b1
+    - b858be7d-8dab-451f-8f6f-5d0a6e3c293b
+    - 2dd88cc6-c718-48f7-b688-061107906d73
+    - 947cbad7-3b71-416f-b3a2-3c34bc42f009
+    - 387e379a-0a32-4dad-9278-460aac4023fb
+    - 1126b894-fec6-43d2-8160-f33513450cc2
+    - f0574205-4391-439c-a8d4-1d491e47b0a5
+    - 782ecd2c-e9f6-4488-b2f6-efe3041c7d0e
+    - 8eacf2eb-7c1c-45ad-914a-c8528b549db4
+    - 59c3ec40-1d98-4441-9194-ac897b0b370a
+    - b032cf3d-4ddb-4e86-ba2b-9445076e4795
+    - b5e679ec-e550-458e-b8d9-a0ca73b708ea
+    - 7557e709-bd0e-4e5e-883c-30e529435acb
+    - 39e9a0d6-05ed-4c28-bd3e-401b06e1316e
+    - b01cf758-2f55-466c-a581-cb5a836d4435
+    - e4b3e8fc-958a-44c9-8dc9-dbcc0f4c0474
+    - 47e7d742-337f-4ff1-8c58-9dd18bb2b933
+    - cba5fbc5-491a-4958-85cf-79303c862e29
+    - 124163b9-4d63-4f9d-86c8-3df1bad480ed
+    - 58c3ec97-6956-475d-a3fb-8c260850d56c
+    - 0dd557ec-a682-4720-a94b-1738da0e0a6f
+    - 056a49c8-d612-4190-8fb9-8a9e65000b1b
+    - c0c418d1-1295-485d-97c2-19be3eb69f76
+    - 9b5e65e5-1af1-4b2b-8220-439ef028d9fd
+    - b4cb56ca-1ae5-42b3-8749-af1aa23d0af6
+    - 05fa7059-e541-4e98-8d38-21d7d89cfd5c
+    - 48c91e6c-c302-42c9-8d4e-6597bee2f2a4
+    - d110e04a-cf33-4dfe-8156-03e44dfe9198
+    - 24897b2b-1d90-49ad-ab30-ced92a86afc2
+    - b5cfcdc9-f7ba-44d4-ba5c-6a3b2b6e8ac7
+    - 8d20df9c-4c48-42d3-851b-833dac0a3428
+    - 6cca71e4-b0ae-47c2-ab3f-db5eb4cccfb5
+    - 8092fdf8-e151-44bc-900c-2cdb0bacf915
+    - 417d88d2-815c-4711-a45f-82ebc97e68e5
+    - b6dc652b-d94b-4723-a6ba-ec38909dd5ad
+    - 14fa1d58-e0eb-4a94-880b-e7accb7eee64
+    - 897185a2-321a-4fbc-82a3-1bbb56e20bf5
+    - 843a101d-b61a-47cd-baa7-80fff46676d5
+    - 4f6de577-e8f5-4298-8343-c4e22bd1042b
+    - 280caef5-dd62-4b05-ac6c-9f3c9da921bf
+    - da702d1a-0496-4630-84f2-e843b5b031cc
+    - 6cc4ffc0-1793-4c13-8233-f5e0fb249eeb
+    m_values:
+    - {fileID: 11400000, guid: 93db26fc631681546831bd9ff34936e3, type: 2}
+    - {fileID: 11400000, guid: 7c99d4d9f7453824cabcb8544e000b4c, type: 2}
+    - {fileID: 11400000, guid: 6e9d7e8628014a74285ac7010347ba0e, type: 2}
+    - {fileID: 11400000, guid: 356bf29a96fa475448d1737d79b5c538, type: 2}
+    - {fileID: 11400000, guid: 61dbf52d8d0f5df449d378677a420180, type: 2}
+    - {fileID: 11400000, guid: 9f7dbc8dd914b5a418a097d308c3cc09, type: 2}
+    - {fileID: 11400000, guid: ca6ae5f88d840d948a764eaedd9ab379, type: 2}
+    - {fileID: 11400000, guid: d315f8c962bc8a4499818eff55bf02a4, type: 2}
+    - {fileID: 11400000, guid: d0f2f3c4c85a27a439fd5c024c9a2322, type: 2}
+    - {fileID: 11400000, guid: 27f88a015ee755143a742d44630d0a04, type: 2}
+    - {fileID: 11400000, guid: 69e41a5ffaedf5b4bad1268fd162426e, type: 2}
+    - {fileID: 11400000, guid: 86edd5914651c9348b39dd7e97c73a17, type: 2}
+    - {fileID: 11400000, guid: 721c69858075c0c44a06801afa9fb926, type: 2}
+    - {fileID: 11400000, guid: 28198dacddfd3d441849402ab455d409, type: 2}
+    - {fileID: 11400000, guid: ec55dd88f71d19f4fa7317f0b8c81530, type: 2}
+    - {fileID: 11400000, guid: aeca99a2417af3a419369a112b4121bb, type: 2}
+    - {fileID: 11400000, guid: ca7e19792037d6544a82e720c5d86265, type: 2}
+    - {fileID: 11400000, guid: d7a79a230f5288648a76c204ddcbd5d1, type: 2}
+    - {fileID: 11400000, guid: 3eea7b4982e29bd45a09c5d5be4021db, type: 2}
+    - {fileID: 11400000, guid: aab2987c18e2da74f911ec2fb95675ad, type: 2}
+    - {fileID: 11400000, guid: 0e0c05d0f6af7a94682e3eda1e65a41d, type: 2}
+    - {fileID: 11400000, guid: 3f79e352a84f0e847be4a940a08c6e11, type: 2}
+    - {fileID: 11400000, guid: 025ae402543afa74fb26bd75c331d1cb, type: 2}
+    - {fileID: 11400000, guid: 8f223b96928836b4ea3054bbe99180c5, type: 2}
+    - {fileID: 11400000, guid: 8fc138869c06aaa4bba83095b7d04546, type: 2}
+    - {fileID: 11400000, guid: 91e894738aafb3142a46b57690eb3758, type: 2}
+    - {fileID: 11400000, guid: d5188e6ac5208944bac49a7c7532887f, type: 2}
+    - {fileID: 11400000, guid: bf890e2128ffa3048b9d712e8a095051, type: 2}
+    - {fileID: 11400000, guid: abc2717692040934182034fa6f89ec8c, type: 2}
+    - {fileID: 11400000, guid: 187147de9bc6c944d8fe8dcc3284fea2, type: 2}
+    - {fileID: 11400000, guid: a101caea5a55a584b983c5223529a5a0, type: 2}
+    - {fileID: 11400000, guid: 0ea870f533bdba94c9c646ee8dbf3c02, type: 2}
+    - {fileID: 11400000, guid: 6af77947bb061384a822cf3355f65702, type: 2}
+    - {fileID: 11400000, guid: cb882815e5b5e20479fc6153fbee6180, type: 2}
+    - {fileID: 11400000, guid: 2e7cd8037a79fd7409e5e8bd9f511e7d, type: 2}
+    - {fileID: 11400000, guid: 9cd49d34868360344bcf918018f2da1b, type: 2}
+    - {fileID: 11400000, guid: 6d18495805c99a54ea8ceec8183904dd, type: 2}
+    - {fileID: 11400000, guid: 8bbaccb561e43db4080fc9ab8c4627a1, type: 2}
+    - {fileID: 11400000, guid: 90ec368e7ea82e446ae4886465560994, type: 2}
+    - {fileID: 11400000, guid: 584e33ebd136968459447eab994bddc5, type: 2}
+    - {fileID: 11400000, guid: 1ed671a05ebce14468ceaab13975407f, type: 2}
+    - {fileID: 11400000, guid: 580164e33ddc0b44784d69a19eac0a1c, type: 2}
+    - {fileID: 11400000, guid: 8ffaece9625264d4a864d7423841a59d, type: 2}
+    - {fileID: 11400000, guid: 97fb7fb650b16e644983421c49c2908a, type: 2}
+    - {fileID: 11400000, guid: 64f72c8b62c3e3d4096676a09b2bbd28, type: 2}
+    - {fileID: 11400000, guid: 86c4ad400399a404d9d004e6bb2a95fa, type: 2}
+    - {fileID: 11400000, guid: 95e0bf02ade17244b80a3ac5c1b16abb, type: 2}
+    - {fileID: 11400000, guid: f5d77131bb7269a42af94e31fb3d2028, type: 2}
+    - {fileID: 11400000, guid: 51e696130f231b84db6451638a57df69, type: 2}
+    - {fileID: 11400000, guid: 05ec19f2deff2e14f92d743d54284f74, type: 2}
+    - {fileID: 11400000, guid: 2e4768c0069445e469ea0181f0b409c8, type: 2}
+    - {fileID: 11400000, guid: 1b87f40d69426784f80bb4ad8b76107a, type: 2}
+    - {fileID: 11400000, guid: d35bd3b4e6d522743a2ab55a5b3dce26, type: 2}
+    - {fileID: 11400000, guid: 8920bb9c6191ea849a387124d12517e9, type: 2}
+    - {fileID: 11400000, guid: 43ee2462a77f0f94fab552f57d6a86ec, type: 2}
+    - {fileID: 11400000, guid: f24a20d5e7edb0c449e14aa831111a3c, type: 2}
+    - {fileID: 11400000, guid: c0d874c5325f8744aaea1d0eef506741, type: 2}
+    - {fileID: 11400000, guid: d4ecec2e27219f94abaebc90f4c866f2, type: 2}
+    - {fileID: 11400000, guid: b0af42b3dbad6374b95b756d3390ac69, type: 2}
+    - {fileID: 11400000, guid: 1f1dfc15bd812ea4bbfa7b3209854fcb, type: 2}
+    - {fileID: 11400000, guid: 66cd6da4001a59c48bb471463ddb8f0d, type: 2}
+    - {fileID: 11400000, guid: 96b5b6db0406d794a8fecdb896f9a42c, type: 2}
+    - {fileID: 11400000, guid: 10641f5da0063c9428bc1e1993b24204, type: 2}
+    - {fileID: 11400000, guid: a61536699c09663439682aa705a314a7, type: 2}
+    - {fileID: 11400000, guid: 236db9022b194864c9863d45dc0ef120, type: 2}
+    - {fileID: 11400000, guid: b9262ea2599afc64caa40c59f90fc3c1, type: 2}
+    - {fileID: 11400000, guid: bb1398d3da4982549b0c8353c082dc1a, type: 2}
+    - {fileID: 11400000, guid: b0e6405b64f80d944be6c74142877f0b, type: 2}
+    - {fileID: 11400000, guid: 7011d2d816071784aba6e120230522ba, type: 2}
+    - {fileID: 11400000, guid: 2379784d6a4795d4b89c2b5d46e2b6ed, type: 2}
+    - {fileID: 11400000, guid: 38bb2d320a3822543ab6551bfadbe77b, type: 2}
+    - {fileID: 11400000, guid: feb561c0dd2b49944aae71f5a3311207, type: 2}
+    - {fileID: 11400000, guid: 7e66bfa616d456f4cacac0f3ffa42011, type: 2}
+    - {fileID: 11400000, guid: ba28a65102726dd4588c0b808b5ca3b4, type: 2}
+    - {fileID: 11400000, guid: 27658ada25a16a94fa07da7729d2593f, type: 2}
+    - {fileID: 11400000, guid: ed76fb7732959a6479098a897d2828b7, type: 2}
+    - {fileID: 11400000, guid: d3cbff355fdfdde4b844451c42b6b0c3, type: 2}
+    - {fileID: 11400000, guid: a2628ebd7c5a4cf47b9a019f4d8c9fd5, type: 2}
+    - {fileID: 11400000, guid: bc1e270927521d64fba6c231344ccf51, type: 2}
+    - {fileID: 11400000, guid: 7bbb95d5ed81fd2449cbc13db1f3bd00, type: 2}
+    - {fileID: 11400000, guid: f66b95c4f38691f4eb41e89442efddf7, type: 2}
+    - {fileID: 11400000, guid: 79841feb5d804594dbf8272c40ba20ef, type: 2}
+    - {fileID: 11400000, guid: 744ad7430d1b5e941bc2d1aa4786b1f3, type: 2}
+    - {fileID: 11400000, guid: 2fc69c3c668dd924b9ac9609dc1fecc9, type: 2}
+    - {fileID: 11400000, guid: ec15562e26b88f14e97cd0d3ee67511b, type: 2}
+    - {fileID: 11400000, guid: f181f26e019d84d46a4a36b00c32107e, type: 2}
+    - {fileID: 11400000, guid: 453bf837309f9b84692e5da9e02c5901, type: 2}
+    - {fileID: 11400000, guid: 395643365d3c72544bd454918abeee33, type: 2}
+    - {fileID: 11400000, guid: 9a7f17f24c985a04c8f97fbb93cc8986, type: 2}
+    - {fileID: 11400000, guid: 5cbc092641f263e4a8c3d19af008fa0b, type: 2}
+    - {fileID: 11400000, guid: 2bb287f48064a7b4da30c516ca8087f7, type: 2}
+    - {fileID: 11400000, guid: 171730a67a28c634a97eb39bf2e3b8de, type: 2}
+    - {fileID: 11400000, guid: 40974934b8ed2684b84c2aeb136fd44b, type: 2}
+    - {fileID: 11400000, guid: 993e8fa6513f8ca4aa6baca6ab95e74f, type: 2}
+    - {fileID: 11400000, guid: c77fe505dded50b4483e98c52d65b2a1, type: 2}
+    - {fileID: 11400000, guid: 43a6182f27fe1ec418d96c24a6aee0a8, type: 2}
+    - {fileID: 11400000, guid: 97f6b8ecd1e857f4a885301dd1c5664a, type: 2}
+    - {fileID: 11400000, guid: 9b71cd4d7e639e54bb9a46b6e3cc14a3, type: 2}
+    - {fileID: 11400000, guid: 599d9ead0636a4f4aacb89ccf42d1622, type: 2}
+    - {fileID: 11400000, guid: fa8260d885396f0498766e67aefc1633, type: 2}
+    - {fileID: 11400000, guid: e36f84fdd4a5199438de8013c6e9deb3, type: 2}
+    - {fileID: 11400000, guid: 35386bee3687ab646ae6aa70c1b90855, type: 2}
+    - {fileID: 11400000, guid: 3f2bebad1ba80144092c81af3207486c, type: 2}
+    - {fileID: 11400000, guid: e080efd191433fc499e141671b531f1f, type: 2}
+    - {fileID: 11400000, guid: 197c66772afee774e8dcc55d33c6e807, type: 2}
+    - {fileID: 11400000, guid: 528f93fc3d4d5884f9b09420054dcb14, type: 2}
+    - {fileID: 11400000, guid: 70c03cd5ecf23ed4581299a84c5c3b53, type: 2}
+    - {fileID: 11400000, guid: ba24eb53227d96c45bb52401d89421a5, type: 2}
+    - {fileID: 11400000, guid: df4065dadd84dd3438ba9a1a47ce9795, type: 2}
+    - {fileID: 11400000, guid: 3027d8a373130cf45b6341c2c7d66b70, type: 2}
+    - {fileID: 11400000, guid: f04df8fe1e29e564bb5cf74c37489883, type: 2}
+    - {fileID: 11400000, guid: 8ecb6625584cad146b1dd7ef17b1d8d5, type: 2}
+    - {fileID: 11400000, guid: 408e5ab705f1df246a4491ab3f31a9b6, type: 2}
+    - {fileID: 11400000, guid: 11578ec432d10724fa0dbdc843ed5928, type: 2}
+    - {fileID: 11400000, guid: 5da68022b4c57884c9386fb2cbfbb351, type: 2}
+    - {fileID: 11400000, guid: e6c9fb41e421ac94db1b89d4685d15cc, type: 2}
+    - {fileID: 11400000, guid: 320b18f3717f36b47967837665692e1c, type: 2}
+    - {fileID: 11400000, guid: a9120a2d98f374743b655110012611b3, type: 2}
+    - {fileID: 11400000, guid: e1cef72fb99064b489d6904171ea5e68, type: 2}
+    - {fileID: 11400000, guid: 965f00a7d78751b44875489e18a432a7, type: 2}
+    - {fileID: 11400000, guid: dce051d8ec6a90d4ea791486c2058eef, type: 2}
+    - {fileID: 11400000, guid: f87193bb3a811934b92cad8142c8fbbf, type: 2}
+    - {fileID: 11400000, guid: ac7c30714187a62449e0e1b904395ff0, type: 2}
+    - {fileID: 11400000, guid: 9e79a622905fd3e4491fbe8277271de8, type: 2}
+    - {fileID: 11400000, guid: e10e2dedfb457c5458c216dbcb4ba6c9, type: 2}
+    - {fileID: 11400000, guid: 479d0b49137e95840879e7561937f525, type: 2}
+    - {fileID: 11400000, guid: 1bc7e04928ec3e1479116dc6be0ce614, type: 2}
+    - {fileID: 11400000, guid: a4f5dc471c641d649834e3c3e01d8c6f, type: 2}
+    - {fileID: 11400000, guid: c04fc2bfae55d254298235276d215e9d, type: 2}
+    - {fileID: 11400000, guid: c63c4702f26ff2b46a8d6cd1ad92f9c5, type: 2}
+    - {fileID: 11400000, guid: 77dc892c921a02242b911c1f3b2f36bd, type: 2}
+    - {fileID: 11400000, guid: 43e43665f0d854447a87fcaf55be98d5, type: 2}
+    - {fileID: 11400000, guid: 91fedc57363488144895c1923177e07f, type: 2}
+    - {fileID: 11400000, guid: 494877b5e6a5d764eaeef40803048206, type: 2}
+    - {fileID: 11400000, guid: 89906af18527c6644a3ae784e0b1b3c7, type: 2}
+    - {fileID: 11400000, guid: 64d9ff06027a45c47b3054fd79c11732, type: 2}
+    - {fileID: 11400000, guid: b223f55b870c42a41ac8fde0de59820a, type: 2}
+    - {fileID: 11400000, guid: fe48a58c6e78a9343a2273035979eef9, type: 2}
+    - {fileID: 11400000, guid: ffac23bc8c0672c40a5d436484d82ccc, type: 2}
+    - {fileID: 11400000, guid: 8f4e14a23c3426c429330f5aedd1e8bc, type: 2}
+    - {fileID: 11400000, guid: 975ce2085cd52af4db2bf80809643b9a, type: 2}
+    - {fileID: 11400000, guid: 6f6f874998b715b4db5cf1212125fc8d, type: 2}
+    - {fileID: 11400000, guid: 885aa545da28c4f48b3dd4a8afff0ea8, type: 2}
+    - {fileID: 11400000, guid: 6aa9b2236b7e51149b4e2893d362b6ea, type: 2}
+    - {fileID: 11400000, guid: 3801eba2300862f479e62cdeab790e3a, type: 2}
+    - {fileID: 11400000, guid: 51cf847a488d2ed45a40a8a481b3de83, type: 2}
+    - {fileID: 11400000, guid: a9a5ddd4a66018147aff6cd36ad8de93, type: 2}
+    - {fileID: 11400000, guid: 830011574cf453442aabfbd23394249e, type: 2}
+    - {fileID: 11400000, guid: a416a923e38bf054f9581b9d0dcab7ae, type: 2}
+    - {fileID: 11400000, guid: 49d5eb9093efa6144a56ef36b8598df7, type: 2}
+    - {fileID: 11400000, guid: bc4024a379208e2478ecd7c8a53b9d06, type: 2}
+    - {fileID: 11400000, guid: c3ee97f7b92b1b64b88bc55d197d1aa5, type: 2}
+    - {fileID: 11400000, guid: 96ca19727790d8749acfcbb617ce1320, type: 2}
+    - {fileID: 11400000, guid: 6f947b0a97dadd44c84a0f3e2be5a164, type: 2}
+    - {fileID: 11400000, guid: ce6a9b098de011f4bb2e0ab8f276f1c0, type: 2}
+    - {fileID: 11400000, guid: 8b45ac1bba0bb7a47a56bd8717c221c6, type: 2}
+    - {fileID: 11400000, guid: b86efb9c4f797024fb89b808250ca630, type: 2}
+    - {fileID: 11400000, guid: d0d91051cbd36c74cafcf37247882791, type: 2}
+    - {fileID: 11400000, guid: 3ef3bed0c6b499049802491eb8f9bd5c, type: 2}
+    - {fileID: 11400000, guid: f969e2684f0a626409661fa0d4fb5c25, type: 2}
+    - {fileID: 11400000, guid: c952a4420e78d1846b854bc3811f45af, type: 2}
+    - {fileID: 11400000, guid: eb57caf40f8dc4f4daf7ed54bbaee4be, type: 2}
+    - {fileID: 11400000, guid: 2b5825e322d45704492cc13c78349dcb, type: 2}
+    - {fileID: 11400000, guid: af42b47bd9864bf4998dd6f0ee798527, type: 2}
+    - {fileID: 11400000, guid: b111de63405be784fb8a653876a5d4d0, type: 2}
+    - {fileID: 11400000, guid: 56aeb77a185a00140b5b286841036747, type: 2}
+    - {fileID: 11400000, guid: 5e908ab837cd2124596a78e84cc1c14a, type: 2}
+    - {fileID: 11400000, guid: 55f2176af50caeb4d8e8ad5f0923597a, type: 2}
+    - {fileID: 11400000, guid: 33af0df3974e14449bbf9175b7d3a3e4, type: 2}
+    - {fileID: 11400000, guid: 163f90499815ac141a97f90d56be8ba9, type: 2}
+    - {fileID: 11400000, guid: e79fc4bcbc6bcfc4087495734fba152a, type: 2}
+    - {fileID: 11400000, guid: 576221bfebc4beb41bfbc886e251e249, type: 2}
+    - {fileID: 11400000, guid: b4c52a7c3940ccd4eb43deb3e6724714, type: 2}
+    - {fileID: 11400000, guid: db865a55e3831b5489e635ce73648a01, type: 2}
+    - {fileID: 11400000, guid: 32410c8412fdacb43b91125c94e3ddd6, type: 2}
+    - {fileID: 11400000, guid: 512fe6a19c1a82945945af6848036b97, type: 2}
+    - {fileID: 11400000, guid: c2b025c214b5a0d4b9bb8591209818b7, type: 2}
+    - {fileID: 11400000, guid: d8e9327b71d9b514280ffd2c4aa812f7, type: 2}
+    - {fileID: 11400000, guid: e37e308d166516448a7244f9703b235b, type: 2}
+    - {fileID: 11400000, guid: 72e5623abc3d8d040b5772e94702dd6b, type: 2}
+    - {fileID: 11400000, guid: 79b308095c373334b83623b75cca97a3, type: 2}
+    - {fileID: 11400000, guid: efe02b3488e1210479bf6155114a52c3, type: 2}
+    - {fileID: 11400000, guid: 7677f9d58c3219a4d8c8b47fd98c05f2, type: 2}
+    - {fileID: 11400000, guid: 9e5404f503dbf0b4f8ca646b69fdbfca, type: 2}
+    - {fileID: 11400000, guid: b651c7bfe3bb2994293355a808c4c823, type: 2}
+    - {fileID: 11400000, guid: a6e039988c398b7419ba8613ab0a0e2a, type: 2}
+    - {fileID: 11400000, guid: 4dc6e0270622fa849a807b73a8c39132, type: 2}
+    - {fileID: 11400000, guid: 8697f9514a2a5d74483b18c4cd5650e6, type: 2}
+    - {fileID: 11400000, guid: dc7270cc4504c574383ad659f0baa0ea, type: 2}
+    - {fileID: 11400000, guid: 252bae3ee6534ee47ada823c12ffee9b, type: 2}
+    - {fileID: 11400000, guid: 5c6a0e3b42aff654eb458d94d995cf9b, type: 2}
+    - {fileID: 11400000, guid: 41a4c03fdbd00ce4ebab36d235d0621d, type: 2}
+    - {fileID: 11400000, guid: b6000644607a7424ea6fd1bb4aa1c70e, type: 2}
+    - {fileID: 11400000, guid: c8fad0226953bcb4b81a61540f98d8b1, type: 2}
+    - {fileID: 11400000, guid: f1fce387680351f4e9647b3efd19e55a, type: 2}
+    - {fileID: 11400000, guid: 5ceab2f6f68097d4b85740a5875b842f, type: 2}
+    - {fileID: 11400000, guid: fbab2e6a8bb64344baef9be9b6d28f19, type: 2}
+    - {fileID: 11400000, guid: c57fa955500a8d74cb2d5c3eafec0dd5, type: 2}
+    - {fileID: 11400000, guid: 8247a697224fa9646a907d0772e892b6, type: 2}
+    - {fileID: 11400000, guid: 8f54c4746722dd240bf490e22e5e4b5a, type: 2}
+    - {fileID: 11400000, guid: d3420614e9a17444fba2d68d4d39a1f4, type: 2}
+    - {fileID: 11400000, guid: b8230c2f01008fd4494e871f0b97072b, type: 2}
+    - {fileID: 11400000, guid: 7f04e319b9332ff44a461e77144c3726, type: 2}
+    - {fileID: 11400000, guid: 1d68b87a30bc81743ba8846bea633d43, type: 2}
+    - {fileID: 11400000, guid: 73b28afa60a153b41a2e9e6c45d153f2, type: 2}
+    - {fileID: 11400000, guid: db433129a08ccbe47816bd1b396fa0c8, type: 2}
+    - {fileID: 11400000, guid: 41090bf00ced7a2459b4b734aa9cb2a7, type: 2}
+    - {fileID: 11400000, guid: c7b280da4de3d2947a3209c87fcf4dc8, type: 2}
+    - {fileID: 11400000, guid: 6735439957bc4a84f8822d12cde24260, type: 2}
+    - {fileID: 11400000, guid: cfd18d7cfba228948bb5f6f3324f8def, type: 2}
+    - {fileID: 11400000, guid: 9f5eb1ee53ef8df4fa349c5486420968, type: 2}
+    - {fileID: 11400000, guid: 90dbe844b370c1e4a986d6aaf5a34f14, type: 2}
+    - {fileID: 11400000, guid: 07b0b7533e1954c41918314f185e48d2, type: 2}
+    - {fileID: 11400000, guid: 486fcaaf6f00d934487a8d9a976718c9, type: 2}
+    - {fileID: 11400000, guid: 5a44636e03fe6c741a5086508b86546e, type: 2}
+    - {fileID: 11400000, guid: 178514a66e08d2640b2b6165f099c642, type: 2}
+    - {fileID: 11400000, guid: 166f37dfd6c7d5842b52aa2fe8009129, type: 2}
+    - {fileID: 11400000, guid: e0a0eea46c446754887272c8ee91d9b0, type: 2}
+    - {fileID: 11400000, guid: 4cf64974874dbc54fb8dd5ce556ee328, type: 2}
+    - {fileID: 11400000, guid: ea40c658fee4c814db09721e4b063140, type: 2}
+    - {fileID: 11400000, guid: 1097ff3308c96f8419be31abcd751e22, type: 2}
+    - {fileID: 11400000, guid: d18c9cf7ea3b95840a2132059cd99ff1, type: 2}
+    - {fileID: 11400000, guid: fdd32e3a3a3001b41b6411492a40519d, type: 2}
+    - {fileID: 11400000, guid: 7f1282f72cf61e64ab9e5260fe3a5af5, type: 2}
+    - {fileID: 11400000, guid: 4221eb4e64f15a54c84cb7f0ec624f8b, type: 2}
+    - {fileID: 11400000, guid: 9543ab6908c5e794b959bc6b198bb19c, type: 2}
+    - {fileID: 11400000, guid: a18f3d4a5242bc04891d87a2f0b856bf, type: 2}
+    - {fileID: 11400000, guid: 219832556f478ab479ddd7d591a6c446, type: 2}
+    - {fileID: 11400000, guid: e1d6d00b70d2b7f4f95cc42e0b59dc8d, type: 2}
+    - {fileID: 11400000, guid: ab4718eb5953fef42bb4afeb848816e0, type: 2}
+    - {fileID: 11400000, guid: 75e427a5f9ed45d4aba8cdbc3c7af26b, type: 2}
+    - {fileID: 11400000, guid: a10e2d3dc1e7de640b3d7679939dacd9, type: 2}
+    - {fileID: 11400000, guid: 3169cbb10bf37cd41ac62f85a77fe7f4, type: 2}
+    - {fileID: 11400000, guid: 4010a2e82791d224ca33912683c33e8a, type: 2}
+    - {fileID: 11400000, guid: 4c9d348951fcce545b7c9ada1f7e5991, type: 2}
+    - {fileID: 11400000, guid: deecc25ce0346954abbf505bdc67943c, type: 2}
+    - {fileID: 11400000, guid: a75825a0cb503c944a90424f49d40f09, type: 2}
+    - {fileID: 11400000, guid: cd0489a3b4bdf8140b31381b25fcce21, type: 2}
+    - {fileID: 11400000, guid: 8461483ea575e9f47bf6aad41b28ed1f, type: 2}
+    - {fileID: 11400000, guid: 01247d0d384d63a41be4401cb6988872, type: 2}
+    - {fileID: 11400000, guid: e261b1f600cfdfa4ab6e9020cfcb3641, type: 2}
+    - {fileID: 11400000, guid: 5b58c5476d3257047ace03e9693dd982, type: 2}
+    - {fileID: 11400000, guid: c2dae38e9656f504c8701a5298f1d713, type: 2}
+    - {fileID: 11400000, guid: 494440b2216a821489ddf641a3613ff3, type: 2}
+    - {fileID: 11400000, guid: cee555b5780f64941a683f6aed75e034, type: 2}
+    - {fileID: 11400000, guid: cdbfe5c512f51314b9c329cbb3c3201c, type: 2}
+    - {fileID: 11400000, guid: b7b69ab222bf8e244b9c889c31965d08, type: 2}
+    - {fileID: 11400000, guid: af542d471a96df640bc16eee89ecb31b, type: 2}
+    - {fileID: 11400000, guid: d9310fc70c69be3438c2874c72632a43, type: 2}
+    - {fileID: 11400000, guid: 3077bfe785f42d14f937fc94950ef84f, type: 2}
+    - {fileID: 11400000, guid: 8d5fc3f4e0571e54da596a2e98950cd4, type: 2}
+    - {fileID: 11400000, guid: e01304aaa7f45e9489eaf31231af7b5b, type: 2}
+    - {fileID: 11400000, guid: 160e2c0e205f77449b9df53ccd5937ed, type: 2}
+    - {fileID: 11400000, guid: 46784e6f51099d44a995d42fd4a7c00c, type: 2}
+    - {fileID: 11400000, guid: 0e57308618c27c640afe67be6fa4088d, type: 2}
+    - {fileID: 11400000, guid: 590fe081f0637b64b8f55843143b31be, type: 2}
+    - {fileID: 11400000, guid: 2beeb1e9060ef1340b5134a3e642f5fc, type: 2}
+    - {fileID: 11400000, guid: 31f563533e33bc94bb0139b75632d0c9, type: 2}
+    - {fileID: 11400000, guid: 592ad6af7ce4d5d4fb5a1b5a71f007d8, type: 2}
+    - {fileID: 11400000, guid: 40a4aa93e4c21be45bca4cdf8eb20384, type: 2}
+    - {fileID: 11400000, guid: ec5a4f2ba892d8b419462feecff3c074, type: 2}
+    - {fileID: 11400000, guid: ba81063f82b7444428a8fb755a0cca2b, type: 2}
+    - {fileID: 11400000, guid: 439c4197d8a5e0642820c789ac5e3f85, type: 2}
+    - {fileID: 11400000, guid: 7c4e51c5922ebc54eaa849168c32cac0, type: 2}
+    - {fileID: 11400000, guid: 43f4c40c8817ab54f83a2cf3bf07bc28, type: 2}
+    - {fileID: 11400000, guid: a9fe9a6eb6717c243ac8c6d51d52434b, type: 2}
+    - {fileID: 11400000, guid: 82f94ce30b44d0f4f85d844dbd5e8cb4, type: 2}
+    - {fileID: 11400000, guid: 343c9db2cf853a1498e8cc31909afcd4, type: 2}
+    - {fileID: 11400000, guid: 122932bac68985e46965f62d97dea6a2, type: 2}
+    - {fileID: 11400000, guid: 0c123184ca7bbbc49b76fed472edf87e, type: 2}
+    - {fileID: 11400000, guid: 61ff37da7ef87844fa4c25abcc8f2b9d, type: 2}
+    - {fileID: 11400000, guid: 6a9bf86a30d9332418b4a11a8eec791a, type: 2}
+    - {fileID: 11400000, guid: ec2e1eb3bf611ae47a7868720904c2b1, type: 2}
+    - {fileID: 11400000, guid: e8ec57d15eab2c2449d5df6964dd5852, type: 2}
+    - {fileID: 11400000, guid: 10c08d3827740054f8a1c6667bd844ab, type: 2}
+    - {fileID: 11400000, guid: 18fcb33bfea92ad46be058295f313b63, type: 2}
+    - {fileID: 11400000, guid: 7474bc5ee9b748f45a084161a9071649, type: 2}
+    - {fileID: 11400000, guid: d270f57e210356144b0d070c887e1174, type: 2}
+    - {fileID: 11400000, guid: 3b16447053b61b143ae65008cb808ca5, type: 2}
+    - {fileID: 11400000, guid: 793671c004e124e4b979db6ab2822433, type: 2}
+    - {fileID: 11400000, guid: 752e442c7e02e3e499e37edfc2a1ede4, type: 2}
+    - {fileID: 11400000, guid: 13795b9df43e4ba408304554a9192b91, type: 2}
+    - {fileID: 11400000, guid: 60d918585bdba024885193eecc8db8fa, type: 2}
+    - {fileID: 11400000, guid: b852cf9bd77d8b1428c5188476014876, type: 2}
+    - {fileID: 11400000, guid: 1b341a6f545cea841a55e30aec4de56c, type: 2}
+    - {fileID: 11400000, guid: 7a2fb7aea2a752f4fa3c8a9910060434, type: 2}
+    - {fileID: 11400000, guid: 2cd6e8c09d3b0044dad1ca937f09f92a, type: 2}
+    - {fileID: 11400000, guid: e40574278d56e8e4b9a086a3f012030b, type: 2}
+    - {fileID: 11400000, guid: 82b3fab1f3828124387e17159628dac8, type: 2}
+    - {fileID: 11400000, guid: 19257e7d42c8a7142a033cf6447ff352, type: 2}
+    - {fileID: 11400000, guid: 1e5894943b6b48f468eaac7278569084, type: 2}
+    - {fileID: 11400000, guid: 57e71183a96b2584cb62a6f56921129a, type: 2}
+    - {fileID: 11400000, guid: 63f735242cf266243a46acfbcad283c8, type: 2}
+    - {fileID: 11400000, guid: cd73f9e596b254e42996aaf3f10ed140, type: 2}
+    - {fileID: 11400000, guid: 61a41da5e6157b34aa936ecbba92573c, type: 2}
+    - {fileID: 11400000, guid: 1573fcb5cb5a69c45aae9677c410a7cb, type: 2}
+    - {fileID: 11400000, guid: f45960b0bcf505f4eaff3a432ea3c057, type: 2}
+    - {fileID: 11400000, guid: 90218f8cf2e3e10419024adfb02636b4, type: 2}
+    - {fileID: 11400000, guid: 422e14484cb3e584387614a5e813f4e4, type: 2}
+    - {fileID: 11400000, guid: 33810360454febc41813afb50ee9814b, type: 2}
+    - {fileID: 11400000, guid: c7594e035ab256946b3ee955fa4c0210, type: 2}
+    - {fileID: 11400000, guid: f526dba2a1308a9499ae366c6593740f, type: 2}
+    - {fileID: 11400000, guid: 51542f08015f3a34a9a327b4e4b93cfd, type: 2}
+    - {fileID: 11400000, guid: c7d48eb044bb28342b847ba52c4691c3, type: 2}
+    - {fileID: 11400000, guid: d30fdb5424582584697586858b82ed5f, type: 2}
+    - {fileID: 11400000, guid: 44b6d5bc4320e934599c75ce83de2dfc, type: 2}
+    - {fileID: 11400000, guid: b1266b1f6b3783e47a0595fd01575e53, type: 2}
+    - {fileID: 11400000, guid: e49060bf20c4d1549a793a92053c70cf, type: 2}
+    - {fileID: 11400000, guid: 35f6fb840335b2f4aa087f08b0052ccc, type: 2}
+    - {fileID: 11400000, guid: 701caa02122b13644b2cdab2342cc759, type: 2}
+    - {fileID: 11400000, guid: cc37ec8d347e84346b70fa0282a17f8b, type: 2}
+    - {fileID: 11400000, guid: e81a8607c02b36f47879f4f088709274, type: 2}
+    - {fileID: 11400000, guid: e5852adcd018c694a8e03b7485b4373a, type: 2}
+    - {fileID: 11400000, guid: 58e7f5efc9be1af4b89b0723c113a018, type: 2}
+    - {fileID: 11400000, guid: a96b1367353dec541a29e4de6cc5910d, type: 2}
+    - {fileID: 11400000, guid: 34cacfa0b35764a46b590ee5dd12fd3a, type: 2}
+    - {fileID: 11400000, guid: 5a8489e6538fcc341b4de35607e89759, type: 2}
+    - {fileID: 11400000, guid: 4f3062a3d99965a4a818f46fab448578, type: 2}
+    - {fileID: 11400000, guid: bd5a109f677833146953915354b0f9d8, type: 2}
+    - {fileID: 11400000, guid: 06427e531b0ecdf45a1988b904bb02d6, type: 2}
+    - {fileID: 11400000, guid: 591485736fcd8ad43a94c2b01af96535, type: 2}
+    - {fileID: 11400000, guid: cc2a1a7d1b52a724381faaea66dfafe1, type: 2}
+    - {fileID: 11400000, guid: 4087958e0e2c838428b20dcdcc23823a, type: 2}
+    - {fileID: 11400000, guid: 41c73b0e03aac644891868e96321989e, type: 2}
+    - {fileID: 11400000, guid: e0140181b96f0f3429d558705cab87f7, type: 2}
+    - {fileID: 11400000, guid: ac1087c642ca396458238a6c54db3125, type: 2}
+    - {fileID: 11400000, guid: ef6fd81faa6f8044d94dcf2b94238159, type: 2}
+    - {fileID: 11400000, guid: 5bbeced48337ad84cba1be9a4c9f0f23, type: 2}
+    - {fileID: 11400000, guid: 39ef2d4b5ed1e06428f74abccd768c1a, type: 2}
+    - {fileID: 11400000, guid: 4fda508a318c4314ebb503a87054b2fc, type: 2}
+    - {fileID: 11400000, guid: 4ce713efc3fd3864492fe6791e82cd0e, type: 2}
+    - {fileID: 11400000, guid: 3bc0cbbcc5d5a2f4184ddff4a332acbf, type: 2}
+    - {fileID: 11400000, guid: a0c7bf3958286c54896c0dc70c10c6df, type: 2}
+    - {fileID: 11400000, guid: 09af5f9b22def814894811eeb1cfa271, type: 2}
+    - {fileID: 11400000, guid: e28be03d77b753a4584f5c03d8f2d15a, type: 2}
+    - {fileID: 11400000, guid: efe9166e5d379094e8a2e72c973106d5, type: 2}
+    - {fileID: 11400000, guid: bd6684517071df44fa69ca8b176b1851, type: 2}
+    - {fileID: 11400000, guid: 104e4cb791623f649b36195a9ca71c1c, type: 2}
+    - {fileID: 11400000, guid: 6194ae0c824195e43b3e076fc0ab77aa, type: 2}
+    - {fileID: 11400000, guid: f2f275d136b79c54aa493ce285e0792c, type: 2}
+    - {fileID: 11400000, guid: b6b9647ce56e81a4d8afaaa656aa85e1, type: 2}
+    - {fileID: 11400000, guid: 70b8aff9a6ccb7c439b817e1f17fb0ae, type: 2}
+    - {fileID: 11400000, guid: c1069d8ad48369247a8e9c4b3a8568f9, type: 2}
+    - {fileID: 11400000, guid: 4e9dd36a8c2a1fc48ad30a2672f25cbf, type: 2}
+    - {fileID: 11400000, guid: 15df84c0912a8144eb181800548e3f0d, type: 2}
+    - {fileID: 11400000, guid: b22bf1dea08bef34cb2037ccf7bca885, type: 2}
+    - {fileID: 11400000, guid: d9c636aa11cb7364fa1f45f8ed389351, type: 2}
+    - {fileID: 11400000, guid: f6d69f608bfc9554f9d43efea9ebb549, type: 2}
+    - {fileID: 11400000, guid: d5581fa59819fee41b728e6e2aecd80f, type: 2}
+    - {fileID: 11400000, guid: a8c98c3ba4834bc46b47a6d2752da568, type: 2}
+    - {fileID: 11400000, guid: c00c5d814f8a5ee419c19f94ceb6965c, type: 2}
+    - {fileID: 11400000, guid: b930017e253a50141b20232581795e01, type: 2}
+    - {fileID: 11400000, guid: 92af707622c22e34e8a8c70bc5be4a66, type: 2}
+    - {fileID: 11400000, guid: 9c1a6447b81cc2741afc89455000ec9d, type: 2}
+    - {fileID: 11400000, guid: 1878e433fdce2d24d92a354e20fb3e14, type: 2}
+    - {fileID: 11400000, guid: 937f5905afa697146b362acdbca8a80e, type: 2}
+    - {fileID: 11400000, guid: 145b26757a51cb64f8301448f1365476, type: 2}
+    - {fileID: 11400000, guid: 5422998f7d8f8544fa362a80cbbc28be, type: 2}
+    - {fileID: 11400000, guid: 05f3fe4fb6c200f45a7855cdeb9ed36d, type: 2}
+    - {fileID: 11400000, guid: 5417f2a706426f244b5be460d8d3dc27, type: 2}
+    - {fileID: 11400000, guid: 3bc21f4c8d2a07046a454669a94a113b, type: 2}
+    - {fileID: 11400000, guid: 6b3935ea5bfcd804f8cdfc372935068d, type: 2}
+    - {fileID: 11400000, guid: c85a297047fe0a04c9a1c2f441f0ab55, type: 2}
+    - {fileID: 11400000, guid: a66655dc81e394b43abae3768a5684fd, type: 2}
+    - {fileID: 11400000, guid: 40695344ca394ee42ba651c6527edab3, type: 2}
+    - {fileID: 11400000, guid: b194542f90e81ea4ab437f4664c7cee5, type: 2}
+    - {fileID: 11400000, guid: 76f4533000ce7134387e23a75ac897db, type: 2}
+    - {fileID: 11400000, guid: 30dc69a6a3f811044b1fbd957d28a51d, type: 2}
+    - {fileID: 11400000, guid: 0f5f4d5d1f08eec4eb73e145c0a13274, type: 2}
+    - {fileID: 11400000, guid: ab7605628dbd2a742a2d3cc833bed75f, type: 2}
+    - {fileID: 11400000, guid: 252f02b0cedf4794c9dee65705bcc816, type: 2}
+    - {fileID: 11400000, guid: 4e93f8ea1c204d24ab433b370a93acc8, type: 2}
+    - {fileID: 11400000, guid: 39324c8df6b987747b73311b0ba3de17, type: 2}
+    - {fileID: 11400000, guid: 5dc894f8022e02c4fa36d41a135a713b, type: 2}
+    - {fileID: 11400000, guid: 42957c107e2b9054dafdeaa37ab581d5, type: 2}
+    - {fileID: 11400000, guid: e061968ec898ac345863a9854ab87668, type: 2}
+    - {fileID: 11400000, guid: f95082d4cd298b443bbc90b59539be8f, type: 2}
+    - {fileID: 11400000, guid: 824495024ba96ed40a55ce6a29a77443, type: 2}
+    - {fileID: 11400000, guid: 852ab827b15861c438710161eebc7a24, type: 2}
+    - {fileID: 11400000, guid: 66583c8c2af4eb74e82a20442db82392, type: 2}
+    - {fileID: 11400000, guid: e18ace2bc228ed345a7d75522e5a2582, type: 2}
+    - {fileID: 11400000, guid: 23bbc9dad1e2e2f4b95b734353c8281a, type: 2}
+    - {fileID: 11400000, guid: 6014519ebb137154f96dfcccb190ec8e, type: 2}
+    - {fileID: 11400000, guid: a64802805e8cff941893da0c907ef31d, type: 2}
+    - {fileID: 11400000, guid: 5ed829cac5228e447a62ef3a38d23d85, type: 2}
+    - {fileID: 11400000, guid: 23750ed8eeef64047aa160e014a58556, type: 2}
+    - {fileID: 11400000, guid: 12e7f27d3f29f1c49b65055435a3e69b, type: 2}
+    - {fileID: 11400000, guid: 7a7dd651becd165459783c508984c6de, type: 2}
+    - {fileID: 11400000, guid: 281bc6448a4819143a4ead3c743e2fd5, type: 2}
+    - {fileID: 11400000, guid: 874a98d80cc22ac4398f204e800ddf88, type: 2}
+    - {fileID: 11400000, guid: 252276296ed3a624185fd00afac16eac, type: 2}
+    - {fileID: 11400000, guid: 7921c6960d90dec48ace86c7110cef1e, type: 2}
+    - {fileID: 11400000, guid: 095576db80b1fda45b9d9980fa41b987, type: 2}
+    - {fileID: 11400000, guid: ceda2100d332254429d5480a1b4d4aa8, type: 2}
+    - {fileID: 11400000, guid: 6cb166be95fb15d46b4ea28dff79584a, type: 2}
+    - {fileID: 11400000, guid: 1c99ed273308689438bfdfd3d4256736, type: 2}
+    - {fileID: 11400000, guid: 404b04b313861bc4fb28775567501082, type: 2}
+    - {fileID: 11400000, guid: 26e3e1239857b65409cae7c9ac796679, type: 2}
+    - {fileID: 11400000, guid: fc1e337bce0ae2f4ba5db02dbd66ee49, type: 2}
+    - {fileID: 11400000, guid: 71dc8d6263256494f8e488adde2246b6, type: 2}
+    - {fileID: 11400000, guid: 540b82d719e4406449839ed717c8aa2b, type: 2}
+    - {fileID: 11400000, guid: d2b5a614cb72fb3418fb63afa6c3da37, type: 2}
+    - {fileID: 11400000, guid: 8041ce7c7083627478caf1cdd26bad95, type: 2}
+    - {fileID: 11400000, guid: 35160f52ad394944aa6b09f455d6bcaf, type: 2}
+    - {fileID: 11400000, guid: ce2d80c0e297c03498d6319669bcbb4e, type: 2}
+    - {fileID: 11400000, guid: 66ef417857601ac46b42240f1e7bc058, type: 2}
+    - {fileID: 11400000, guid: bf697c508c5aaec41b5cfe579b339096, type: 2}
+    - {fileID: 11400000, guid: 4eb1b4758345ab647a47b6d7b6933ce2, type: 2}
+    - {fileID: 11400000, guid: e607b845c2e302743848b325bc070dc5, type: 2}
+    - {fileID: 11400000, guid: 572a7b6accadbf24caa4ca13bb0ad4ac, type: 2}
+    - {fileID: 11400000, guid: d82e377ff6d7fb841bd8c2b2563e018b, type: 2}
+    - {fileID: 11400000, guid: f01588ab8c8faf44880ffc4fe731cdc5, type: 2}
+    - {fileID: 11400000, guid: a23be80026b22cf4488de87f2feb5599, type: 2}
+    - {fileID: 11400000, guid: 4963ddf6e03064f4ea5e7dce90fdb015, type: 2}
+    - {fileID: 11400000, guid: 8724bb05f1cfc9d45a08f2b29eaa2c17, type: 2}
+    - {fileID: 11400000, guid: b9534a06c40a9a9439f5db6eb7433554, type: 2}
+    - {fileID: 11400000, guid: deae09b6dcc4b2540ae9fb9773c725af, type: 2}
+    - {fileID: 11400000, guid: b224104a23808054388bf7433ed40611, type: 2}
+    - {fileID: 11400000, guid: d9c6ae1545a65f44ba29f66e9affe58e, type: 2}
+    - {fileID: 11400000, guid: a59b48455caebfb47a31e1d4d41d487a, type: 2}
+    - {fileID: 11400000, guid: 23dc856c791fd544d8199c798d3f2d1d, type: 2}
+    - {fileID: 11400000, guid: 273a878b3a219424fa0c98e2193071b3, type: 2}
+    - {fileID: 11400000, guid: a5cc0c9b58ca26b468d32a1c2856c4fd, type: 2}
+    - {fileID: 11400000, guid: b5abf374d69149740881c619bc289d7a, type: 2}
+    - {fileID: 11400000, guid: 2169e0f4efd2ec744919d653399c0557, type: 2}
+    - {fileID: 11400000, guid: f4d369dca1605d3489aa99f3ba838e53, type: 2}
+    - {fileID: 11400000, guid: cab4158eb53cce14680cd8924f98f17e, type: 2}
+    - {fileID: 11400000, guid: 3e59cef706857284884dde1ad40566cf, type: 2}
+    - {fileID: 11400000, guid: 9297fccb6b2881048aae5b9433380c35, type: 2}
+    - {fileID: 11400000, guid: 4225042d5bb372e438fb20232138bc8b, type: 2}
+    - {fileID: 11400000, guid: 543ca84233670d046b853df5063cfa19, type: 2}
+    - {fileID: 11400000, guid: 1f72d1edbc4cfad4aa4d4aa615d0d7a2, type: 2}
+    - {fileID: 11400000, guid: 05a4aa9d5c2c4e647b9a3dcb7f3f2606, type: 2}
+    - {fileID: 11400000, guid: 8cac8d597875bf44482d262350e28762, type: 2}
+    - {fileID: 11400000, guid: 8c05b5fdaae134642966c3e0eae5dfe5, type: 2}
+    - {fileID: 11400000, guid: b7c0a27da9e85d34ebffae4e0c9925ed, type: 2}
+    - {fileID: 11400000, guid: c3000539e539e5a46a095b52b02a2b39, type: 2}
+    - {fileID: 11400000, guid: 4bcacaf5cba193c408862146d245a3e5, type: 2}
+    - {fileID: 11400000, guid: b8f9305409642074cb385348ffe8d980, type: 2}
+    - {fileID: 11400000, guid: 466d199bb0447a94abd795b59fd9d88c, type: 2}
+    - {fileID: 11400000, guid: b3d8c64a322f71f43abb1c9402e1005d, type: 2}
+    - {fileID: 11400000, guid: 8e6f2fa4d2f896340bc4f60226c866af, type: 2}
+    - {fileID: 11400000, guid: f4173939615ea4243a5e37a1b4f7a095, type: 2}
+    - {fileID: 11400000, guid: 8293c5cb6dd75dd41b7a78e31df2c03f, type: 2}
+    - {fileID: 11400000, guid: 5a16a138d0336c14fb835483a85a509a, type: 2}
+    - {fileID: 11400000, guid: bf80c14a57c1a6849bd4f97518e235f6, type: 2}
+    - {fileID: 11400000, guid: 32c04c7cb34b72b4f9e40bbdac9659b1, type: 2}
+    - {fileID: 11400000, guid: f63f10d5ff7c6b7459b29e7a2626771e, type: 2}
+    - {fileID: 11400000, guid: 015b6fb0bf47bb545b5c1147a17cac99, type: 2}
+    - {fileID: 11400000, guid: 466530e9c6062144fa41c879e6343f1e, type: 2}
+    - {fileID: 11400000, guid: 06ba30f62f411c541b23a0360a652ce3, type: 2}
+    - {fileID: 11400000, guid: 21a12e579080a6e48967ddd90074da0d, type: 2}
+    - {fileID: 11400000, guid: d219e129a12f8a348b882e7b8016bd3b, type: 2}
+    - {fileID: 11400000, guid: 754531018acc8094d81bde13bdf80f7a, type: 2}
+    - {fileID: 11400000, guid: ade7ebdf67c1bbf4ab1eaf88378bf76e, type: 2}
+    - {fileID: 11400000, guid: d6d05fbc7951d3149a4834b9ed6aad4a, type: 2}
+    - {fileID: 11400000, guid: 43afee482c29721458288a4958d4afcc, type: 2}
+    - {fileID: 11400000, guid: 40c5e327d5936914fa8db2c67a07d6eb, type: 2}
+    - {fileID: 11400000, guid: b3eea9b74d0037d4f8fb7533cfe56dda, type: 2}
+    - {fileID: 11400000, guid: 7f948209fc5425a4d9e921dfedaef0ae, type: 2}
+    - {fileID: 11400000, guid: ab263c74b101805429591caa977d5287, type: 2}
+    - {fileID: 11400000, guid: 4481496ffb1d4a04fad82bba6e2cf5e7, type: 2}
+    - {fileID: 11400000, guid: 954b613d60b262e499b1ee68dae60b9a, type: 2}
+    - {fileID: 11400000, guid: 84e53a7f546156f4180746ab11799d19, type: 2}
+    - {fileID: 11400000, guid: cfe876642b74bbb42b7fb3b0d7c8af1c, type: 2}
+    - {fileID: 11400000, guid: 688cf9413d64c9041aa6cf061a305681, type: 2}
+    - {fileID: 11400000, guid: 12c2a5c51b8a5e141b4928936d003690, type: 2}
+    - {fileID: 11400000, guid: 4022a58d3f8ef404e854188f9756927e, type: 2}
+    - {fileID: 11400000, guid: 3b6a6ced353a76b429cea3c719e9aa6e, type: 2}
+    - {fileID: 11400000, guid: d59223c5402a21842ba7b7818bf740ac, type: 2}
+    - {fileID: 11400000, guid: b418a9001c33210489ab0538ff3cdc16, type: 2}
+    - {fileID: 11400000, guid: a642a2a3465bb3f4b9b794f15604b737, type: 2}
+    - {fileID: 11400000, guid: edc0625df36c8164bb1b355faae9bf76, type: 2}
+    - {fileID: 11400000, guid: b09a625da97758845bec980cfa328b32, type: 2}
+    - {fileID: 11400000, guid: 9ad1cee28150e2b448512554d8de5663, type: 2}
+    - {fileID: 11400000, guid: 892929a195adfa7469d4910a7382f38c, type: 2}
+    - {fileID: 11400000, guid: 386b598f86a738b419d991eefed9254a, type: 2}
+    - {fileID: 11400000, guid: f2879d1fcebbbb540953ccd035fa89e9, type: 2}
+    - {fileID: 11400000, guid: 82e933f0685ba3540addca485c474346, type: 2}
+    - {fileID: 11400000, guid: 64f6afb028bab5c4fb4dac0eda918b3a, type: 2}
+    - {fileID: 11400000, guid: e36c7d00f672d044db6fc05457f87164, type: 2}
+    - {fileID: 11400000, guid: ec5fd94c908cd3f40abc23b821f145a3, type: 2}
+    - {fileID: 11400000, guid: 29b599d2b7461c24589ca74c8178306a, type: 2}
+    - {fileID: 11400000, guid: da69c49037537224bbced90d8b6aa174, type: 2}
+    - {fileID: 11400000, guid: 1dfb5f5b5f142cc409b118115b8359ae, type: 2}
+    - {fileID: 11400000, guid: 1437434c6e92cea4daabf54f57df43d0, type: 2}
+    - {fileID: 11400000, guid: 31adc304f38f3ae41ad21ab6c5d1fba1, type: 2}
+    - {fileID: 11400000, guid: b6c5e75f746e5244291e5add78f53831, type: 2}
+    - {fileID: 11400000, guid: 3b68246e9dd98f540b6b8e28e31092b1, type: 2}
+    - {fileID: 11400000, guid: e1d57f949ea34ba469c9aaca8cec5d89, type: 2}
+    - {fileID: 11400000, guid: a08052ad8c04e0646966c01a1db68d96, type: 2}
+    - {fileID: 11400000, guid: d997a25953b7700449755faa32677e12, type: 2}
+    - {fileID: 11400000, guid: 219feff6c407cc049b75caab0d97bd2c, type: 2}
+    - {fileID: 11400000, guid: a97c2314648a86941a6f799ef244089c, type: 2}
+    - {fileID: 11400000, guid: 4961da8dae9c5694f9b186659cb40e62, type: 2}
+    - {fileID: 11400000, guid: 16f67f5da113d634b88e8f2dacc0fb68, type: 2}
+    - {fileID: 11400000, guid: 6062562a030d12d4baed60297b849246, type: 2}
+    - {fileID: 11400000, guid: 9eff20e689663ec48b3a766ccab26863, type: 2}
+    - {fileID: 11400000, guid: 4d3a2da93cc1c6946b7862b718c65c9f, type: 2}
+    - {fileID: 11400000, guid: 82885e5f1f35e9e48bded290dedf6596, type: 2}
+    - {fileID: 11400000, guid: c9eb2db05cc5c42408d9407bf176ae71, type: 2}
+    - {fileID: 11400000, guid: 855cf253e7aa93e498ecf2f57ab0236c, type: 2}
+    - {fileID: 11400000, guid: d89e3ea24f7bcca48892396815ec41de, type: 2}
+    - {fileID: 11400000, guid: c536bb9d0a6d9dd4e9d80292c003b1cd, type: 2}
+    - {fileID: 11400000, guid: 35dabf0f9dca5b04b90e66c5d31af98b, type: 2}
+    - {fileID: 11400000, guid: 8736b12c2278d9f4c98d5d2c991661c4, type: 2}
+    - {fileID: 11400000, guid: 187ee3bb4f59dd4429e0b2bb7bf61899, type: 2}
+    - {fileID: 11400000, guid: 449cb85b2d5d60d4fa4d94450408e237, type: 2}
+    - {fileID: 11400000, guid: 9aa88ed14a18ad3488d71bc17cf1d5ca, type: 2}
+    - {fileID: 11400000, guid: 6ed0111313caaf94fbf8d5699b8dca21, type: 2}
+    - {fileID: 11400000, guid: 2d6247d6702bad64dbbafdd20e04331c, type: 2}
+    - {fileID: 11400000, guid: 06f362646ef3e064ab187443bddfca0c, type: 2}
+    - {fileID: 11400000, guid: abfcec678080de446938c059bad822d9, type: 2}
+    - {fileID: 11400000, guid: ea7b67d246e2d1444b9bd7422b469a85, type: 2}
+    - {fileID: 11400000, guid: 387f48a92f1632647a65fb0c851f3cf7, type: 2}
+    - {fileID: 11400000, guid: 6cef3137281f00343859b450a2919846, type: 2}
+    - {fileID: 11400000, guid: 4534afeb0d2f4304ab44ee6456215271, type: 2}
+    - {fileID: 11400000, guid: 2deb87d30e1d5eb49bb71f18d6f2955e, type: 2}
+    - {fileID: 11400000, guid: 43ee25078838fd741894a47007682044, type: 2}
+    - {fileID: 11400000, guid: b9924d322d2187f47a3480c5300c2fa7, type: 2}
+    - {fileID: 11400000, guid: 84ba726090fbe5b43b46eb9a68d33a65, type: 2}
+    - {fileID: 11400000, guid: dc531dced616e674b822f983b37f3794, type: 2}
+    - {fileID: 11400000, guid: 30cca02d755bc7c44bdb104685ddb6f3, type: 2}
+    - {fileID: 0}
+  _allLevelDataWithAdditionals:
+    _levelDataWithAdditionals:
+    - _levelId:
+      _duration: 0
+      _minDuration: 0
+      _hardness: 0
+    - _levelId: c0ae24d0-c79e-4eaf-ba41-33f36b205f7d
+      _duration: 300
+      _minDuration: 5
+      _hardness: 0
+    - _levelId: ef63d451-a590-4e98-a494-68cf9503ac97
+      _duration: 300
+      _minDuration: 5
+      _hardness: 0
+    - _levelId: 58e0d42b-128a-4a9d-b7c3-cd427799bd97
+      _duration: 300
+      _minDuration: 5
+      _hardness: 0
+    - _levelId: 1725e4c7-4b0f-4aff-b21f-57aec888d896
+      _duration: 300
+      _minDuration: 10
+      _hardness: 0
+    - _levelId: 7c275971-8e1d-4726-8211-4c2bb06ba355
+      _duration: 300
+      _minDuration: 10
+      _hardness: 0
+    - _levelId: 0a2f6c23-ce7f-45c4-81e7-a4b99ec20b2c
+      _duration: 300
+      _minDuration: 10
+      _hardness: 0
+    - _levelId: 40a764e0-14b9-4ac9-b439-0f0f914cb328
+      _duration: 300
+      _minDuration: 15
+      _hardness: 0
+    - _levelId: 3c58d44f-e16e-4ea0-94a3-3bd366d89b57
+      _duration: 300
+      _minDuration: 40
+      _hardness: 0
+    - _levelId: f318ee10-a802-41a6-ac25-451417bceafa
+      _duration: 180
+      _minDuration: 30
+      _hardness: 0
+    - _levelId: 1e2059f8-405b-44bf-aa18-cc2939ea38b5
+      _duration: 60
+      _minDuration: 10
+      _hardness: 0
+    - _levelId: d8b1e2af-262b-42ff-9dca-eb7dd6a2e5a1
+      _duration: 100
+      _minDuration: 45
+      _hardness: 0
+    - _levelId: cb4b2c35-cae9-4f91-918d-85a9cb938659
+      _duration: 75
+      _minDuration: 25
+      _hardness: 0
+    - _levelId: 0afe5c8c-334e-4954-bf8a-22cb74af5a9e
+      _duration: 150
+      _minDuration: 40
+      _hardness: 0
+    - _levelId: 9cc25b89-3b9d-4c03-8af3-40c6fda38f0a
+      _duration: 120
+      _minDuration: 35
+      _hardness: 1
+    - _levelId: a467fc02-02d0-4d95-867f-ca0685deb536
+      _duration: 100
+      _minDuration: 45
+      _hardness: 0
+    - _levelId: 7d2130f2-824e-48b6-baf5-b04227377452
+      _duration: 80
+      _minDuration: 35
+      _hardness: 0
+    - _levelId: f508f68b-e0df-409b-b221-578208f76061
+      _duration: 120
+      _minDuration: 50
+      _hardness: 0
+    - _levelId: 229b8206-0b5c-47f9-8007-b2e60d0b3957
+      _duration: 120
+      _minDuration: 65
+      _hardness: 1
+    - _levelId: 48160a52-d055-4f6f-97f2-9f79753a1d8a
+      _duration: 100
+      _minDuration: 40
+      _hardness: 0
+    - _levelId: 1efa2e3c-6ac1-4e64-864c-ea557a20f407
+      _duration: 140
+      _minDuration: 65
+      _hardness: 1
+    - _levelId: 48bc4afa-3688-49c3-aaff-5d9387e312e9
+      _duration: 100
+      _minDuration: 65
+      _hardness: 1
+    - _levelId: 7e156907-2640-462a-bb97-7ec56657e235
+      _duration: 90
+      _minDuration: 30
+      _hardness: 0
+    - _levelId: 94d61224-2edc-4708-adbc-12571f47aa4b
+      _duration: 100
+      _minDuration: 70
+      _hardness: 0
+    - _levelId: bcc1f047-99f7-41da-b88c-6fd0e5394623
+      _duration: 150
+      _minDuration: 85
+      _hardness: 1
+    - _levelId: dc425097-ca28-452c-9931-c8e7200762e6
+      _duration: 85
+      _minDuration: 10
+      _hardness: 0
+    - _levelId: 2e86ac1f-a712-4f97-9054-226b88acd70a
+      _duration: 100
+      _minDuration: 50
+      _hardness: 0
+    - _levelId: 7d14fe35-6239-4e93-99e0-7b2849fe1492
+      _duration: 130
+      _minDuration: 30
+      _hardness: 0
+    - _levelId: 3a21dc2a-95ed-42b1-aa96-24af7ffae92a
+      _duration: 120
+      _minDuration: 50
+      _hardness: 0
+    - _levelId: 648d6ef2-8c27-4583-8fca-4e03d8e16557
+      _duration: 170
+      _minDuration: 90
+      _hardness: 1
+    - _levelId: 7bf81a57-669f-4969-a86f-44e1c99a4c72
+      _duration: 200
+      _minDuration: 160
+      _hardness: 1
+    - _levelId: ad8c6c0e-f2cf-41b9-b6e8-fcf8008c481e
+      _duration: 100
+      _minDuration: 45
+      _hardness: 2
+    - _levelId: 96b8ad13-5f4c-454a-ac4e-4e4332c55c05
+      _duration: 90
+      _minDuration: 45
+      _hardness: 0
+    - _levelId: 21d3d868-2581-4ab1-aad0-8d77f23cb68c
+      _duration: 80
+      _minDuration: 35
+      _hardness: 0
+    - _levelId: aca64fc4-ef77-4f3d-af93-a9cb1b79803d
+      _duration: 120
+      _minDuration: 75
+      _hardness: 2
+    - _levelId: eb4861b6-f71a-4e1f-a43e-feb3af2bd03f
+      _duration: 60
+      _minDuration: 10
+      _hardness: 0
+    - _levelId: 5671a3c3-e850-45a7-bd0c-98a4af0daaa7
+      _duration: 110
+      _minDuration: 30
+      _hardness: 0
+    - _levelId: 9ca4182f-1ad0-4e57-a8b8-fec33521ab87
+      _duration: 115
+      _minDuration: 55
+      _hardness: 1
+    - _levelId: 12b67cd4-da50-49ad-9952-78d35abac0a7
+      _duration: 170
+      _minDuration: 50
+      _hardness: 0
+    - _levelId: d06da23f-91e6-4192-b734-1d869a565235
+      _duration: 210
+      _minDuration: 110
+      _hardness: 2
+    - _levelId: fa263821-cfc3-4685-b39a-4d5dafeeb0ba
+      _duration: 240
+      _minDuration: 125
+      _hardness: 1
+    - _levelId: 654ac917-3986-40d2-9344-0a37639e7a63
+      _duration: 130
+      _minDuration: 85
+      _hardness: 2
+    - _levelId: df5becc8-31b0-4e97-bb91-8600cbe29f77
+      _duration: 150
+      _minDuration: 60
+      _hardness: 0
+    - _levelId: 46e218d6-c56e-473a-828c-59be1f45b1e5
+      _duration: 120
+      _minDuration: 95
+      _hardness: 1
+    - _levelId: af72ed77-ba03-4aa9-b00f-4d1033d0c5e2
+      _duration: 160
+      _minDuration: 65
+      _hardness: 0
+    - _levelId: b6dae09a-c5e7-4981-8cf3-b44188c6cd9b
+      _duration: 180
+      _minDuration: 75
+      _hardness: 0
+    - _levelId: 69526d2c-1602-43b5-8d5a-b7873ccb1e42
+      _duration: 120
+      _minDuration: 105
+      _hardness: 2
+    - _levelId: 760c42b2-c852-4e15-b5a0-2da7165eb1e5
+      _duration: 120
+      _minDuration: 60
+      _hardness: 1
+    - _levelId: 513bfa94-b956-4f1e-9808-001ab0d5058a
+      _duration: 200
+      _minDuration: 115
+      _hardness: 0
+    - _levelId: 015926e1-6cdf-4ee2-b015-f734f628c20d
+      _duration: 200
+      _minDuration: 100
+      _hardness: 0
+    - _levelId: 1ff2fc50-a679-4cf4-9655-0b1e6d641a4f
+      _duration: 200
+      _minDuration: 95
+      _hardness: 0
+    - _levelId: fd9c2f54-c09a-4138-aad4-c7863f56ae3b
+      _duration: 250
+      _minDuration: 160
+      _hardness: 2
+    - _levelId: 7e9eca59-ed6d-416b-b938-f42a7557ed01
+      _duration: 120
+      _minDuration: 25
+      _hardness: 0
+    - _levelId: 6a5c5d12-3a1d-4697-96c2-3188844e43a5
+      _duration: 120
+      _minDuration: 55
+      _hardness: 0
+    - _levelId: c26d9a8e-a76f-4373-8928-092b296e27f9
+      _duration: 120
+      _minDuration: 65
+      _hardness: 0
+    - _levelId: 7b6c8d7a-42ff-4686-8148-8b889cf968d8
+      _duration: 150
+      _minDuration: 85
+      _hardness: 0
+    - _levelId: 321615fd-0f7a-4302-ae04-993398561a87
+      _duration: 120
+      _minDuration: 80
+      _hardness: 1
+    - _levelId: f8285a82-3d2a-4790-b5dc-a7af7dc6ee23
+      _duration: 90
+      _minDuration: 50
+      _hardness: 0
+    - _levelId: 2cc890c7-4c28-4ee2-a348-eb9b991b05c2
+      _duration: 230
+      _minDuration: 175
+      _hardness: 2
+    - _levelId: 5f4c958d-76eb-4f66-97e0-192a351ec3df
+      _duration: 120
+      _minDuration: 80
+      _hardness: 1
+    - _levelId: 883d84b7-4b80-47a5-ac1b-38af578d9b2a
+      _duration: 100
+      _minDuration: 40
+      _hardness: 0
+    - _levelId: 0663583b-6169-45e4-9748-0085ae1c11b9
+      _duration: 90
+      _minDuration: 35
+      _hardness: 0
+    - _levelId: 7662b871-b485-4290-9f60-4c0f9e015092
+      _duration: 150
+      _minDuration: 75
+      _hardness: 0
+    - _levelId: 4e38dd7d-3a36-4e0c-98ee-514c2ab3174a
+      _duration: 135
+      _minDuration: 55
+      _hardness: 0
+    - _levelId: 3cd4a0fa-666b-4366-a24b-12e64f57ad1b
+      _duration: 170
+      _minDuration: 110
+      _hardness: 1
+    - _levelId: 84f30b0b-cbbe-4a01-a8a6-2fa8fb74d430
+      _duration: 100
+      _minDuration: 55
+      _hardness: 1
+    - _levelId: 17cb266f-f596-4f34-8539-d281aa72f5cc
+      _duration: 150
+      _minDuration: 75
+      _hardness: 0
+    - _levelId: c403bb72-e462-4fe7-95b6-60c6d59393ea
+      _duration: 100
+      _minDuration: 50
+      _hardness: 0
+    - _levelId: f41d87de-0440-4fbd-8b07-7c350c0160e1
+      _duration: 120
+      _minDuration: 75
+      _hardness: 0
+    - _levelId: 8f808c9c-e0a7-4086-ad30-9874ea0929ee
+      _duration: 120
+      _minDuration: 85
+      _hardness: 2
+    - _levelId: d8ad49f4-d76a-410c-84fc-17b5f550ff77
+      _duration: 120
+      _minDuration: 20
+      _hardness: 0
+    - _levelId: d4b193d5-748b-4381-8119-395ab7a1e130
+      _duration: 130
+      _minDuration: 40
+      _hardness: 0
+    - _levelId: 332b3dfb-a079-4d1f-89c5-20f4cb9c18a9
+      _duration: 130
+      _minDuration: 35
+      _hardness: 1
+    - _levelId: f0cdcccb-148d-4bec-ad1c-a7afdead2caf
+      _duration: 130
+      _minDuration: 35
+      _hardness: 0
+    - _levelId: 1681c405-9153-4574-9901-48c902653261
+      _duration: 130
+      _minDuration: 40
+      _hardness: 1
+    - _levelId: 25115108-8d33-4602-b8a4-141c1fe85f2d
+      _duration: 130
+      _minDuration: 55
+      _hardness: 0
+    - _levelId: 507eb7dc-812f-4b9c-9bbc-1760411d821e
+      _duration: 100
+      _minDuration: 40
+      _hardness: 0
+    - _levelId: e52028b7-4ea6-46af-a0f7-10fdc25420b1
+      _duration: 180
+      _minDuration: 100
+      _hardness: 0
+    - _levelId: 36c36827-6493-46c6-a1a2-ac021068082e
+      _duration: 130
+      _minDuration: 60
+      _hardness: 0
+    - _levelId: d4fd798d-b4ab-4b26-b782-ab18503ced0b
+      _duration: 220
+      _minDuration: 125
+      _hardness: 0
+    - _levelId: 6e7ea745-fb30-498e-b5b6-0d10f92929c4
+      _duration: 130
+      _minDuration: 65
+      _hardness: 2
+    - _levelId: 35f2c5c7-ebea-45bb-a43f-722cbc255a5d
+      _duration: 150
+      _minDuration: 75
+      _hardness: 0
+    - _levelId: 00bbf80e-f8b1-41b6-a2c5-25bb9e0fadd9
+      _duration: 180
+      _minDuration: 105
+      _hardness: 0
+    - _levelId: 638cbde4-734c-4b95-95eb-ad3b44faab18
+      _duration: 70
+      _minDuration: 30
+      _hardness: 0
+    - _levelId: e2f40eef-bebc-41e8-9580-9458e6f4f6a3
+      _duration: 275
+      _minDuration: 135
+      _hardness: 1
+    - _levelId: 1868f646-908c-4cfe-b6f4-fdc4241666ba
+      _duration: 120
+      _minDuration: 105
+      _hardness: 2
+    - _levelId: e5d06397-755d-4691-a9ec-7496b7a4b3ee
+      _duration: 90
+      _minDuration: 50
+      _hardness: 0
+    - _levelId: 704e66a6-f02b-44ca-a79c-969338b4b5a1
+      _duration: 80
+      _minDuration: 55
+      _hardness: 0
+    - _levelId: 84729b97-e209-4a9b-b826-a228430f26ab
+      _duration: 170
+      _minDuration: 135
+      _hardness: 2
+    - _levelId: 28dd962c-de5b-4ec3-bce9-2bfd52b693a7
+      _duration: 100
+      _minDuration: 65
+      _hardness: 1
+    - _levelId: 94a3c168-a173-44e7-bb31-14880cd3047f
+      _duration: 120
+      _minDuration: 95
+      _hardness: 2
+    - _levelId: f53d4beb-d560-4775-9ecb-7aa4d54ce859
+      _duration: 100
+      _minDuration: 40
+      _hardness: 0
+    - _levelId: f9ef825c-2225-4dbc-8134-b5dd0b7303e5
+      _duration: 60
+      _minDuration: 45
+      _hardness: 2
+    - _levelId: 64793129-4ece-40ed-bffd-5af38f054d68
+      _duration: 110
+      _minDuration: 40
+      _hardness: 0
+    - _levelId: 2ab78eeb-d0fb-4f8c-94ef-bcb7cf3af560
+      _duration: 115
+      _minDuration: 50
+      _hardness: 0
+    - _levelId: 953d3419-faff-4103-a7c4-1728dfd28f3c
+      _duration: 130
+      _minDuration: 90
+      _hardness: 1
+    - _levelId: 0c67f7a7-455c-42e7-bb5c-2071ffa40264
+      _duration: 70
+      _minDuration: 30
+      _hardness: 0
+    - _levelId: 0261618a-70cb-4954-b24d-c4435aeae2c3
+      _duration: 75
+      _minDuration: 35
+      _hardness: 0
+    - _levelId: cd19c472-c5fc-434e-9387-1e3261d736bc
+      _duration: 115
+      _minDuration: 85
+      _hardness: 2
+    - _levelId: 965e91ad-e262-4fee-a26f-30c46e025734
+      _duration: 60
+      _minDuration: 35
+      _hardness: 0
+    - _levelId: 1af2a4d3-0945-4cbf-81aa-ecce7fe60a89
+      _duration: 110
+      _minDuration: 60
+      _hardness: 0
+    - _levelId: 1cb55c0c-b1a6-42e1-bb04-be0c821fa384
+      _duration: 115
+      _minDuration: 35
+      _hardness: 1
+    - _levelId: 9c551e84-41db-4a02-9b64-4ec6aaedc3bf
+      _duration: 105
+      _minDuration: 85
+      _hardness: 1
+    - _levelId: e3b0da4f-9144-4a06-93ba-343ea56f7078
+      _duration: 60
+      _minDuration: 45
+      _hardness: 2
+    - _levelId: 9108f31f-d68f-491b-beb4-54fc601bb3c8
+      _duration: 210
+      _minDuration: 110
+      _hardness: 0
+    - _levelId: ad9e2118-cd07-451b-8476-e13404712d90
+      _duration: 60
+      _minDuration: 50
+      _hardness: 2
+    - _levelId: f590d93d-7225-4118-937f-2d3d216c6078
+      _duration: 95
+      _minDuration: 70
+      _hardness: 1
+    - _levelId: 0fb5212d-c2ba-416e-8c9d-ddce2f7c8246
+      _duration: 45
+      _minDuration: 20
+      _hardness: 0
+    - _levelId: cb9cb388-04ce-4ef4-865a-9c8fc0425143
+      _duration: 100
+      _minDuration: 60
+      _hardness: 0
+    - _levelId: d8f25044-d051-4b10-bb05-85a59894daa8
+      _duration: 160
+      _minDuration: 105
+      _hardness: 1
+    - _levelId: 7a09531d-b76c-405a-8dfd-43aae3488964
+      _duration: 100
+      _minDuration: 80
+      _hardness: 0
+    - _levelId: 0b8da26e-8682-4fe6-8fb5-b690633b7f0a
+      _duration: 45
+      _minDuration: 25
+      _hardness: 0
+    - _levelId: 8d65f607-71a9-4c03-83d5-2f0f020564bc
+      _duration: 140
+      _minDuration: 60
+      _hardness: 0
+    - _levelId: 6ce399fd-4687-47b7-9390-68b3727000e6
+      _duration: 100
+      _minDuration: 70
+      _hardness: 1
+    - _levelId: 4f1848b0-0df0-44b4-afeb-b51065e2682b
+      _duration: 135
+      _minDuration: 95
+      _hardness: 2
+    - _levelId: a7e36710-9943-441a-bca9-5549831b256c
+      _duration: 60
+      _minDuration: 40
+      _hardness: 0
+    - _levelId: 376e50f9-67b9-49e4-b3c5-5c41a5dc0f01
+      _duration: 170
+      _minDuration: 110
+      _hardness: 0
+    - _levelId: 8bd647ab-29c6-4f4d-8db8-aaf06b135ff5
+      _duration: 240
+      _minDuration: 155
+      _hardness: 1
+    - _levelId: cb0f1ee0-8848-43c5-8198-36e4595d910c
+      _duration: 160
+      _minDuration: 75
+      _hardness: 0
+    - _levelId: 24adf2f3-495c-406d-a8b5-c02f2c522e80
+      _duration: 125
+      _minDuration: 95
+      _hardness: 1
+    - _levelId: 5ac8052b-733e-4904-b35c-cc4f6b9f40bd
+      _duration: 75
+      _minDuration: 60
+      _hardness: 0
+    - _levelId: 1283e8c8-da58-470c-a623-a68528780587
+      _duration: 140
+      _minDuration: 90
+      _hardness: 0
+    - _levelId: 4065e8cb-985f-4297-83b9-2b75ab5723f1
+      _duration: 125
+      _minDuration: 70
+      _hardness: 0
+    - _levelId: 88a54d63-8469-4075-9ec4-20bb6aeed438
+      _duration: 130
+      _minDuration: 105
+      _hardness: 2
+    - _levelId: 9920b819-1aa2-4eec-a3a9-9ac35851e18f
+      _duration: 120
+      _minDuration: 70
+      _hardness: 0
+    - _levelId: 1f3630a2-8b6e-42a8-8bf9-093b20075224
+      _duration: 80
+      _minDuration: 50
+      _hardness: 0
+    - _levelId: a50c8896-1fdf-42fc-932a-970d229e8d0d
+      _duration: 130
+      _minDuration: 85
+      _hardness: 2
+    - _levelId: cb9821c6-8d65-45c7-8253-cc020cf84980
+      _duration: 95
+      _minDuration: 55
+      _hardness: 0
+    - _levelId: 10fe2fe2-ce1e-4c5d-a3a4-e9a3f386c46c
+      _duration: 150
+      _minDuration: 85
+      _hardness: 0
+    - _levelId: a049b51c-3f7b-40b9-8d5f-4dcf8bbbcb06
+      _duration: 135
+      _minDuration: 105
+      _hardness: 2
+    - _levelId: a19b2e91-ea73-489e-922c-8efe52ae2d93
+      _duration: 120
+      _minDuration: 65
+      _hardness: 0
+    - _levelId: 63035500-9079-4573-891e-2f9803d9ec15
+      _duration: 250
+      _minDuration: 170
+      _hardness: 1
+    - _levelId: dec8828b-8040-47d7-b745-c649156ef32d
+      _duration: 80
+      _minDuration: 60
+      _hardness: 0
+    - _levelId: be2df413-1eb2-4935-b588-68cc224b38be
+      _duration: 110
+      _minDuration: 65
+      _hardness: 0
+    - _levelId: c4b7fa54-601d-4247-852f-0941c769b969
+      _duration: 145
+      _minDuration: 85
+      _hardness: 2
+    - _levelId: 81017d14-7061-4bb2-b49e-c8423e1692d3
+      _duration: 120
+      _minDuration: 85
+      _hardness: 0
+    - _levelId: 980cb9d6-19cd-4428-ac06-145a9b0b70c4
+      _duration: 150
+      _minDuration: 110
+      _hardness: 0
+    - _levelId: e297321a-da16-429e-94bf-094565e1b45b
+      _duration: 145
+      _minDuration: 80
+      _hardness: 0
+    - _levelId: 9945ed17-05ee-49cc-b76d-a579e3ac7374
+      _duration: 55
+      _minDuration: 45
+      _hardness: 1
+    - _levelId: e1a020b8-487c-4e11-b22a-c378b0ecb207
+      _duration: 85
+      _minDuration: 60
+      _hardness: 0
+    - _levelId: c34772e7-81b3-45e2-a773-aed5b39b800d
+      _duration: 90
+      _minDuration: 55
+      _hardness: 0
+    - _levelId: db1eb967-0bf4-4416-8cd1-ebf7eaf78a68
+      _duration: 120
+      _minDuration: 70
+      _hardness: 1
+    - _levelId: 1eaf560b-23c5-4363-b504-4fe9167d2fe4
+      _duration: 120
+      _minDuration: 80
+      _hardness: 0
+    - _levelId: 5a90c5cb-26fe-427f-9585-c36f3bbe0d40
+      _duration: 95
+      _minDuration: 50
+      _hardness: 2
+    - _levelId: 995d22ed-380f-4005-8ede-fb3bea32741a
+      _duration: 90
+      _minDuration: 55
+      _hardness: 0
+    - _levelId: f3d46dd3-5959-4861-8346-40bffe6eb7cc
+      _duration: 100
+      _minDuration: 60
+      _hardness: 2
+    - _levelId: c8b80bb4-b380-4ad3-bcdc-f6b9bba90d30
+      _duration: 95
+      _minDuration: 75
+      _hardness: 0
+    - _levelId: c6759825-d532-4c9e-96ff-6fb0ecd59c30
+      _duration: 140
+      _minDuration: 70
+      _hardness: 1
+    - _levelId: bc3825dd-e3fb-46e0-ba4b-08ad5f4282a3
+      _duration: 115
+      _minDuration: 85
+      _hardness: 0
+    - _levelId: 31cd3046-6f4d-4ed6-a16b-0ef847fb9a57
+      _duration: 110
+      _minDuration: 85
+      _hardness: 2
+    - _levelId: 8a600566-3bbf-4ce0-9251-bd357a9addc8
+      _duration: 130
+      _minDuration: 75
+      _hardness: 0
+    - _levelId: f23205af-9bc3-4f98-b5ec-939cb74e8f1e
+      _duration: 110
+      _minDuration: 75
+      _hardness: 0
+    - _levelId: e6790c72-3e86-4bc2-aead-3069e0f27e2d
+      _duration: 135
+      _minDuration: 95
+      _hardness: 2
+    - _levelId: cd563d8b-43c1-447c-b59e-3b354a3e8caf
+      _duration: 80
+      _minDuration: 60
+      _hardness: 0
+    - _levelId: 289c6e6e-14d7-48b3-a949-b8a954583643
+      _duration: 85
+      _minDuration: 50
+      _hardness: 2
+    - _levelId: ea7977d0-85c3-4ab0-bc6f-4686edeaae6e
+      _duration: 115
+      _minDuration: 70
+      _hardness: 0
+    - _levelId: 617f9c84-d4fb-4ba4-bcce-9f8b22463940
+      _duration: 125
+      _minDuration: 75
+      _hardness: 1
+    - _levelId: 595ac6b0-7182-49eb-9fc4-350606b97770
+      _duration: 120
+      _minDuration: 90
+      _hardness: 2
+    - _levelId: 77165372-f6c4-45c3-b409-e8286aaca7a7
+      _duration: 115
+      _minDuration: 85
+      _hardness: 0
+    - _levelId: cf9188ae-2ca7-4dad-8db8-10d956826fc0
+      _duration: 130
+      _minDuration: 90
+      _hardness: 0
+    - _levelId: 004b41aa-4a8a-4562-ab68-dba42f5adeaf
+      _duration: 120
+      _minDuration: 105
+      _hardness: 2
+    - _levelId: 4b9f913a-d508-492e-bd35-b739258721d6
+      _duration: 100
+      _minDuration: 75
+      _hardness: 0
+    - _levelId: 509cdbf7-f319-448a-94dc-599931a157b2
+      _duration: 105
+      _minDuration: 60
+      _hardness: 1
+    - _levelId: 3dfe8478-789e-4662-b660-bc2d768e4fa0
+      _duration: 120
+      _minDuration: 50
+      _hardness: 0
+    - _levelId: 88204b88-3277-46f9-877f-8918873cacdf
+      _duration: 130
+      _minDuration: 110
+      _hardness: 1
+    - _levelId: 70ff6923-bb9f-4a2b-b180-6f7c7a0717a5
+      _duration: 120
+      _minDuration: 50
+      _hardness: 0
+    - _levelId: 79a73431-a7cf-4df3-bc1b-59b6f115d7d2
+      _duration: 130
+      _minDuration: 100
+      _hardness: 2
+    - _levelId: ec267b80-65b5-49c9-8fa0-5e422b69be50
+      _duration: 100
+      _minDuration: 55
+      _hardness: 0
+    - _levelId: 7db18553-6bcd-4b31-a2d5-cbb5059dcff4
+      _duration: 115
+      _minDuration: 85
+      _hardness: 0
+    - _levelId: 11049483-91ab-4a57-83b3-ff1eeae47316
+      _duration: 115
+      _minDuration: 75
+      _hardness: 1
+    - _levelId: f8e42b83-8eb7-4789-b96f-9066ed75c65d
+      _duration: 65
+      _minDuration: 60
+      _hardness: 0
+    - _levelId: aad64139-d6c2-47ce-856e-9fc54f291894
+      _duration: 90
+      _minDuration: 80
+      _hardness: 0
+    - _levelId: bc76655d-54bd-47be-bd2f-28b51aef4713
+      _duration: 120
+      _minDuration: 95
+      _hardness: 0
+    - _levelId: 282c17fb-802b-440e-9ba6-c4d0d32a2f7c
+      _duration: 190
+      _minDuration: 130
+      _hardness: 1
+    - _levelId: 6e439449-d0f0-49ef-a3d5-e58aeabb5013
+      _duration: 150
+      _minDuration: 105
+      _hardness: 2
+    - _levelId: 625e2eef-7a6d-4743-a1d3-93e0525951f9
+      _duration: 95
+      _minDuration: 75
+      _hardness: 0
+    - _levelId: c8b08260-4b11-46e0-ab3f-1bed0810231d
+      _duration: 90
+      _minDuration: 70
+      _hardness: 0
+    - _levelId: bfdd5392-b498-41d6-8945-4cb1ab82bfd3
+      _duration: 165
+      _minDuration: 145
+      _hardness: 2
+    - _levelId: c3f7ac7a-ce7e-45ae-92e2-de23b26c5d7e
+      _duration: 100
+      _minDuration: 70
+      _hardness: 0
+    - _levelId: 1cf77b85-74a0-47e1-85ac-1a4aa8b38b6f
+      _duration: 140
+      _minDuration: 120
+      _hardness: 1
+    - _levelId: 94f545a4-9b49-41c8-9b0b-1add4b54f1d1
+      _duration: 120
+      _minDuration: 45
+      _hardness: 0
+    - _levelId: 18deb234-15a9-4a1e-b907-98dae2ccbb77
+      _duration: 110
+      _minDuration: 85
+      _hardness: 1
+    - _levelId: fc2e9c4f-23bf-439c-9733-23126be4f235
+      _duration: 115
+      _minDuration: 70
+      _hardness: 0
+    - _levelId: 27871f9d-2f7d-4dbb-9f0c-43f181c5550b
+      _duration: 155
+      _minDuration: 120
+      _hardness: 2
+    - _levelId: e8438dab-21d1-45a0-b55a-9e6eac1dc154
+      _duration: 140
+      _minDuration: 85
+      _hardness: 0
+    - _levelId: 4f3b8cf9-b816-47c9-a327-fb1a4a0e191f
+      _duration: 180
+      _minDuration: 135
+      _hardness: 1
+    - _levelId: 1411822f-0425-4fd4-b230-e6dcb4c51f3d
+      _duration: 120
+      _minDuration: 80
+      _hardness: 0
+    - _levelId: e385ecb8-1912-4516-8af5-6f00cb4325ee
+      _duration: 125
+      _minDuration: 110
+      _hardness: 2
+    - _levelId: 7400a3fc-2e89-4b79-8f35-e49430dfb31b
+      _duration: 120
+      _minDuration: 85
+      _hardness: 0
+    - _levelId: 8c1033e4-3acf-435e-be8d-b58179030637
+      _duration: 75
+      _minDuration: 65
+      _hardness: 1
+    - _levelId: 22fba3d7-2661-4624-bffa-92c024c818b6
+      _duration: 110
+      _minDuration: 85
+      _hardness: 0
+    - _levelId: 442da0fd-fd0c-4a98-af6e-39211663a069
+      _duration: 215
+      _minDuration: 135
+      _hardness: 2
+    - _levelId: e760240a-8bfb-4065-b8aa-fd41e243b48f
+      _duration: 120
+      _minDuration: 80
+      _hardness: 0
+    - _levelId: d0330624-b978-4234-b5e9-b4dfe80af440
+      _duration: 150
+      _minDuration: 110
+      _hardness: 0
+    - _levelId: bbd80706-1555-452a-9d2f-2072bb1cabf1
+      _duration: 120
+      _minDuration: 85
+      _hardness: 1
+    - _levelId: 9a11af7c-24c7-45c1-8539-9697e06a8e8a
+      _duration: 120
+      _minDuration: 80
+      _hardness: 0
+    - _levelId: 660dd9d0-6ea7-4876-beaf-04f1883b89a9
+      _duration: 210
+      _minDuration: 160
+      _hardness: 2
+    - _levelId: 54f2be78-3a61-40a1-943a-4c2b6d052d37
+      _duration: 130
+      _minDuration: 95
+      _hardness: 0
+    - _levelId: 7862e21a-948e-47a0-9f3d-6a0cf52c3a3a
+      _duration: 70
+      _minDuration: 55
+      _hardness: 1
+    - _levelId: 1d4e8047-d06f-4e2f-9a06-40628c12735d
+      _duration: 120
+      _minDuration: 85
+      _hardness: 0
+    - _levelId: 5ec75a14-a024-4149-a083-9aa14a55b795
+      _duration: 100
+      _minDuration: 90
+      _hardness: 0
+    - _levelId: 9cd1048b-e00e-444b-b67c-3eec005ddf96
+      _duration: 115
+      _minDuration: 90
+      _hardness: 1
+    - _levelId: f6e14bb8-47a6-4b0b-a227-5036400ed5ba
+      _duration: 150
+      _minDuration: 90
+      _hardness: 0
+    - _levelId: e8705d43-5337-4a92-98d9-499bb9dbfa46
+      _duration: 105
+      _minDuration: 85
+      _hardness: 2
+    - _levelId: ff81293b-4bd2-455f-b7f6-1813c669999c
+      _duration: 145
+      _minDuration: 125
+      _hardness: 0
+    - _levelId: 29c8b8ef-53a9-4560-a452-267e10e7a907
+      _duration: 115
+      _minDuration: 85
+      _hardness: 1
+    - _levelId: c18cf206-548a-4521-9cf4-080fdad5687e
+      _duration: 110
+      _minDuration: 65
+      _hardness: 0
+    - _levelId: b1626fc9-10df-4323-8202-059c15637db6
+      _duration: 80
+      _minDuration: 65
+      _hardness: 0
+    - _levelId: ee37679d-8a13-4d9b-8454-05d8ea642b36
+      _duration: 110
+      _minDuration: 95
+      _hardness: 2
+    - _levelId: 37282030-bd16-4d3f-8896-5d15c10c8e05
+      _duration: 120
+      _minDuration: 95
+      _hardness: 0
+    - _levelId: c88b05c8-b186-45f1-9f48-d29c2e4d5ff9
+      _duration: 110
+      _minDuration: 80
+      _hardness: 1
+    - _levelId: 37fed330-9fa6-4bc1-b374-b4a54f06db72
+      _duration: 120
+      _minDuration: 95
+      _hardness: 0
+    - _levelId: 0ec77b21-cf0f-4105-8b1f-f72550ba3d59
+      _duration: 110
+      _minDuration: 90
+      _hardness: 2
+    - _levelId: d56e8698-57ff-4440-abfe-2a77beb81358
+      _duration: 110
+      _minDuration: 90
+      _hardness: 1
+    - _levelId: 87bebe97-5a99-404e-8892-c4de784e9b64
+      _duration: 105
+      _minDuration: 75
+      _hardness: 0
+    - _levelId: 74de8b82-ec72-46ba-93ed-02ef0f6a7b81
+      _duration: 105
+      _minDuration: 95
+      _hardness: 2
+    - _levelId: a31a6857-6c76-4010-afed-f87eba7e5da2
+      _duration: 85
+      _minDuration: 75
+      _hardness: 0
+    - _levelId: 5958622a-599f-44b7-a46c-468f1d49ddd7
+      _duration: 115
+      _minDuration: 65
+      _hardness: 0
+    - _levelId: abdfdd25-59ed-4c63-b4a3-562221eb1289
+      _duration: 155
+      _minDuration: 120
+      _hardness: 2
+    - _levelId: 2a3ec992-b024-42d6-9fe7-6843ac95a4ad
+      _duration: 135
+      _minDuration: 90
+      _hardness: 0
+    - _levelId: b4ad5300-319d-4cdb-ad0b-795637653868
+      _duration: 110
+      _minDuration: 75
+      _hardness: 0
+    - _levelId: 5c1602b4-a55e-4766-9d63-e454370a9103
+      _duration: 105
+      _minDuration: 85
+      _hardness: 0
+    - _levelId: 49633b4b-b4ff-431b-9a81-1e0223ece820
+      _duration: 90
+      _minDuration: 75
+      _hardness: 0
+    - _levelId: d14f9084-8236-4796-8920-d9d8bf9942e7
+      _duration: 115
+      _minDuration: 85
+      _hardness: 1
+    - _levelId: 80bc2555-dd9f-43bb-9acb-a83c391e9c22
+      _duration: 130
+      _minDuration: 110
+      _hardness: 0
+    - _levelId: 895c4832-f72e-4e0c-8c2e-62e8c962c174
+      _duration: 110
+      _minDuration: 85
+      _hardness: 1
+    - _levelId: 7be335bb-dccf-42dd-b9e7-70e920e705bc
+      _duration: 90
+      _minDuration: 80
+      _hardness: 0
+    - _levelId: c974e66f-297b-4735-8f30-c526816484f0
+      _duration: 113
+      _minDuration: 100
+      _hardness: 2
+    - _levelId: cf03f8b4-09b2-4720-a4d3-c9edee404b71
+      _duration: 140
+      _minDuration: 65
+      _hardness: 0
+    - _levelId: 2f992f8d-684c-44a4-b9c6-6dd2cdace57a
+      _duration: 150
+      _minDuration: 95
+      _hardness: 1
+    - _levelId: 2d420f43-4e03-4727-9201-8b422c753842
+      _duration: 125
+      _minDuration: 115
+      _hardness: 0
+    - _levelId: 4153592a-21eb-4d26-a813-80ca14b7dbfa
+      _duration: 115
+      _minDuration: 85
+      _hardness: 2
+    - _levelId: 42717e1b-6a4c-4d70-9f14-4f9a02a33107
+      _duration: 130
+      _minDuration: 100
+      _hardness: 0
+    - _levelId: 708e85c4-1501-4936-8774-69096fdbff2e
+      _duration: 105
+      _minDuration: 75
+      _hardness: 0
+    - _levelId: 4c2e9688-63ab-46c4-a7ca-affdb1e17197
+      _duration: 115
+      _minDuration: 65
+      _hardness: 1
+    - _levelId: c0f28202-5e56-4748-8019-6ab2f68e5e0b
+      _duration: 100
+      _minDuration: 70
+      _hardness: 1
+    - _levelId: a3e5219d-4eea-40c7-b91b-41a9c2202f55
+      _duration: 130
+      _minDuration: 95
+      _hardness: 0
+    - _levelId: 2caba925-1e01-4e7e-b5fe-94331e56fac8
+      _duration: 95
+      _minDuration: 80
+      _hardness: 2
+    - _levelId: 3b8f0e5c-1d9d-4dea-b05b-763b3ad06344
+      _duration: 180
+      _minDuration: 110
+      _hardness: 0
+    - _levelId: 3589b35f-32d4-4324-a23c-030768f81c46
+      _duration: 115
+      _minDuration: 85
+      _hardness: 1
+    - _levelId: a93cc6a0-7fab-456e-9aba-d02aba005dee
+      _duration: 130
+      _minDuration: 85
+      _hardness: 0
+    - _levelId: ecfe1e12-ad80-4b3e-8992-5b364955a5d7
+      _duration: 155
+      _minDuration: 125
+      _hardness: 1
+    - _levelId: 5d6e0420-3154-4cc0-8d4a-345ba3937211
+      _duration: 130
+      _minDuration: 70
+      _hardness: 0
+    - _levelId: d6567db1-b317-45b6-a502-bb0c6cc587ae
+      _duration: 120
+      _minDuration: 80
+      _hardness: 2
+    - _levelId: 3412762d-8151-4fa3-a6c4-ac9021ceaae2
+      _duration: 165
+      _minDuration: 135
+      _hardness: 0
+    - _levelId: be29fdc9-1d64-4d8c-8659-ef57e90c783b
+      _duration: 100
+      _minDuration: 85
+      _hardness: 1
+    - _levelId: cd5048ec-61ea-4a3b-8502-9b6b7b0a7812
+      _duration: 90
+      _minDuration: 75
+      _hardness: 0
+    - _levelId: 6f886f88-8e9b-4355-9444-c3829c62d1ca
+      _duration: 230
+      _minDuration: 185
+      _hardness: 2
+    - _levelId: ae940b32-4d92-4987-8ace-e69dd9f60b8c
+      _duration: 135
+      _minDuration: 105
+      _hardness: 1
+    - _levelId: 7ead4f0f-79c6-40a3-a7f2-005bd58f3e80
+      _duration: 110
+      _minDuration: 90
+      _hardness: 0
+    - _levelId: 8eb1550f-1e43-49bb-88d0-6ce0e9e86773
+      _duration: 140
+      _minDuration: 120
+      _hardness: 2
+    - _levelId: 6d201445-3b18-4f3c-9184-511a64aa1201
+      _duration: 75
+      _minDuration: 60
+      _hardness: 0
+    - _levelId: 2c8e4b0f-1b04-4e6c-9f38-74beaecbcb2d
+      _duration: 135
+      _minDuration: 115
+      _hardness: 1
+    - _levelId: 8eeaa17e-4837-4faf-ad12-d2e81c12b878
+      _duration: 175
+      _minDuration: 115
+      _hardness: 0
+    - _levelId: ba8ffe3e-6ba9-4596-be87-fc41710aac36
+      _duration: 140
+      _minDuration: 105
+      _hardness: 1
+    - _levelId: 9d8ea0cd-873f-457e-8dab-4a5ec8df4ba0
+      _duration: 105
+      _minDuration: 85
+      _hardness: 0
+    - _levelId: 8eec1ba3-e829-47ff-8702-d4503f1d1400
+      _duration: 135
+      _minDuration: 110
+      _hardness: 2
+    - _levelId: 6b52b7cb-11cf-4dbc-8168-ec6c2fe8392a
+      _duration: 165
+      _minDuration: 135
+      _hardness: 1
+    - _levelId: 7a08bab3-1ac8-4bf3-abd9-247aa96e17ae
+      _duration: 200
+      _minDuration: 150
+      _hardness: 0
+    - _levelId: e9eb113e-c13d-455a-88d2-a4d8dbae11ac
+      _duration: 150
+      _minDuration: 120
+      _hardness: 1
+    - _levelId: c9cafb05-8de2-4b95-a39f-cb1cc35c6653
+      _duration: 105
+      _minDuration: 70
+      _hardness: 0
+    - _levelId: 3ef6a3a2-8141-423b-85cc-ccf9de93a827
+      _duration: 175
+      _minDuration: 135
+      _hardness: 2
+    - _levelId: 506e9399-19a4-49e0-aa08-9c0a5696db1c
+      _duration: 90
+      _minDuration: 65
+      _hardness: 0
+    - _levelId: ce4f7295-6bca-4ca2-8747-bb9db5ad1079
+      _duration: 140
+      _minDuration: 100
+      _hardness: 2
+    - _levelId: 2ca627ad-dc05-4771-8040-71030d5ada56
+      _duration: 190
+      _minDuration: 115
+      _hardness: 0
+    - _levelId: 1621781f-f0d9-457e-b426-83732f69306b
+      _duration: 150
+      _minDuration: 100
+      _hardness: 2
+    - _levelId: 606c3c84-1ca4-49af-a76b-3cc10cae5a9a
+      _duration: 135
+      _minDuration: 100
+      _hardness: 1
+    - _levelId: b8ce9689-ef23-4fab-a678-79d96667c9aa
+      _duration: 100
+      _minDuration: 60
+      _hardness: 0
+    - _levelId: cfff4ff5-6db2-48da-9a28-b5ed54d1dd10
+      _duration: 135
+      _minDuration: 95
+      _hardness: 2
+    - _levelId: 8edbe2de-9f55-4a22-998d-e5ab850713fe
+      _duration: 90
+      _minDuration: 80
+      _hardness: 0
+    - _levelId: 1461478a-9258-4cec-988c-9b8e94aa4941
+      _duration: 150
+      _minDuration: 90
+      _hardness: 0
+    - _levelId: 952f6fbf-0855-416b-a5e1-2b06abeeaaa9
+      _duration: 150
+      _minDuration: 115
+      _hardness: 0
+    - _levelId: bed2e40e-9a27-4470-aee3-5fc650283a19
+      _duration: 100
+      _minDuration: 85
+      _hardness: 0
+    - _levelId: 9c725343-ab0d-49dc-a062-0bdf9a1411a3
+      _duration: 150
+      _minDuration: 115
+      _hardness: 2
+    - _levelId: fdc45a43-8059-41bf-a0bc-451f5e13f392
+      _duration: 100
+      _minDuration: 70
+      _hardness: 0
+    - _levelId: d8a3c13a-22d9-401b-837b-d0abdb08358f
+      _duration: 200
+      _minDuration: 55
+      _hardness: 2
+    - _levelId: b4718c78-de60-471d-9047-f02edfd9a200
+      _duration: 125
+      _minDuration: 115
+      _hardness: 0
+    - _levelId: b819bf1f-7f31-4cf5-9461-8ea574e96efd
+      _duration: 125
+      _minDuration: 60
+      _hardness: 1
+    - _levelId: 62188149-d688-438b-81c8-05a7a0a573d1
+      _duration: 215
+      _minDuration: 125
+      _hardness: 0
+    - _levelId: f62afb15-9111-44c0-b2e3-abd5b834814d
+      _duration: 140
+      _minDuration: 95
+      _hardness: 1
+    - _levelId: cd8361f6-dcd8-45bc-b44f-97d84a8b6e7a
+      _duration: 130
+      _minDuration: 95
+      _hardness: 0
+    - _levelId: da11e9af-59fe-44b4-a271-cf751a7e41f5
+      _duration: 100
+      _minDuration: 90
+      _hardness: 2
+    - _levelId: dd24ba3c-b9c4-4cdf-92ac-eb9d978181fa
+      _duration: 95
+      _minDuration: 70
+      _hardness: 0
+    - _levelId: 933e43ac-7eec-4356-9d85-6fc463b66fc2
+      _duration: 120
+      _minDuration: 80
+      _hardness: 1
+    - _levelId: 03f0d41c-b5b2-42fd-a30f-597d7b202ec4
+      _duration: 115
+      _minDuration: 75
+      _hardness: 0
+    - _levelId: ebe90068-ac51-4a1b-accc-908c0e2a31dc
+      _duration: 115
+      _minDuration: 65
+      _hardness: 1
+    - _levelId: 82c84582-1094-4447-a4f0-4d445b3969e7
+      _duration: 150
+      _minDuration: 135
+      _hardness: 0
+    - _levelId: db54e90c-1aa8-4c55-8886-3a6a75528f83
+      _duration: 215
+      _minDuration: 180
+      _hardness: 2
+    - _levelId: 5a4f931e-6253-4875-9d02-f6fe6a75f376
+      _duration: 135
+      _minDuration: 105
+      _hardness: 0
+    - _levelId: 430c588a-2b6c-419b-8974-d1d3d0c27bf8
+      _duration: 120
+      _minDuration: 70
+      _hardness: 0
+    - _levelId: 5d91260c-8129-4eab-8967-47b5d399ef2b
+      _duration: 160
+      _minDuration: 110
+      _hardness: 2
+    - _levelId: 8508a7df-127d-49ef-9878-ee93bc5b3f61
+      _duration: 100
+      _minDuration: 80
+      _hardness: 0
+    - _levelId: 08cf04d8-ff78-46c7-a3a1-b5f1d27b3319
+      _duration: 125
+      _minDuration: 90
+      _hardness: 1
+    - _levelId: b5b1b5b8-d666-4df5-a5e4-642a6afa094f
+      _duration: 175
+      _minDuration: 120
+      _hardness: 2
+    - _levelId: bdb1c1d6-dc03-43c7-a76e-f6544d7de57b
+      _duration: 120
+      _minDuration: 110
+      _hardness: 0
+    - _levelId: 5949deae-8e3f-4669-8301-7876ed71763f
+      _duration: 145
+      _minDuration: 95
+      _hardness: 1
+    - _levelId: 8f5e9385-2f12-4e87-a358-625a2051a4cb
+      _duration: 120
+      _minDuration: 95
+      _hardness: 0
+    - _levelId: 71d6d07d-e661-4562-8b98-cae2815dbe4f
+      _duration: 120
+      _minDuration: 80
+      _hardness: 2
+    - _levelId: 98ea3dc7-f46c-4c42-9df3-ebb89cbccebf
+      _duration: 100
+      _minDuration: 80
+      _hardness: 0
+    - _levelId: 50dab145-f63b-4983-a43b-40233df60ffb
+      _duration: 170
+      _minDuration: 120
+      _hardness: 1
+    - _levelId: 3217f3a8-9ee4-47af-a441-d8ded319cf49
+      _duration: 80
+      _minDuration: 60
+      _hardness: 0
+    - _levelId: b237ce1d-4593-4c65-b67b-2ba38c004262
+      _duration: 130
+      _minDuration: 100
+      _hardness: 0
+    - _levelId: e55ab08d-c1bb-4973-892e-d4b19b1b458c
+      _duration: 160
+      _minDuration: 65
+      _hardness: 2
+    - _levelId: f2145c40-d9b9-4b66-b0fe-f82d57a97b76
+      _duration: 130
+      _minDuration: 80
+      _hardness: 0
+    - _levelId: 584dee2f-4dad-4e7a-9f07-9501f9169530
+      _duration: 115
+      _minDuration: 85
+      _hardness: 0
+    - _levelId: d9b4a9a5-9e90-48a9-9a25-55531d82e89c
+      _duration: 150
+      _minDuration: 120
+      _hardness: 1
+    - _levelId: bf3f2ce4-1bb0-4c5e-8a3e-595d33ce9bbe
+      _duration: 95
+      _minDuration: 70
+      _hardness: 0
+    - _levelId: e9c339f7-d49c-4000-a278-2fca1d126333
+      _duration: 90
+      _minDuration: 65
+      _hardness: 2
+    - _levelId: 9ceee0bd-0d6d-4d62-b55c-2a23001c9bcb
+      _duration: 165
+      _minDuration: 125
+      _hardness: 0
+    - _levelId: bc32f7d0-3a36-4563-a6ea-011d5668599c
+      _duration: 115
+      _minDuration: 80
+      _hardness: 0
+    - _levelId: e098ca9b-f9f4-4af6-9771-3529b7277c41
+      _duration: 135
+      _minDuration: 105
+      _hardness: 1
+    - _levelId: f571411c-7df6-4334-b39a-1b6e7e16418f
+      _duration: 120
+      _minDuration: 100
+      _hardness: 0
+    - _levelId: 6eb31c9c-69bc-4f50-8e2c-b4b712edbb6a
+      _duration: 90
+      _minDuration: 80
+      _hardness: 0
+    - _levelId: 16ef9f99-1ed8-4a98-b9e4-44fb7cdd7eeb
+      _duration: 135
+      _minDuration: 80
+      _hardness: 2
+    - _levelId: abf50458-c12e-4d4d-8ce9-a01519866d78
+      _duration: 115
+      _minDuration: 105
+      _hardness: 0
+    - _levelId: a2854b98-e3d2-4aa3-8252-482487425dfb
+      _duration: 105
+      _minDuration: 70
+      _hardness: 0
+    - _levelId: 51f8b19d-f694-4c7a-a324-3d9508c1ce9e
+      _duration: 110
+      _minDuration: 85
+      _hardness: 1
+    - _levelId: e422f1f5-d14a-4ecf-a154-1499d64eecfb
+      _duration: 110
+      _minDuration: 80
+      _hardness: 0
+    - _levelId: 9747d7c5-31da-42c3-8584-6758b76bf9b0
+      _duration: 180
+      _minDuration: 115
+      _hardness: 2
+    - _levelId: 65ed97c0-9236-47ce-bb12-082f37cdf69a
+      _duration: 65
+      _minDuration: 50
+      _hardness: 0
+    - _levelId: 054adf91-9b06-4bb9-8434-26d068aff86a
+      _duration: 115
+      _minDuration: 70
+      _hardness: 0
+    - _levelId: 1d0bb675-c7bc-4e5a-9902-59a0a17630fc
+      _duration: 140
+      _minDuration: 110
+      _hardness: 1
+    - _levelId: fc7ae863-5b64-4be1-a6e1-9ed05b2e1475
+      _duration: 110
+      _minDuration: 90
+      _hardness: 0
+    - _levelId: 05756789-a197-4ffd-a67f-ccfe9d43ef7c
+      _duration: 125
+      _minDuration: 110
+      _hardness: 2
+    - _levelId: 8f1a5be1-45ea-4faa-be2f-952dfa11f1f7
+      _duration: 165
+      _minDuration: 105
+      _hardness: 0
+    - _levelId: 1b2ec93f-0f72-4ab3-afbb-fd9dca825b06
+      _duration: 125
+      _minDuration: 110
+      _hardness: 0
+    - _levelId: fe0d6b67-259e-45b9-ac9f-cbfc982b82c1
+      _duration: 130
+      _minDuration: 100
+      _hardness: 1
+    - _levelId: 8f607bac-efe7-4210-9a6b-039baaf8408b
+      _duration: 110
+      _minDuration: 85
+      _hardness: 0
+    - _levelId: 5ac283bd-23ce-4501-b0c0-6158c87c835f
+      _duration: 110
+      _minDuration: 100
+      _hardness: 2
+    - _levelId: 80b7b373-56ca-4b0a-9925-a2c983451194
+      _duration: 165
+      _minDuration: 100
+      _hardness: 0
+    - _levelId: 67f2a907-4e5d-416d-84a1-1082238abc28
+      _duration: 120
+      _minDuration: 65
+      _hardness: 1
+    - _levelId: 6498e278-6571-4bcc-b4b2-a3dcf1bc0ae8
+      _duration: 200
+      _minDuration: 110
+      _hardness: 0
+    - _levelId: 74bde487-9930-442c-9093-f630237aa053
+      _duration: 120
+      _minDuration: 100
+      _hardness: 2
+    - _levelId: 710d8228-a643-4280-a82e-810d6156ce5d
+      _duration: 120
+      _minDuration: 75
+      _hardness: 0
+    - _levelId: 7f317f3a-cf8a-4c0e-9e7f-6695dd4fbf46
+      _duration: 110
+      _minDuration: 80
+      _hardness: 1
+    - _levelId: cf4e1757-42b7-49dc-86ac-2da0b5ab64bd
+      _duration: 120
+      _minDuration: 110
+      _hardness: 0
+    - _levelId: 31ad6f95-48d0-4c1d-aaa4-a4cd16a60393
+      _duration: 80
+      _minDuration: 65
+      _hardness: 2
+    - _levelId: 88607de0-ac93-40b8-9a36-5dbb6bf3d891
+      _duration: 105
+      _minDuration: 70
+      _hardness: 0
+    - _levelId: 1507333c-bbdd-47d6-a269-b62e1dbdf343
+      _duration: 135
+      _minDuration: 95
+      _hardness: 1
+    - _levelId: 39462bd0-02b6-4041-8484-6a690e819c37
+      _duration: 100
+      _minDuration: 85
+      _hardness: 0
+    - _levelId: ee57a207-4b56-44f5-b84b-c6c406f48f2a
+      _duration: 120
+      _minDuration: 95
+      _hardness: 2
+    - _levelId: 6a4a0d72-aa10-420e-818e-3be0c5fd53be
+      _duration: 130
+      _minDuration: 85
+      _hardness: 0
+    - _levelId: f1a2de06-c259-480e-ad48-66a53ace8e71
+      _duration: 105
+      _minDuration: 85
+      _hardness: 1
+    - _levelId: 12897151-38bc-405c-ac0a-d87533f705c6
+      _duration: 115
+      _minDuration: 95
+      _hardness: 0
+    - _levelId: 0ac283cb-1da2-4ba5-813e-05634636aa4e
+      _duration: 180
+      _minDuration: 150
+      _hardness: 2
+    - _levelId: 8e77625a-d86f-46a9-b369-becc251fbb9b
+      _duration: 160
+      _minDuration: 135
+      _hardness: 2
+    - _levelId: 0c40e0f2-730b-4979-8275-e24877cb341f
+      _duration: 125
+      _minDuration: 100
+      _hardness: 1
+    - _levelId: ff294d70-8065-4078-9cc3-4c6c575df1de
+      _duration: 100
+      _minDuration: 60
+      _hardness: 0
+    - _levelId: 2c2beedf-2f65-4b5d-aed3-f951d030fd87
+      _duration: 120
+      _minDuration: 115
+      _hardness: 1
+    - _levelId: 21d2157b-14b0-474e-995c-7a6c54049071
+      _duration: 140
+      _minDuration: 90
+      _hardness: 0
+    - _levelId: e6fe89be-d50c-4b08-8d04-0125628fc70f
+      _duration: 180
+      _minDuration: 70
+      _hardness: 0
+    - _levelId: 1477b911-5730-4143-bb31-46e58fda9d4f
+      _duration: 135
+      _minDuration: 90
+      _hardness: 0
+    - _levelId: 302a916f-277d-4eaf-8036-9ff96dd5ee96
+      _duration: 105
+      _minDuration: 85
+      _hardness: 0
+    - _levelId: e7f107aa-8952-4db5-ba91-ce8a383944fd
+      _duration: 170
+      _minDuration: 95
+      _hardness: 0
+    - _levelId: a808b708-76b3-40b5-b0e9-8602fddabba5
+      _duration: 125
+      _minDuration: 100
+      _hardness: 0
+    - _levelId: 6b055816-fc2f-44ce-9519-1000cc946f3f
+      _duration: 105
+      _minDuration: 80
+      _hardness: 0
+    - _levelId: 24c587b1-462d-44b4-b262-98634bd3ef77
+      _duration: 120
+      _minDuration: 100
+      _hardness: 0
+    - _levelId: afa4c6fb-bde4-4551-934f-80f8c03f05fa
+      _duration: 125
+      _minDuration: 85
+      _hardness: 2
+    - _levelId: bc6e86bc-e91f-4672-b5d7-81278243f12c
+      _duration: 160
+      _minDuration: 110
+      _hardness: 0
+    - _levelId: d58cf1fa-6d82-4dfa-b632-7d0fcb7cea62
+      _duration: 115
+      _minDuration: 100
+      _hardness: 0
+    - _levelId: 5d222815-2568-42e9-acac-0a4dc514db0e
+      _duration: 95
+      _minDuration: 65
+      _hardness: 1
+    - _levelId: a2fc17e7-929f-4bfa-814a-32f8cc25c232
+      _duration: 125
+      _minDuration: 55
+      _hardness: 0
+    - _levelId: ec166d7d-d4f3-410e-885f-641a782de395
+      _duration: 120
+      _minDuration: 100
+      _hardness: 0
+    - _levelId: 3bcc0b4b-1d86-4053-9c8a-0a15e2264b32
+      _duration: 105
+      _minDuration: 60
+      _hardness: 2
+    - _levelId: 2ef8c53e-384f-4db1-a887-0b05d63ceace
+      _duration: 95
+      _minDuration: 90
+      _hardness: 0
+    - _levelId: 5a0e344b-f0f9-43f9-a51e-d27a74c5d1b3
+      _duration: 80
+      _minDuration: 65
+      _hardness: 0
+    - _levelId: 56c8bbd2-831f-4f86-afd0-3901b8f4ab89
+      _duration: 90
+      _minDuration: 80
+      _hardness: 0
+    - _levelId: d3650161-f67b-4d40-be2e-0006cad25d53
+      _duration: 80
+      _minDuration: 65
+      _hardness: 0
+    - _levelId: e79e4bac-83ab-42d2-8e08-81caee7a8bc9
+      _duration: 120
+      _minDuration: 75
+      _hardness: 1
+    - _levelId: 75692c5a-912c-4158-abf6-b5c2715c6ce3
+      _duration: 120
+      _minDuration: 90
+      _hardness: 0
+    - _levelId: 2e35bbaf-5782-4546-be9c-9386711eba00
+      _duration: 120
+      _minDuration: 100
+      _hardness: 0
+    - _levelId: 6633a411-21f0-4960-a495-c74eb96e3c89
+      _duration: 135
+      _minDuration: 100
+      _hardness: 1
+    - _levelId: 44f48bb3-1891-4094-8250-79bf8a3a1845
+      _duration: 105
+      _minDuration: 75
+      _hardness: 0
+    - _levelId: eeb8f2d7-5693-4f02-9088-e6fe2b888140
+      _duration: 110
+      _minDuration: 90
+      _hardness: 0
+    - _levelId: ed0e9c12-5b9f-4e73-961f-1e002e2f87b7
+      _duration: 155
+      _minDuration: 125
+      _hardness: 1
+    - _levelId: 28dbe659-3416-4d41-937e-7d58592625e2
+      _duration: 155
+      _minDuration: 145
+      _hardness: 0
+    - _levelId: 7908a385-fe0e-46b2-9157-65400654419f
+      _duration: 100
+      _minDuration: 85
+      _hardness: 2
+    - _levelId: e664e2df-5387-49c4-8926-c7420f135658
+      _duration: 215
+      _minDuration: 135
+      _hardness: 0
+    - _levelId: 1374ff94-c5f4-4586-82a5-f20841bf0a02
+      _duration: 110
+      _minDuration: 105
+      _hardness: 0
+    - _levelId: 8241c639-4f94-49cd-adbe-94a75a95bcce
+      _duration: 135
+      _minDuration: 75
+      _hardness: 1
+    - _levelId: 6bc47719-9230-4dc0-b384-5173bc467b4f
+      _duration: 110
+      _minDuration: 100
+      _hardness: 0
+    - _levelId: e77779be-829a-47ca-b544-5d9a8bb168fc
+      _duration: 130
+      _minDuration: 115
+      _hardness: 2
+    - _levelId: 1efa345f-c6b3-47f4-8a34-fd9dc76c265a
+      _duration: 170
+      _minDuration: 120
+      _hardness: 0
+    - _levelId: 7a01c02a-c2fc-4a3c-8092-639ee2360a57
+      _duration: 90
+      _minDuration: 80
+      _hardness: 0
+    - _levelId: 6f69e644-b704-40da-baba-90cda2133778
+      _duration: 130
+      _minDuration: 90
+      _hardness: 1
+    - _levelId: 16dec164-6b6d-495f-8887-f6719882b9c7
+      _duration: 160
+      _minDuration: 150
+      _hardness: 0
+    - _levelId: af8ecac9-ef9b-4424-8875-d9caf7e9a941
+      _duration: 100
+      _minDuration: 75
+      _hardness: 0
+    - _levelId: 1fc9daf2-aa3e-4de2-b989-593a379d01b3
+      _duration: 200
+      _minDuration: 155
+      _hardness: 2
+    - _levelId: 74729915-8206-4f9a-8025-f1ae1975cbc1
+      _duration: 130
+      _minDuration: 120
+      _hardness: 0
+    - _levelId: d659e94f-3f05-4707-987f-a00b694b6b49
+      _duration: 135
+      _minDuration: 100
+      _hardness: 1
+    - _levelId: d982d58e-6854-4e78-b0b1-2f37ce9e9244
+      _duration: 180
+      _minDuration: 135
+      _hardness: 2
+    - _levelId: 535cd72f-cbf6-47d0-8ffb-67ad7a88f5d1
+      _duration: 125
+      _minDuration: 115
+      _hardness: 0
+    - _levelId: 1580a65e-491c-459f-a88a-d73aa6bfe403
+      _duration: 135
+      _minDuration: 95
+      _hardness: 1
+    - _levelId: 617e764f-2485-41f5-9e60-576978e7ce27
+      _duration: 120
+      _minDuration: 90
+      _hardness: 0
+    - _levelId: 19b11b5b-f812-4f34-a5a5-a88ecbaa00f7
+      _duration: 125
+      _minDuration: 105
+      _hardness: 0
+    - _levelId: bb033d16-40dc-43c3-a0c3-66a23d463b3b
+      _duration: 115
+      _minDuration: 95
+      _hardness: 2
+    - _levelId: c29614d0-1086-4a6b-8143-9af88d7bf050
+      _duration: 110
+      _minDuration: 90
+      _hardness: 0
+    - _levelId: aae92a8c-0e2f-44d5-b803-ceb6582f6a7e
+      _duration: 120
+      _minDuration: 80
+      _hardness: 1
+    - _levelId: 8acbc801-9479-49ff-8f20-31e73c6fa3dd
+      _duration: 90
+      _minDuration: 80
+      _hardness: 0
+    - _levelId: e0bf56f0-9a97-4e1a-8a2d-f950abf3234e
+      _duration: 110
+      _minDuration: 100
+      _hardness: 2
+    - _levelId: 7b32ef92-87fa-4ed8-bc29-1fe2848d0020
+      _duration: 120
+      _minDuration: 100
+      _hardness: 0
+    - _levelId: 360c23e2-12ba-4065-ac4a-715029eef6ea
+      _duration: 110
+      _minDuration: 95
+      _hardness: 0
+    - _levelId: 38448e93-38c8-418d-839e-b339f33c13fe
+      _duration: 170
+      _minDuration: 125
+      _hardness: 2
+    - _levelId: ca267e2b-8008-4d7a-b655-448bb2929fdf
+      _duration: 65
+      _minDuration: 65
+      _hardness: 0
+    - _levelId: d210e043-3ad1-485e-8cab-27dcfe0bcc73
+      _duration: 85
+      _minDuration: 85
+      _hardness: 0
+    - _levelId: 6c0e2d2b-a7a6-4eb4-9c1d-1cd80843646c
+      _duration: 90
+      _minDuration: 90
+      _hardness: 0
+    - _levelId: 9bbb7e29-3e89-4515-9b5f-5cc1cf157811
+      _duration: 115
+      _minDuration: 115
+      _hardness: 1
+    - _levelId: 28d0b63c-7b47-4210-b642-b0f99ed5d9a6
+      _duration: 100
+      _minDuration: 100
+      _hardness: 0
+    - _levelId: 844218c9-703c-470a-ad1c-586c831906cd
+      _duration: 130
+      _minDuration: 130
+      _hardness: 0
+    - _levelId: bda19fad-46f6-4ab4-807b-0b50aaac8267
+      _duration: 100
+      _minDuration: 100
+      _hardness: 2
+    - _levelId: 92e830ee-e959-4b66-bd78-5fa8609af945
+      _duration: 230
+      _minDuration: 230
+      _hardness: 2
+    - _levelId: 3a17ff30-91a5-4eb8-8e21-41a71407c5f7
+      _duration: 105
+      _minDuration: 105
+      _hardness: 0
+    - _levelId: 9623eaaf-1aca-4ddd-8805-c2f931be8ca1
+      _duration: 130
+      _minDuration: 130
+      _hardness: 0
+    - _levelId: 8f79099d-5b17-43ac-9c02-6a66527c1835
+      _duration: 90
+      _minDuration: 90
+      _hardness: 1
+    - _levelId: cd06701f-d780-4d9f-a329-2fe5821c5d1d
+      _duration: 90
+      _minDuration: 90
+      _hardness: 0
+    - _levelId: e7367fdd-5d99-474f-ab3d-5804be4594f0
+      _duration: 105
+      _minDuration: 105
+      _hardness: 0
+    - _levelId: c4ac8702-a671-42d5-9e10-f52bd8b7764b
+      _duration: 110
+      _minDuration: 110
+      _hardness: 2
+    - _levelId: 684a8fd4-7cb6-4c24-a525-6181fdbf61b1
+      _duration: 100
+      _minDuration: 100
+      _hardness: 0
+    - _levelId: 7a5063c7-b780-4d5a-9cb3-d5c70cec3092
+      _duration: 120
+      _minDuration: 120
+      _hardness: 0
+    - _levelId: 7571eb83-fdb8-4d3f-bbae-0efee06e599b
+      _duration: 145
+      _minDuration: 145
+      _hardness: 1
+    - _levelId: c4a5f67f-1422-40e0-ba57-cae42276f1b7
+      _duration: 125
+      _minDuration: 125
+      _hardness: 0
+    - _levelId: 57041f3e-6040-4f5e-be6d-53d4fe144138
+      _duration: 135
+      _minDuration: 135
+      _hardness: 0
+    - _levelId: 8c90edb3-a2b7-4282-8f30-da88636e9a6b
+      _duration: 105
+      _minDuration: 105
+      _hardness: 0
+    - _levelId: d25c2ee1-718c-48dd-bcaf-00ecaffaa823
+      _duration: 150
+      _minDuration: 150
+      _hardness: 0
+    - _levelId: e9ba8011-3e1a-486a-aeea-1ee5d549a828
+      _duration: 115
+      _minDuration: 115
+      _hardness: 0
+    - _levelId: 12ef554c-7fc9-4937-a586-47b3ce9fc626
+      _duration: 115
+      _minDuration: 115
+      _hardness: 0
+    - _levelId: b07a0943-450b-482e-ac78-edbaa06a976d
+      _duration: 155
+      _minDuration: 155
+      _hardness: 0
+    - _levelId: 8d89b81f-080d-422a-b8c1-2f709ef39364
+      _duration: 135
+      _minDuration: 135
+      _hardness: 0
+    - _levelId: d6906038-0e44-4474-8607-0f7a452f1650
+      _duration: 105
+      _minDuration: 105
+      _hardness: 0
+    - _levelId: 16ca8b33-6adb-4498-b674-6d75b192c929
+      _duration: 100
+      _minDuration: 100
+      _hardness: 1
+    - _levelId: 09f9e0dc-470c-4598-ba20-1d718543163e
+      _duration: 110
+      _minDuration: 110
+      _hardness: 0
+    - _levelId: b7a71fe9-5c82-4a5f-8fc0-2f6db1819eea
+      _duration: 110
+      _minDuration: 110
+      _hardness: 1
+    - _levelId: 4e61cb81-38bc-4cf7-a877-7a2f0f548779
+      _duration: 90
+      _minDuration: 90
+      _hardness: 0
+    - _levelId: 904f3b58-7424-4009-9190-88e6fc25e52e
+      _duration: 165
+      _minDuration: 165
+      _hardness: 2
+    - _levelId: 2b587f40-9515-4fda-8a20-08df80fafdd8
+      _duration: 110
+      _minDuration: 110
+      _hardness: 0
+    - _levelId: d712a802-739d-4e70-b640-fc5448b12281
+      _duration: 85
+      _minDuration: 85
+      _hardness: 0
+    - _levelId: ede801df-d739-44c2-a78d-df45473b0f6a
+      _duration: 125
+      _minDuration: 125
+      _hardness: 0
+    - _levelId: 9818e6f1-7223-4320-8c8b-41522deafc2c
+      _duration: 145
+      _minDuration: 145
+      _hardness: 1
+    - _levelId: cbc1979b-7e20-46fc-81b7-4367bb8e6f34
+      _duration: 95
+      _minDuration: 95
+      _hardness: 0
+    - _levelId: 56fc7048-f4bf-4832-8469-ec7f27998396
+      _duration: 135
+      _minDuration: 135
+      _hardness: 2
+    - _levelId: be185f42-3ad6-4dd5-a8b0-14e591e662ee
+      _duration: 110
+      _minDuration: 110
+      _hardness: 1
+    - _levelId: 7121eeee-ff93-44c4-a456-18e72bf4eba3
+      _duration: 85
+      _minDuration: 85
+      _hardness: 0
+    - _levelId: d2a90a1a-1df2-4e24-a18f-0bec98ce20a1
+      _duration: 105
+      _minDuration: 105
+      _hardness: 0
+    - _levelId: e9673287-3a6a-46ba-be10-a5414dc656b8
+      _duration: 105
+      _minDuration: 105
+      _hardness: 2
+    - _levelId: 40455118-1c38-4860-88ca-9a04729e23f8
+      _duration: 100
+      _minDuration: 100
+      _hardness: 0
+    - _levelId: 22a78886-baff-4548-bf3c-8d504a8b73f1
+      _duration: 105
+      _minDuration: 105
+      _hardness: 0
+    - _levelId: cde1c766-94e3-4a3c-a3ba-b700b4e05ae8
+      _duration: 135
+      _minDuration: 135
+      _hardness: 1
+    - _levelId: ae96780b-17a3-46a5-ace0-0cc50b38a9c3
+      _duration: 80
+      _minDuration: 80
+      _hardness: 0
+    - _levelId: c3c3d498-0b38-43b5-8244-357993dde607
+      _duration: 100
+      _minDuration: 100
+      _hardness: 0
+    - _levelId: 2838211a-d590-46e5-a16a-d2c2f1587ac5
+      _duration: 145
+      _minDuration: 145
+      _hardness: 2
+    - _levelId: 98fb0ac3-5c12-47f2-8423-966d02dc9190
+      _duration: 75
+      _minDuration: 75
+      _hardness: 0
+    - _levelId: 36f2e90e-7b00-4541-bc21-18e4687726d1
+      _duration: 90
+      _minDuration: 90
+      _hardness: 0
+    - _levelId: 4bfcadfc-8a18-4ee4-8338-3e545b917efd
+      _duration: 90
+      _minDuration: 90
+      _hardness: 0
+    - _levelId: 789755aa-7ea6-4f11-83d5-52ecf516da22
+      _duration: 115
+      _minDuration: 115
+      _hardness: 1
+    - _levelId: 448c2b78-f775-4c45-bb52-98f904665b45
+      _duration: 120
+      _minDuration: 120
+      _hardness: 0
+    - _levelId: 1ee4f125-b975-47dc-a622-987bf0db008e
+      _duration: 100
+      _minDuration: 100
+      _hardness: 1
+    - _levelId: bfb9e31c-0633-4fde-b899-ec09f3bb2f0c
+      _duration: 115
+      _minDuration: 115
+      _hardness: 0
+    - _levelId: 0328ef6a-5546-4b5f-951c-e9067f87e493
+      _duration: 110
+      _minDuration: 110
+      _hardness: 1
+    - _levelId: b68a2af5-6c3f-401a-ad8f-7342ba02592d
+      _duration: 140
+      _minDuration: 140
+      _hardness: 0
+    - _levelId: 0b6797a0-6710-4c48-a9fe-3bae16ef419d
+      _duration: 110
+      _minDuration: 110
+      _hardness: 0
+    - _levelId: e9dca8b7-69fc-41a7-a21f-009762c8f628
+      _duration: 85
+      _minDuration: 85
+      _hardness: 2
+    - _levelId: c8a501ad-957d-40d1-8803-fbfac431c5c2
+      _duration: 125
+      _minDuration: 125
+      _hardness: 0
+    - _levelId: 88bc71aa-6d1f-4612-81f3-19920f9f33e9
+      _duration: 110
+      _minDuration: 110
+      _hardness: 0
+    - _levelId: 322889a4-172c-4a90-8f58-9584b5eee2ae
+      _duration: 105
+      _minDuration: 105
+      _hardness: 0
+    - _levelId: 24298d4f-08c0-46c3-9dd0-fd14e6cbcab7
+      _duration: 140
+      _minDuration: 140
+      _hardness: 1
+    - _levelId: 6771cf6b-f578-4787-8c3c-ab18435bd3b6
+      _duration: 100
+      _minDuration: 100
+      _hardness: 0
+    - _levelId: 8657e700-ed6c-4cf7-a91e-4eb8dcd6a850
+      _duration: 90
+      _minDuration: 90
+      _hardness: 0
+    - _levelId: c1a10c9b-f492-4f9f-a84e-f4d6fd5dc5c3
+      _duration: 100
+      _minDuration: 100
+      _hardness: 0
+    - _levelId: f332f5ee-bfd5-4f9a-b93a-ad12b0c3d6bd
+      _duration: 115
+      _minDuration: 115
+      _hardness: 2
+    - _levelId: cbbff384-7fc3-4da5-abd9-15042b62eec2
+      _duration: 95
+      _minDuration: 95
+      _hardness: 0
+    - _levelId: c39f6e90-3f54-46bf-978e-ed7438069378
+      _duration: 80
+      _minDuration: 80
+      _hardness: 0
+    - _levelId: 55f887c6-12cb-40b1-af6b-8c31c4d2ab93
+      _duration: 90
+      _minDuration: 90
+      _hardness: 0
+    - _levelId: 97501f35-a647-47db-9c6b-b12e045c95dc
+      _duration: 130
+      _minDuration: 130
+      _hardness: 1
+    - _levelId: aafbc580-b1d9-43cf-bbd0-60a0c8453c30
+      _duration: 120
+      _minDuration: 120
+      _hardness: 0
+    - _levelId: b06aca3c-1f1f-43de-811c-933aec867ebd
+      _duration: 125
+      _minDuration: 125
+      _hardness: 0
+    - _levelId: 3ad3ebd0-e7dc-4a00-8a30-0fb96a967f3e
+      _duration: 100
+      _minDuration: 100
+      _hardness: 0
+    - _levelId: 82c6962f-df27-4bf4-9a6d-84bbf7b3c667
+      _duration: 120
+      _minDuration: 120
+      _hardness: 2
+    - _levelId: 1597cab1-791f-4260-b559-5474c631937d
+      _duration: 115
+      _minDuration: 115
+      _hardness: 0
+    - _levelId: 3d3a3288-cc31-47bc-b43b-872d57d2b5ae
+      _duration: 105
+      _minDuration: 105
+      _hardness: 0
+    - _levelId: bed49a9c-e1c7-4259-837a-52bde936a8a8
+      _duration: 135
+      _minDuration: 135
+      _hardness: 1
+    - _levelId: fee42060-0b12-4b71-ab1f-b9a92a7685db
+      _duration: 125
+      _minDuration: 125
+      _hardness: 0
+    - _levelId: 92d4e709-990b-470e-ba17-6b9c14a031b1
+      _duration: 100
+      _minDuration: 100
+      _hardness: 0
+    - _levelId: 6cca71e4-b0ae-47c2-ab3f-db5eb4cccfb5
+      _duration: 100
+      _minDuration: 100
+      _hardness: 0
+    - _levelId: 47e7d742-337f-4ff1-8c58-9dd18bb2b933
+      _duration: 115
+      _minDuration: 115
+      _hardness: 1
+    - _levelId: f0574205-4391-439c-a8d4-1d491e47b0a5
+      _duration: 130
+      _minDuration: 130
+      _hardness: 0
+    - _levelId: d110e04a-cf33-4dfe-8156-03e44dfe9198
+      _duration: 110
+      _minDuration: 110
+      _hardness: 2
+    - _levelId: 14fa1d58-e0eb-4a94-880b-e7accb7eee64
+      _duration: 110
+      _minDuration: 110
+      _hardness: 0
+    - _levelId: 947cbad7-3b71-416f-b3a2-3c34bc42f009
+      _duration: 125
+      _minDuration: 125
+      _hardness: 0
+    - _levelId: 782ecd2c-e9f6-4488-b2f6-efe3041c7d0e
+      _duration: 130
+      _minDuration: 130
+      _hardness: 0
+    - _levelId: 4f6de577-e8f5-4298-8343-c4e22bd1042b
+      _duration: 110
+      _minDuration: 110
+      _hardness: 0
+    - _levelId: 417d88d2-815c-4711-a45f-82ebc97e68e5
+      _duration: 155
+      _minDuration: 155
+      _hardness: 1
+    - _levelId: b4cb56ca-1ae5-42b3-8749-af1aa23d0af6
+      _duration: 110
+      _minDuration: 110
+      _hardness: 0
+    - _levelId: 8eacf2eb-7c1c-45ad-914a-c8528b549db4
+      _duration: 110
+      _minDuration: 110
+      _hardness: 0
+    - _levelId: 9b5e65e5-1af1-4b2b-8220-439ef028d9fd
+      _duration: 150
+      _minDuration: 150
+      _hardness: 2
+    - _levelId: 2dd88cc6-c718-48f7-b688-061107906d73
+      _duration: 100
+      _minDuration: 100
+      _hardness: 0
+    - _levelId: 7557e709-bd0e-4e5e-883c-30e529435acb
+      _duration: 110
+      _minDuration: 110
+      _hardness: 0
+    - _levelId: 8d20df9c-4c48-42d3-851b-833dac0a3428
+      _duration: 115
+      _minDuration: 115
+      _hardness: 1
+    - _levelId: 124163b9-4d63-4f9d-86c8-3df1bad480ed
+      _duration: 110
+      _minDuration: 110
+      _hardness: 0
+    - _levelId: b5e679ec-e550-458e-b8d9-a0ca73b708ea
+      _duration: 100
+      _minDuration: 100
+      _hardness: 0
+    - _levelId: 271234f0-d395-4555-8bce-26fa84d16f3d
+      _duration: 150
+      _minDuration: 150
+      _hardness: 2
+    - _levelId: 58c3ec97-6956-475d-a3fb-8c260850d56c
+      _duration: 90
+      _minDuration: 90
+      _hardness: 0
+    - _levelId: d1e08452-46b3-42c2-b42b-cfbea18aa8ac
+      _duration: 125
+      _minDuration: 125
+      _hardness: 0
+    - _levelId: 59c3ec40-1d98-4441-9194-ac897b0b370a
+      _duration: 175
+      _minDuration: 175
+      _hardness: 1
+    - _levelId: 24897b2b-1d90-49ad-ab30-ced92a86afc2
+      _duration: 105
+      _minDuration: 105
+      _hardness: 0
+    - _levelId: 05fa7059-e541-4e98-8d38-21d7d89cfd5c
+      _duration: 120
+      _minDuration: 120
+      _hardness: 0
+    - _levelId: b858be7d-8dab-451f-8f6f-5d0a6e3c293b
+      _duration: 160
+      _minDuration: 160
+      _hardness: 2
+    - _levelId: b5cfcdc9-f7ba-44d4-ba5c-6a3b2b6e8ac7
+      _duration: 100
+      _minDuration: 100
+      _hardness: 0
+    - _levelId: b032cf3d-4ddb-4e86-ba2b-9445076e4795
+      _duration: 120
+      _minDuration: 120
+      _hardness: 0
+    - _levelId: e4b3e8fc-958a-44c9-8dc9-dbcc0f4c0474
+      _duration: 160
+      _minDuration: 160
+      _hardness: 1
+    - _levelId: 8092fdf8-e151-44bc-900c-2cdb0bacf915
+      _duration: 115
+      _minDuration: 115
+      _hardness: 0
+    - _levelId: b6dc652b-d94b-4723-a6ba-ec38909dd5ad
+      _duration: 100
+      _minDuration: 100
+      _hardness: 0
+    - _levelId: 39e9a0d6-05ed-4c28-bd3e-401b06e1316e
+      _duration: 115
+      _minDuration: 115
+      _hardness: 1
+    - _levelId: c0c418d1-1295-485d-97c2-19be3eb69f76
+      _duration: 100
+      _minDuration: 100
+      _hardness: 0
+    - _levelId: 897185a2-321a-4fbc-82a3-1bbb56e20bf5
+      _duration: 105
+      _minDuration: 105
+      _hardness: 0
+    - _levelId: b01cf758-2f55-466c-a581-cb5a836d4435
+      _duration: 165
+      _minDuration: 165
+      _hardness: 2
+    - _levelId: cba5fbc5-491a-4958-85cf-79303c862e29
+      _duration: 110
+      _minDuration: 110
+      _hardness: 0
+    - _levelId: 0dd557ec-a682-4720-a94b-1738da0e0a6f
+      _duration: 120
+      _minDuration: 120
+      _hardness: 1
+    - _levelId: 48c91e6c-c302-42c9-8d4e-6597bee2f2a4
+      _duration: 100
+      _minDuration: 100
+      _hardness: 0
+    - _levelId: 387e379a-0a32-4dad-9278-460aac4023fb
+      _duration: 80
+      _minDuration: 80
+      _hardness: 0
+    - _levelId: 1126b894-fec6-43d2-8160-f33513450cc2
+      _duration: 160
+      _minDuration: 160
+      _hardness: 2
+    - _levelId: 843a101d-b61a-47cd-baa7-80fff46676d5
+      _duration: 115
+      _minDuration: 115
+      _hardness: 0
+    - _levelId: 056a49c8-d612-4190-8fb9-8a9e65000b1b
+      _duration: 155
+      _minDuration: 155
+      _hardness: 0
+    - _levelId: 280caef5-dd62-4b05-ac6c-9f3c9da921bf
+      _duration: 80
+      _minDuration: 80
+      _hardness: 0
+    - _levelId: da702d1a-0496-4630-84f2-e843b5b031cc
+      _duration: 105
+      _minDuration: 105
+      _hardness: 0
+  _newAddedLevelsWithAdditionals:
+    _newAddedLevelsWithAdditionals:
+    - _levelDataWithAdditionals:
+      - _levelId: d4fd798d-b4ab-4b26-b782-ab18503ced0b
+        _duration: 195
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: f8e42b83-8eb7-4789-b96f-9066ed75c65d
+        _duration: 65
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: 282c17fb-802b-440e-9ba6-c4d0d32a2f7c
+        _duration: 190
+        _minDuration: 0
+        _hardness: 1
+      - _levelId: bc76655d-54bd-47be-bd2f-28b51aef4713
+        _duration: 120
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: 3ef6a3a2-8141-423b-85cc-ccf9de93a827
+        _duration: 175
+        _minDuration: 0
+        _hardness: 2
+      - _levelId: 22fba3d7-2661-4624-bffa-92c024c818b6
+        _duration: 110
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: 1cf77b85-74a0-47e1-85ac-1a4aa8b38b6f
+        _duration: 140
+        _minDuration: 0
+        _hardness: 1
+      - _levelId: 5ec75a14-a024-4149-a083-9aa14a55b795
+        _duration: 100
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: c974e66f-297b-4735-8f30-c526816484f0
+        _duration: 113
+        _minDuration: 0
+        _hardness: 2
+      - _levelId: 625e2eef-7a6d-4743-a1d3-93e0525951f9
+        _duration: 95
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: 2f992f8d-684c-44a4-b9c6-6dd2cdace57a
+        _duration: 150
+        _minDuration: 0
+        _hardness: 1
+      - _levelId: c3f7ac7a-ce7e-45ae-92e2-de23b26c5d7e
+        _duration: 100
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: 29c8b8ef-53a9-4560-a452-267e10e7a907
+        _duration: 115
+        _minDuration: 0
+        _hardness: 1
+      - _levelId: 1411822f-0425-4fd4-b230-e6dcb4c51f3d
+        _duration: 120
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: 1621781f-f0d9-457e-b426-83732f69306b
+        _duration: 150
+        _minDuration: 0
+        _hardness: 2
+      - _levelId: d0330624-b978-4234-b5e9-b4dfe80af440
+        _duration: 150
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: 4f3b8cf9-b816-47c9-a327-fb1a4a0e191f
+        _duration: 180
+        _minDuration: 0
+        _hardness: 1
+      - _levelId: 5c1602b4-a55e-4766-9d63-e454370a9103
+        _duration: 105
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: 27871f9d-2f7d-4dbb-9f0c-43f181c5550b
+        _duration: 155
+        _minDuration: 0
+        _hardness: 2
+      - _levelId: aad64139-d6c2-47ce-856e-9fc54f291894
+        _duration: 90
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: 2c8e4b0f-1b04-4e6c-9f38-74beaecbcb2d
+        _duration: 135
+        _minDuration: 0
+        _hardness: 1
+      - _levelId: 2a3ec992-b024-42d6-9fe7-6843ac95a4ad
+        _duration: 135
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: cfff4ff5-6db2-48da-9a28-b5ed54d1dd10
+        _duration: 135
+        _minDuration: 0
+        _hardness: 2
+      - _levelId: 28dbe659-3416-4d41-937e-7d58592625e2
+        _duration: 155
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: 6b52b7cb-11cf-4dbc-8168-ec6c2fe8392a
+        _duration: 165
+        _minDuration: 0
+        _hardness: 1
+      - _levelId: 584dee2f-4dad-4e7a-9f07-9501f9169530
+        _duration: 115
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: db54e90c-1aa8-4c55-8886-3a6a75528f83
+        _duration: 215
+        _minDuration: 0
+        _hardness: 2
+      - _levelId: c9cafb05-8de2-4b95-a39f-cb1cc35c6653
+        _duration: 105
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: d14f9084-8236-4796-8920-d9d8bf9942e7
+        _duration: 115
+        _minDuration: 0
+        _hardness: 1
+      - _levelId: 42717e1b-6a4c-4d70-9f14-4f9a02a33107
+        _duration: 130
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: 1580a65e-491c-459f-a88a-d73aa6bfe403
+        _duration: 135
+        _minDuration: 0
+        _hardness: 1
+      - _levelId: ecfe1e12-ad80-4b3e-8992-5b364955a5d7
+        _duration: 155
+        _minDuration: 0
+        _hardness: 1
+      - _levelId: 49633b4b-b4ff-431b-9a81-1e0223ece820
+        _duration: 90
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: bb033d16-40dc-43c3-a0c3-66a23d463b3b
+        _duration: 300
+        _minDuration: 0
+        _hardness: 2
+      - _levelId: 8edbe2de-9f55-4a22-998d-e5ab850713fe
+        _duration: 90
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: 50dab145-f63b-4983-a43b-40233df60ffb
+        _duration: 170
+        _minDuration: 0
+        _hardness: 1
+      - _levelId: 80bc2555-dd9f-43bb-9acb-a83c391e9c22
+        _duration: 130
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: 5d222815-2568-42e9-acac-0a4dc514db0e
+        _duration: 95
+        _minDuration: 0
+        _hardness: 1
+      - _levelId: ff81293b-4bd2-455f-b7f6-1813c669999c
+        _duration: 145
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: e098ca9b-f9f4-4af6-9771-3529b7277c41
+        _duration: 135
+        _minDuration: 0
+        _hardness: 1
+      - _levelId: 2d420f43-4e03-4727-9201-8b422c753842
+        _duration: 125
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: abdfdd25-59ed-4c63-b4a3-562221eb1289
+        _duration: 155
+        _minDuration: 0
+        _hardness: 2
+      - _levelId: 9d8ea0cd-873f-457e-8dab-4a5ec8df4ba0
+        _duration: 105
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: 7f317f3a-cf8a-4c0e-9e7f-6695dd4fbf46
+        _duration: 110
+        _minDuration: 0
+        _hardness: 1
+      - _levelId: 7be335bb-dccf-42dd-b9e7-70e920e705bc
+        _duration: 90
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: 08cf04d8-ff78-46c7-a3a1-b5f1d27b3319
+        _duration: 125
+        _minDuration: 0
+        _hardness: 1
+      - _levelId: b4ad5300-319d-4cdb-ad0b-795637653868
+        _duration: 110
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: 51f8b19d-f694-4c7a-a324-3d9508c1ce9e
+        _duration: 110
+        _minDuration: 0
+        _hardness: 1
+      - _levelId: 6eb31c9c-69bc-4f50-8e2c-b4b712edbb6a
+        _duration: 90
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: 74bde487-9930-442c-9093-f630237aa053
+        _duration: 120
+        _minDuration: 0
+        _hardness: 2
+      - _levelId: 75692c5a-912c-4158-abf6-b5c2715c6ce3
+        _duration: 120
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: 4c2e9688-63ab-46c4-a7ca-affdb1e17197
+        _duration: 115
+        _minDuration: 0
+        _hardness: 1
+      - _levelId: 3412762d-8151-4fa3-a6c4-ac9021ceaae2
+        _duration: 165
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: f1a2de06-c259-480e-ad48-66a53ace8e71
+        _duration: 105
+        _minDuration: 0
+        _hardness: 1
+      - _levelId: 1efa345f-c6b3-47f4-8a34-fd9dc76c265a
+        _duration: 170
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: d56e8698-57ff-4440-abfe-2a77beb81358
+        _duration: 110
+        _minDuration: 0
+        _hardness: 1
+      - _levelId: a31a6857-6c76-4010-afed-f87eba7e5da2
+        _duration: 85
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: d659e94f-3f05-4707-987f-a00b694b6b49
+        _duration: 135
+        _minDuration: 0
+        _hardness: 1
+      - _levelId: a93cc6a0-7fab-456e-9aba-d02aba005dee
+        _duration: 130
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: 6f886f88-8e9b-4355-9444-c3829c62d1ca
+        _duration: 230
+        _minDuration: 0
+        _hardness: 2
+      - _levelId: bf3f2ce4-1bb0-4c5e-8a3e-595d33ce9bbe
+        _duration: 95
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: ed0e9c12-5b9f-4e73-961f-1e002e2f87b7
+        _duration: 155
+        _minDuration: 0
+        _hardness: 1
+      - _levelId: 37282030-bd16-4d3f-8896-5d15c10c8e05
+        _duration: 120
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: 74de8b82-ec72-46ba-93ed-02ef0f6a7b81
+        _duration: 105
+        _minDuration: 0
+        _hardness: 2
+      - _levelId: 6bc47719-9230-4dc0-b384-5173bc467b4f
+        _duration: 110
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: 24c587b1-462d-44b4-b262-98634bd3ef77
+        _duration: 120
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: 6633a411-21f0-4960-a495-c74eb96e3c89
+        _duration: 135
+        _minDuration: 0
+        _hardness: 1
+      - _levelId: 98ea3dc7-f46c-4c42-9df3-ebb89cbccebf
+        _duration: 100
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: 660dd9d0-6ea7-4876-beaf-04f1883b89a9
+        _duration: 210
+        _minDuration: 0
+        _hardness: 2
+      - _levelId: 6d201445-3b18-4f3c-9184-511a64aa1201
+        _duration: 75
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: 3589b35f-32d4-4324-a23c-030768f81c46
+        _duration: 115
+        _minDuration: 0
+        _hardness: 1
+      - _levelId: 82c84582-1094-4447-a4f0-4d445b3969e7
+        _duration: 150
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: 6e439449-d0f0-49ef-a3d5-e58aeabb5013
+        _duration: 150
+        _minDuration: 0
+        _hardness: 2
+      - _levelId: af8ecac9-ef9b-4424-8875-d9caf7e9a941
+        _duration: 100
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: d58cf1fa-6d82-4dfa-b632-7d0fcb7cea62
+        _duration: 115
+        _minDuration: 0
+        _hardness: 0
+      - _levelId: 0ac283cb-1da2-4ba5-813e-05634636aa4e
+        _duration: 180
+        _minDuration: 0
+        _hardness: 2
+    - _levelDataWithAdditionals:
+      - _levelId: 360c23e2-12ba-4065-ac4a-715029eef6ea
+        _duration: 110
+        _minDuration: 110
+        _hardness: 0
+      - _levelId: 1461478a-9258-4cec-988c-9b8e94aa4941
+        _duration: 150
+        _minDuration: 150
+        _hardness: 0
+      - _levelId: 8f607bac-efe7-4210-9a6b-039baaf8408b
+        _duration: 110
+        _minDuration: 110
+        _hardness: 0
+      - _levelId: 7908a385-fe0e-46b2-9157-65400654419f
+        _duration: 100
+        _minDuration: 100
+        _hardness: 2
+      - _levelId: 5a0e344b-f0f9-43f9-a51e-d27a74c5d1b3
+        _duration: 80
+        _minDuration: 80
+        _hardness: 0
+      - _levelId: 6f69e644-b704-40da-baba-90cda2133778
+        _duration: 130
+        _minDuration: 130
+        _hardness: 1
+      - _levelId: 054adf91-9b06-4bb9-8434-26d068aff86a
+        _duration: 115
+        _minDuration: 115
+        _hardness: 0
+      - _levelId: 2ef8c53e-384f-4db1-a887-0b05d63ceace
+        _duration: 95
+        _minDuration: 95
+        _hardness: 0
+      - _levelId: 0c40e0f2-730b-4979-8275-e24877cb341f
+        _duration: 125
+        _minDuration: 125
+        _hardness: 1
+      - _levelId: 39462bd0-02b6-4041-8484-6a690e819c37
+        _duration: 100
+        _minDuration: 100
+        _hardness: 0
+      - _levelId: 2e35bbaf-5782-4546-be9c-9386711eba00
+        _duration: 120
+        _minDuration: 120
+        _hardness: 0
+      - _levelId: 1507333c-bbdd-47d6-a269-b62e1dbdf343
+        _duration: 135
+        _minDuration: 135
+        _hardness: 1
+      - _levelId: cd8361f6-dcd8-45bc-b44f-97d84a8b6e7a
+        _duration: 130
+        _minDuration: 130
+        _hardness: 0
+      - _levelId: ec166d7d-d4f3-410e-885f-641a782de395
+        _duration: 120
+        _minDuration: 120
+        _hardness: 0
+      - _levelId: 05756789-a197-4ffd-a67f-ccfe9d43ef7c
+        _duration: 125
+        _minDuration: 125
+        _hardness: 2
+      - _levelId: 5a4f931e-6253-4875-9d02-f6fe6a75f376
+        _duration: 135
+        _minDuration: 135
+        _hardness: 0
+      - _levelId: 2c2beedf-2f65-4b5d-aed3-f951d030fd87
+        _duration: 120
+        _minDuration: 120
+        _hardness: 1
+      - _levelId: 952f6fbf-0855-416b-a5e1-2b06abeeaaa9
+        _duration: 150
+        _minDuration: 150
+        _hardness: 0
+      - _levelId: 56c8bbd2-831f-4f86-afd0-3901b8f4ab89
+        _duration: 90
+        _minDuration: 90
+        _hardness: 0
+      - _levelId: a2854b98-e3d2-4aa3-8252-482487425dfb
+        _duration: 105
+        _minDuration: 105
+        _hardness: 0
+      - _levelId: afa4c6fb-bde4-4551-934f-80f8c03f05fa
+        _duration: 125
+        _minDuration: 125
+        _hardness: 2
+      - _levelId: 16dec164-6b6d-495f-8887-f6719882b9c7
+        _duration: 160
+        _minDuration: 160
+        _hardness: 0
+      - _levelId: e7f107aa-8952-4db5-ba91-ce8a383944fd
+        _duration: 170
+        _minDuration: 170
+        _hardness: 0
+      - _levelId: 8e77625a-d86f-46a9-b369-becc251fbb9b
+        _duration: 160
+        _minDuration: 160
+        _hardness: 0
+      - _levelId: bed2e40e-9a27-4470-aee3-5fc650283a19
+        _duration: 100
+        _minDuration: 100
+        _hardness: 0
+      - _levelId: 9747d7c5-31da-42c3-8584-6758b76bf9b0
+        _duration: 180
+        _minDuration: 180
+        _hardness: 2
+      - _levelId: bc6e86bc-e91f-4672-b5d7-81278243f12c
+        _duration: 160
+        _minDuration: 160
+        _hardness: 0
+      - _levelId: dd24ba3c-b9c4-4cdf-92ac-eb9d978181fa
+        _duration: 95
+        _minDuration: 95
+        _hardness: 0
+      - _levelId: 8f1a5be1-45ea-4faa-be2f-952dfa11f1f7
+        _duration: 165
+        _minDuration: 165
+        _hardness: 0
+      - _levelId: e6fe89be-d50c-4b08-8d04-0125628fc70f
+        _duration: 180
+        _minDuration: 180
+        _hardness: 0
+      - _levelId: cf4e1757-42b7-49dc-86ac-2da0b5ab64bd
+        _duration: 120
+        _minDuration: 120
+        _hardness: 0
+      - _levelId: 8508a7df-127d-49ef-9878-ee93bc5b3f61
+        _duration: 100
+        _minDuration: 100
+        _hardness: 0
+      - _levelId: 6b055816-fc2f-44ce-9519-1000cc946f3f
+        _duration: 105
+        _minDuration: 105
+        _hardness: 0
+      - _levelId: fe0d6b67-259e-45b9-ac9f-cbfc982b82c1
+        _duration: 130
+        _minDuration: 130
+        _hardness: 1
+      - _levelId: 7b32ef92-87fa-4ed8-bc29-1fe2848d0020
+        _duration: 120
+        _minDuration: 120
+        _hardness: 0
+      - _levelId: e422f1f5-d14a-4ecf-a154-1499d64eecfb
+        _duration: 110
+        _minDuration: 110
+        _hardness: 0
+      - _levelId: 302a916f-277d-4eaf-8036-9ff96dd5ee96
+        _duration: 105
+        _minDuration: 105
+        _hardness: 0
+      - _levelId: 1d0bb675-c7bc-4e5a-9902-59a0a17630fc
+        _duration: 140
+        _minDuration: 140
+        _hardness: 1
+      - _levelId: 6498e278-6571-4bcc-b4b2-a3dcf1bc0ae8
+        _duration: 200
+        _minDuration: 200
+        _hardness: 0
+      - _levelId: bc32f7d0-3a36-4563-a6ea-011d5668599c
+        _duration: 115
+        _minDuration: 115
+        _hardness: 0
+      - _levelId: fc7ae863-5b64-4be1-a6e1-9ed05b2e1475
+        _duration: 110
+        _minDuration: 110
+        _hardness: 0
+      - _levelId: 19b11b5b-f812-4f34-a5a5-a88ecbaa00f7
+        _duration: 125
+        _minDuration: 125
+        _hardness: 0
+      - _levelId: d8a3c13a-22d9-401b-837b-d0abdb08358f
+        _duration: 200
+        _minDuration: 200
+        _hardness: 2
+      - _levelId: 1b2ec93f-0f72-4ab3-afbb-fd9dca825b06
+        _duration: 125
+        _minDuration: 125
+        _hardness: 0
+      - _levelId: 88607de0-ac93-40b8-9a36-5dbb6bf3d891
+        _duration: 105
+        _minDuration: 105
+        _hardness: 0
+      - _levelId: 1374ff94-c5f4-4586-82a5-f20841bf0a02
+        _duration: 110
+        _minDuration: 110
+        _hardness: 0
+      - _levelId: ee57a207-4b56-44f5-b84b-c6c406f48f2a
+        _duration: 120
+        _minDuration: 120
+        _hardness: 2
+      - _levelId: f62afb15-9111-44c0-b2e3-abd5b834814d
+        _duration: 140
+        _minDuration: 140
+        _hardness: 1
+      - _levelId: a808b708-76b3-40b5-b0e9-8602fddabba5
+        _duration: 125
+        _minDuration: 125
+        _hardness: 0
+      - _levelId: 7a01c02a-c2fc-4a3c-8092-639ee2360a57
+        _duration: 90
+        _minDuration: 90
+        _hardness: 0
+      - _levelId: 9c725343-ab0d-49dc-a062-0bdf9a1411a3
+        _duration: 150
+        _minDuration: 150
+        _hardness: 1
+      - _levelId: 535cd72f-cbf6-47d0-8ffb-67ad7a88f5d1
+        _duration: 125
+        _minDuration: 125
+        _hardness: 0
+      - _levelId: 80b7b373-56ca-4b0a-9925-a2c983451194
+        _duration: 165
+        _minDuration: 165
+        _hardness: 0
+      - _levelId: e77779be-829a-47ca-b544-5d9a8bb168fc
+        _duration: 130
+        _minDuration: 130
+        _hardness: 2
+      - _levelId: b4718c78-de60-471d-9047-f02edfd9a200
+        _duration: 125
+        _minDuration: 125
+        _hardness: 0
+      - _levelId: 8acbc801-9479-49ff-8f20-31e73c6fa3dd
+        _duration: 90
+        _minDuration: 90
+        _hardness: 0
+      - _levelId: 12897151-38bc-405c-ac0a-d87533f705c6
+        _duration: 115
+        _minDuration: 115
+        _hardness: 0
+      - _levelId: 5ac283bd-23ce-4501-b0c0-6158c87c835f
+        _duration: 110
+        _minDuration: 110
+        _hardness: 2
+      - _levelId: 44f48bb3-1891-4094-8250-79bf8a3a1845
+        _duration: 105
+        _minDuration: 105
+        _hardness: 0
+      - _levelId: d3650161-f67b-4d40-be2e-0006cad25d53
+        _duration: 80
+        _minDuration: 80
+        _hardness: 0
+      - _levelId: d982d58e-6854-4e78-b0b1-2f37ce9e9244
+        _duration: 180
+        _minDuration: 180
+        _hardness: 2
+      - _levelId: b237ce1d-4593-4c65-b67b-2ba38c004262
+        _duration: 130
+        _minDuration: 130
+        _hardness: 0
+      - _levelId: 1477b911-5730-4143-bb31-46e58fda9d4f
+        _duration: 135
+        _minDuration: 135
+        _hardness: 0
+      - _levelId: 38448e93-38c8-418d-839e-b339f33c13fe
+        _duration: 170
+        _minDuration: 170
+        _hardness: 2
+      - _levelId: 8f5e9385-2f12-4e87-a358-625a2051a4cb
+        _duration: 120
+        _minDuration: 120
+        _hardness: 0
+      - _levelId: eeb8f2d7-5693-4f02-9088-e6fe2b888140
+        _duration: 110
+        _minDuration: 110
+        _hardness: 0
+      - _levelId: c29614d0-1086-4a6b-8143-9af88d7bf050
+        _duration: 110
+        _minDuration: 110
+        _hardness: 0
+      - _levelId: e79e4bac-83ab-42d2-8e08-81caee7a8bc9
+        _duration: 120
+        _minDuration: 120
+        _hardness: 1
+      - _levelId: f571411c-7df6-4334-b39a-1b6e7e16418f
+        _duration: 120
+        _minDuration: 120
+        _hardness: 0
+      - _levelId: bdb1c1d6-dc03-43c7-a76e-f6544d7de57b
+        _duration: 120
+        _minDuration: 120
+        _hardness: 0
+      - _levelId: 74729915-8206-4f9a-8025-f1ae1975cbc1
+        _duration: 130
+        _minDuration: 130
+        _hardness: 0
+      - _levelId: ebe90068-ac51-4a1b-accc-908c0e2a31dc
+        _duration: 115
+        _minDuration: 115
+        _hardness: 1
+      - _levelId: abf50458-c12e-4d4d-8ce9-a01519866d78
+        _duration: 115
+        _minDuration: 115
+        _hardness: 0
+      - _levelId: 3bcc0b4b-1d86-4053-9c8a-0a15e2264b32
+        _duration: 105
+        _minDuration: 105
+        _hardness: 2
+      - _levelId: f2145c40-d9b9-4b66-b0fe-f82d57a97b76
+        _duration: 130
+        _minDuration: 130
+        _hardness: 0
+      - _levelId: e0bf56f0-9a97-4e1a-8a2d-f950abf3234e
+        _duration: 110
+        _minDuration: 110
+        _hardness: 2
+    - _levelDataWithAdditionals:
+      - _levelId: ca267e2b-8008-4d7a-b655-448bb2929fdf
+        _duration: 65
+        _minDuration: 65
+        _hardness: 0
+      - _levelId: d210e043-3ad1-485e-8cab-27dcfe0bcc73
+        _duration: 85
+        _minDuration: 85
+        _hardness: 0
+      - _levelId: 6c0e2d2b-a7a6-4eb4-9c1d-1cd80843646c
+        _duration: 90
+        _minDuration: 90
+        _hardness: 0
+      - _levelId: 9bbb7e29-3e89-4515-9b5f-5cc1cf157811
+        _duration: 115
+        _minDuration: 115
+        _hardness: 1
+      - _levelId: 28d0b63c-7b47-4210-b642-b0f99ed5d9a6
+        _duration: 100
+        _minDuration: 100
+        _hardness: 0
+      - _levelId: 844218c9-703c-470a-ad1c-586c831906cd
+        _duration: 130
+        _minDuration: 130
+        _hardness: 0
+      - _levelId: bda19fad-46f6-4ab4-807b-0b50aaac8267
+        _duration: 100
+        _minDuration: 100
+        _hardness: 0
+      - _levelId: 92e830ee-e959-4b66-bd78-5fa8609af945
+        _duration: 230
+        _minDuration: 230
+        _hardness: 2
+      - _levelId: 3a17ff30-91a5-4eb8-8e21-41a71407c5f7
+        _duration: 105
+        _minDuration: 105
+        _hardness: 0
+      - _levelId: 9623eaaf-1aca-4ddd-8805-c2f931be8ca1
+        _duration: 130
+        _minDuration: 130
+        _hardness: 0
+      - _levelId: 8f79099d-5b17-43ac-9c02-6a66527c1835
+        _duration: 90
+        _minDuration: 90
+        _hardness: 1
+      - _levelId: cd06701f-d780-4d9f-a329-2fe5821c5d1d
+        _duration: 90
+        _minDuration: 90
+        _hardness: 0
+      - _levelId: e7367fdd-5d99-474f-ab3d-5804be4594f0
+        _duration: 95
+        _minDuration: 95
+        _hardness: 0
+      - _levelId: c4ac8702-a671-42d5-9e10-f52bd8b7764b
+        _duration: 110
+        _minDuration: 110
+        _hardness: 2
+      - _levelId: 684a8fd4-7cb6-4c24-a525-6181fdbf61b1
+        _duration: 100
+        _minDuration: 100
+        _hardness: 0
+      - _levelId: 7a5063c7-b780-4d5a-9cb3-d5c70cec3092
+        _duration: 120
+        _minDuration: 120
+        _hardness: 0
+      - _levelId: 7571eb83-fdb8-4d3f-bbae-0efee06e599b
+        _duration: 145
+        _minDuration: 145
+        _hardness: 1
+      - _levelId: c4a5f67f-1422-40e0-ba57-cae42276f1b7
+        _duration: 125
+        _minDuration: 125
+        _hardness: 0
+      - _levelId: 57041f3e-6040-4f5e-be6d-53d4fe144138
+        _duration: 135
+        _minDuration: 135
+        _hardness: 0
+      - _levelId: 8c90edb3-a2b7-4282-8f30-da88636e9a6b
+        _duration: 120
+        _minDuration: 120
+        _hardness: 1
+      - _levelId: d25c2ee1-718c-48dd-bcaf-00ecaffaa823
+        _duration: 150
+        _minDuration: 150
+        _hardness: 0
+      - _levelId: e9ba8011-3e1a-486a-aeea-1ee5d549a828
+        _duration: 115
+        _minDuration: 115
+        _hardness: 0
+      - _levelId: 12ef554c-7fc9-4937-a586-47b3ce9fc626
+        _duration: 110
+        _minDuration: 110
+        _hardness: 0
+      - _levelId: b07a0943-450b-482e-ac78-edbaa06a976d
+        _duration: 155
+        _minDuration: 155
+        _hardness: 0
+      - _levelId: 8d89b81f-080d-422a-b8c1-2f709ef39364
+        _duration: 135
+        _minDuration: 135
+        _hardness: 0
+      - _levelId: d6906038-0e44-4474-8607-0f7a452f1650
+        _duration: 105
+        _minDuration: 105
+        _hardness: 0
+      - _levelId: 16ca8b33-6adb-4498-b674-6d75b192c929
+        _duration: 100
+        _minDuration: 100
+        _hardness: 1
+      - _levelId: 09f9e0dc-470c-4598-ba20-1d718543163e
+        _duration: 110
+        _minDuration: 110
+        _hardness: 0
+      - _levelId: b7a71fe9-5c82-4a5f-8fc0-2f6db1819eea
+        _duration: 110
+        _minDuration: 110
+        _hardness: 0
+      - _levelId: 4e61cb81-38bc-4cf7-a877-7a2f0f548779
+        _duration: 90
+        _minDuration: 90
+        _hardness: 0
+      - _levelId: 904f3b58-7424-4009-9190-88e6fc25e52e
+        _duration: 165
+        _minDuration: 165
+        _hardness: 2
+      - _levelId: 2b587f40-9515-4fda-8a20-08df80fafdd8
+        _duration: 110
+        _minDuration: 110
+        _hardness: 0
+      - _levelId: d712a802-739d-4e70-b640-fc5448b12281
+        _duration: 90
+        _minDuration: 90
+        _hardness: 0
+      - _levelId: ede801df-d739-44c2-a78d-df45473b0f6a
+        _duration: 125
+        _minDuration: 125
+        _hardness: 0
+      - _levelId: 9818e6f1-7223-4320-8c8b-41522deafc2c
+        _duration: 145
+        _minDuration: 145
+        _hardness: 1
+      - _levelId: cbc1979b-7e20-46fc-81b7-4367bb8e6f34
+        _duration: 95
+        _minDuration: 95
+        _hardness: 0
+      - _levelId: 56fc7048-f4bf-4832-8469-ec7f27998396
+        _duration: 120
+        _minDuration: 120
+        _hardness: 0
+      - _levelId: be185f42-3ad6-4dd5-a8b0-14e591e662ee
+        _duration: 110
+        _minDuration: 110
+        _hardness: 1
+      - _levelId: 7121eeee-ff93-44c4-a456-18e72bf4eba3
+        _duration: 80
+        _minDuration: 80
+        _hardness: 0
+      - _levelId: d2a90a1a-1df2-4e24-a18f-0bec98ce20a1
+        _duration: 105
+        _minDuration: 105
+        _hardness: 0
+      - _levelId: e9673287-3a6a-46ba-be10-a5414dc656b8
+        _duration: 105
+        _minDuration: 105
+        _hardness: 2
+      - _levelId: 40455118-1c38-4860-88ca-9a04729e23f8
+        _duration: 100
+        _minDuration: 100
+        _hardness: 0
+      - _levelId: 22a78886-baff-4548-bf3c-8d504a8b73f1
+        _duration: 105
+        _minDuration: 105
+        _hardness: 0
+      - _levelId: cde1c766-94e3-4a3c-a3ba-b700b4e05ae8
+        _duration: 135
+        _minDuration: 135
+        _hardness: 1
+      - _levelId: ae96780b-17a3-46a5-ace0-0cc50b38a9c3
+        _duration: 80
+        _minDuration: 80
+        _hardness: 0
+      - _levelId: c3c3d498-0b38-43b5-8244-357993dde607
+        _duration: 100
+        _minDuration: 100
+        _hardness: 0
+      - _levelId: 2838211a-d590-46e5-a16a-d2c2f1587ac5
+        _duration: 145
+        _minDuration: 145
+        _hardness: 2
+      - _levelId: 98fb0ac3-5c12-47f2-8423-966d02dc9190
+        _duration: 75
+        _minDuration: 75
+        _hardness: 0
+      - _levelId: 36f2e90e-7b00-4541-bc21-18e4687726d1
+        _duration: 90
+        _minDuration: 90
+        _hardness: 0
+      - _levelId: 4bfcadfc-8a18-4ee4-8338-3e545b917efd
+        _duration: 90
+        _minDuration: 90
+        _hardness: 0
+      - _levelId: 789755aa-7ea6-4f11-83d5-52ecf516da22
+        _duration: 115
+        _minDuration: 115
+        _hardness: 1
+      - _levelId: 448c2b78-f775-4c45-bb52-98f904665b45
+        _duration: 120
+        _minDuration: 120
+        _hardness: 0
+      - _levelId: 1ee4f125-b975-47dc-a622-987bf0db008e
+        _duration: 100
+        _minDuration: 100
+        _hardness: 0
+      - _levelId: bfb9e31c-0633-4fde-b899-ec09f3bb2f0c
+        _duration: 115
+        _minDuration: 115
+        _hardness: 0
+      - _levelId: 0328ef6a-5546-4b5f-951c-e9067f87e493
+        _duration: 110
+        _minDuration: 110
+        _hardness: 1
+      - _levelId: b68a2af5-6c3f-401a-ad8f-7342ba02592d
+        _duration: 140
+        _minDuration: 140
+        _hardness: 0
+      - _levelId: 0b6797a0-6710-4c48-a9fe-3bae16ef419d
+        _duration: 110
+        _minDuration: 110
+        _hardness: 0
+      - _levelId: e9dca8b7-69fc-41a7-a21f-009762c8f628
+        _duration: 85
+        _minDuration: 85
+        _hardness: 2
+      - _levelId: c8a501ad-957d-40d1-8803-fbfac431c5c2
+        _duration: 125
+        _minDuration: 125
+        _hardness: 0
+      - _levelId: 88bc71aa-6d1f-4612-81f3-19920f9f33e9
+        _duration: 110
+        _minDuration: 110
+        _hardness: 0
+      - _levelId: 322889a4-172c-4a90-8f58-9584b5eee2ae
+        _duration: 105
+        _minDuration: 105
+        _hardness: 0
+      - _levelId: 24298d4f-08c0-46c3-9dd0-fd14e6cbcab7
+        _duration: 140
+        _minDuration: 140
+        _hardness: 1
+      - _levelId: 6771cf6b-f578-4787-8c3c-ab18435bd3b6
+        _duration: 100
+        _minDuration: 100
+        _hardness: 0
+      - _levelId: 8657e700-ed6c-4cf7-a91e-4eb8dcd6a850
+        _duration: 90
+        _minDuration: 90
+        _hardness: 0
+      - _levelId: c1a10c9b-f492-4f9f-a84e-f4d6fd5dc5c3
+        _duration: 100
+        _minDuration: 100
+        _hardness: 0
+      - _levelId: f332f5ee-bfd5-4f9a-b93a-ad12b0c3d6bd
+        _duration: 115
+        _minDuration: 115
+        _hardness: 2
+      - _levelId: cbbff384-7fc3-4da5-abd9-15042b62eec2
+        _duration: 95
+        _minDuration: 95
+        _hardness: 0
+      - _levelId: c39f6e90-3f54-46bf-978e-ed7438069378
+        _duration: 80
+        _minDuration: 80
+        _hardness: 0
+      - _levelId: 55f887c6-12cb-40b1-af6b-8c31c4d2ab93
+        _duration: 90
+        _minDuration: 90
+        _hardness: 0
+      - _levelId: 97501f35-a647-47db-9c6b-b12e045c95dc
+        _duration: 130
+        _minDuration: 130
+        _hardness: 1
+      - _levelId: aafbc580-b1d9-43cf-bbd0-60a0c8453c30
+        _duration: 120
+        _minDuration: 120
+        _hardness: 0
+    - _levelDataWithAdditionals:
+      - _levelId: b06aca3c-1f1f-43de-811c-933aec867ebd
+        _duration: 125
+        _minDuration: 125
+        _hardness: 0
+      - _levelId: bed49a9c-e1c7-4259-837a-52bde936a8a8
+        _duration: 135
+        _minDuration: 135
+        _hardness: 1
+      - _levelId: 3ad3ebd0-e7dc-4a00-8a30-0fb96a967f3e
+        _duration: 100
+        _minDuration: 100
+        _hardness: 0
+      - _levelId: 1597cab1-791f-4260-b559-5474c631937d
+        _duration: 115
+        _minDuration: 115
+        _hardness: 0
+      - _levelId: 3d3a3288-cc31-47bc-b43b-872d57d2b5ae
+        _duration: 105
+        _minDuration: 105
+        _hardness: 0
+      - _levelId: 82c6962f-df27-4bf4-9a6d-84bbf7b3c667
+        _duration: 120
+        _minDuration: 120
+        _hardness: 2
+      - _levelId: fee42060-0b12-4b71-ab1f-b9a92a7685db
+        _duration: 125
+        _minDuration: 125
+        _hardness: 0
+      - _levelId: 6cca71e4-b0ae-47c2-ab3f-db5eb4cccfb5
+        _duration: 100
+        _minDuration: 100
+        _hardness: 0
+      - _levelId: f0574205-4391-439c-a8d4-1d491e47b0a5
+        _duration: 130
+        _minDuration: 130
+        _hardness: 0
+      - _levelId: 47e7d742-337f-4ff1-8c58-9dd18bb2b933
+        _duration: 115
+        _minDuration: 115
+        _hardness: 1
+      - _levelId: 947cbad7-3b71-416f-b3a2-3c34bc42f009
+        _duration: 125
+        _minDuration: 125
+        _hardness: 0
+      - _levelId: 782ecd2c-e9f6-4488-b2f6-efe3041c7d0e
+        _duration: 130
+        _minDuration: 130
+        _hardness: 0
+      - _levelId: b032cf3d-4ddb-4e86-ba2b-9445076e4795
+        _duration: 120
+        _minDuration: 120
+        _hardness: 0
+      - _levelId: 9b5e65e5-1af1-4b2b-8220-439ef028d9fd
+        _duration: 150
+        _minDuration: 150
+        _hardness: 2
+      - _levelId: b4cb56ca-1ae5-42b3-8749-af1aa23d0af6
+        _duration: 110
+        _minDuration: 110
+        _hardness: 0
+      - _levelId: 8eacf2eb-7c1c-45ad-914a-c8528b549db4
+        _duration: 110
+        _minDuration: 110
+        _hardness: 0
+      - _levelId: c0c418d1-1295-485d-97c2-19be3eb69f76
+        _duration: 100
+        _minDuration: 100
+        _hardness: 0
+      - _levelId: d110e04a-cf33-4dfe-8156-03e44dfe9198
+        _duration: 110
+        _minDuration: 110
+        _hardness: 2
+      - _levelId: 92d4e709-990b-470e-ba17-6b9c14a031b1
+        _duration: 100
+        _minDuration: 100
+        _hardness: 0
+      - _levelId: 39e9a0d6-05ed-4c28-bd3e-401b06e1316e
+        _duration: 115
+        _minDuration: 115
+        _hardness: 1
+      - _levelId: d1e08452-46b3-42c2-b42b-cfbea18aa8ac
+        _duration: 125
+        _minDuration: 125
+        _hardness: 0
+      - _levelId: b5e679ec-e550-458e-b8d9-a0ca73b708ea
+        _duration: 100
+        _minDuration: 100
+        _hardness: 0
+      - _levelId: 271234f0-d395-4555-8bce-26fa84d16f3d
+        _duration: 150
+        _minDuration: 150
+        _hardness: 2
+      - _levelId: 7557e709-bd0e-4e5e-883c-30e529435acb
+        _duration: 110
+        _minDuration: 110
+        _hardness: 0
+      - _levelId: e4b3e8fc-958a-44c9-8dc9-dbcc0f4c0474
+        _duration: 160
+        _minDuration: 160
+        _hardness: 1
+      - _levelId: 2dd88cc6-c718-48f7-b688-061107906d73
+        _duration: 100
+        _minDuration: 100
+        _hardness: 0
+      - _levelId: cba5fbc5-491a-4958-85cf-79303c862e29
+        _duration: 110
+        _minDuration: 110
+        _hardness: 0
+      - _levelId: 417d88d2-815c-4711-a45f-82ebc97e68e5
+        _duration: 155
+        _minDuration: 155
+        _hardness: 1
+      - _levelId: 58c3ec97-6956-475d-a3fb-8c260850d56c
+        _duration: 90
+        _minDuration: 90
+        _hardness: 0
+      - _levelId: 124163b9-4d63-4f9d-86c8-3df1bad480ed
+        _duration: 110
+        _minDuration: 110
+        _hardness: 0
+      - _levelId: 14fa1d58-e0eb-4a94-880b-e7accb7eee64
+        _duration: 110
+        _minDuration: 110
+        _hardness: 0
+      - _levelId: b858be7d-8dab-451f-8f6f-5d0a6e3c293b
+        _duration: 160
+        _minDuration: 160
+        _hardness: 2
+      - _levelId: 387e379a-0a32-4dad-9278-460aac4023fb
+        _duration: 80
+        _minDuration: 80
+        _hardness: 0
+      - _levelId: 0dd557ec-a682-4720-a94b-1738da0e0a6f
+        _duration: 120
+        _minDuration: 120
+        _hardness: 1
+      - _levelId: 4f6de577-e8f5-4298-8343-c4e22bd1042b
+        _duration: 110
+        _minDuration: 110
+        _hardness: 0
+      - _levelId: b5cfcdc9-f7ba-44d4-ba5c-6a3b2b6e8ac7
+        _duration: 100
+        _minDuration: 100
+        _hardness: 0
+      - _levelId: 59c3ec40-1d98-4441-9194-ac897b0b370a
+        _duration: 175
+        _minDuration: 175
+        _hardness: 1
+      - _levelId: 056a49c8-d612-4190-8fb9-8a9e65000b1b
+        _duration: 155
+        _minDuration: 155
+        _hardness: 0
+      - _levelId: 05fa7059-e541-4e98-8d38-21d7d89cfd5c
+        _duration: 120
+        _minDuration: 120
+        _hardness: 0
+      - _levelId: b01cf758-2f55-466c-a581-cb5a836d4435
+        _duration: 165
+        _minDuration: 165
+        _hardness: 2
+      - _levelId: 24897b2b-1d90-49ad-ab30-ced92a86afc2
+        _duration: 105
+        _minDuration: 105
+        _hardness: 0
+      - _levelId: 48c91e6c-c302-42c9-8d4e-6597bee2f2a4
+        _duration: 100
+        _minDuration: 100
+        _hardness: 0
+      - _levelId: 8d20df9c-4c48-42d3-851b-833dac0a3428
+        _duration: 115
+        _minDuration: 115
+        _hardness: 1
+      - _levelId: 8092fdf8-e151-44bc-900c-2cdb0bacf915
+        _duration: 115
+        _minDuration: 115
+        _hardness: 0
+      - _levelId: b6dc652b-d94b-4723-a6ba-ec38909dd5ad
+        _duration: 100
+        _minDuration: 100
+        _hardness: 0
+      - _levelId: 1126b894-fec6-43d2-8160-f33513450cc2
+        _duration: 160
+        _minDuration: 160
+        _hardness: 2
+      - _levelId: 843a101d-b61a-47cd-baa7-80fff46676d5
+        _duration: 115
+        _minDuration: 115
+        _hardness: 0
+      - _levelId: 897185a2-321a-4fbc-82a3-1bbb56e20bf5
+        _duration: 105
+        _minDuration: 105
+        _hardness: 0
+      - _levelId: 280caef5-dd62-4b05-ac6c-9f3c9da921bf
+        _duration: 80
+        _minDuration: 80
+        _hardness: 0
+      - _levelId: da702d1a-0496-4630-84f2-e843b5b031cc
+        _duration: 105
+        _minDuration: 105
+        _hardness: 0

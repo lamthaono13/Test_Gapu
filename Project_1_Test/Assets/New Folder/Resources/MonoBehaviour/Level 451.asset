@@ -1,0 +1,758 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62613f266082b3a879af3271940a3870, type: 3}
+  m_Name: Level 451
+  m_EditorClassIdentifier:
+  id: 0328ef6a-5546-4b5f-951c-e9067f87e493
+  _levelDataPureClass:
+    _gridSize: {x: 5, y: 9}
+    _hidedGridCoords:
+    - {x: 0, y: 0}
+    - {x: 0, y: 4}
+    - {x: 1, y: 8}
+    - {x: 2, y: 7}
+    - {x: 2, y: 8}
+    - {x: 3, y: 8}
+    - {x: 4, y: 0}
+    - {x: 4, y: 4}
+    _gridColorDatas: []
+    _levelCameraData:
+      _position: {x: 0, y: -6.5, z: -30}
+      _rotation: {x: 349.99997, y: 0, z: 0}
+      _fov: 65
+    _levelDoorsData:
+      _inverseMovingDoorDirection: 0
+      _doors:
+      - _position: {x: -4, y: 10, z: 0}
+        _rotation: {x: 0, y: 0, z: 180}
+        _doorPartCount: 1
+        _blockType: 0
+        _hasStar: 0
+        _isSwitchDoor: 0
+        _isSwitchDoorOff: 0
+        _hasIce: 0
+        _iceCount: 0
+        _hasMovingDoorLock: 0
+        _movingDoorOrder: 0
+        _hasColorChanger: 1
+        _colorChangerBlockTypes:
+        - 1
+        - 2
+        - 3
+        - 4
+        _hasLock: 0
+        _lockCount: 0
+      - _position: {x: 4, y: 10, z: 0}
+        _rotation: {x: 0, y: 0, z: 180}
+        _doorPartCount: 1
+        _blockType: 5
+        _hasStar: 0
+        _isSwitchDoor: 0
+        _isSwitchDoorOff: 0
+        _hasIce: 0
+        _iceCount: 0
+        _hasMovingDoorLock: 0
+        _movingDoorOrder: 0
+        _hasColorChanger: 1
+        _colorChangerBlockTypes:
+        - 6
+        - 7
+        - 8
+        - 9
+        _hasLock: 0
+        _lockCount: 0
+    _levelBlockadesData:
+      _blockades:
+      - _position: {x: 5.5, y: 9.5, z: 0}
+        _rotation: {x: 0.00017758492, y: 89.99978, z: 269.99988}
+        _scale: {x: 1, y: 1, z: 1}
+        _blockType: 0
+        _blendValue: 0
+      - _position: {x: -5.5000296, y: -7.5, z: -7.991184E-07}
+        _rotation: {x: -0.00012294341, y: 269.99982, z: 90.00012}
+        _scale: {x: 1, y: 1, z: 1}
+        _blockType: 0
+        _blendValue: 0
+      - _position: {x: 5.5, y: -7.5, z: 0}
+        _rotation: {x: 90, y: 179.99988, z: 0}
+        _scale: {x: 1, y: 1, z: 1}
+        _blockType: 0
+        _blendValue: 0
+      - _position: {x: -5.5, y: 9.5, z: 0}
+        _rotation: {x: 270, y: -2.8978768E-05, z: 0}
+        _scale: {x: 1, y: 1, z: 1}
+        _blockType: 0
+        _blendValue: 0
+      - _position: {x: 5.5, y: 5, z: 1.5}
+        _rotation: {x: -0, y: 90, z: 270.00006}
+        _scale: {x: 2, y: 1, z: 1}
+        _blockType: 2
+        _blendValue: 0
+      - _position: {x: -5.5, y: 5, z: 1.5}
+        _rotation: {x: -0, y: 90, z: 270.00006}
+        _scale: {x: 2, y: 1, z: 1}
+        _blockType: 2
+        _blendValue: 0
+      - _position: {x: -4, y: -7.5, z: 1.5}
+        _rotation: {x: 270, y: 0, z: 0}
+        _scale: {x: 0.5, y: 1, z: 1}
+        _blockType: 2
+        _blendValue: 0
+      - _position: {x: 4, y: -7.5, z: 1.5}
+        _rotation: {x: 270, y: 0, z: 0}
+        _scale: {x: 0.5, y: 1, z: 1}
+        _blockType: 2
+        _blendValue: 0
+      - _position: {x: -2.5, y: 8, z: 1.5}
+        _rotation: {x: -0, y: 90, z: 270.00006}
+        _scale: {x: 0.5, y: 1, z: 1}
+        _blockType: 2
+        _blendValue: 0
+      - _position: {x: -2.5, y: 9.5, z: 0}
+        _rotation: {x: 0.00017758492, y: 89.99978, z: 269.99988}
+        _scale: {x: 1, y: 1, z: 1}
+        _blockType: 0
+        _blendValue: 0
+      - _position: {x: -2, y: 7.5, z: 1.5}
+        _rotation: {x: 270, y: 0, z: 0}
+        _scale: {x: 0.5, y: 1, z: 1}
+        _blockType: 2
+        _blendValue: 0
+      - _position: {x: 2.5, y: 9.5, z: 0}
+        _rotation: {x: 270, y: -2.8978768E-05, z: 0}
+        _scale: {x: 1, y: 1, z: 1}
+        _blockType: 0
+        _blendValue: 0
+      - _position: {x: 2.5, y: 8, z: 1.5}
+        _rotation: {x: -0, y: 90, z: 270.00006}
+        _scale: {x: 0.5, y: 1, z: 1}
+        _blockType: 2
+        _blendValue: 0
+      - _position: {x: 2, y: 7.5, z: 1.5}
+        _rotation: {x: 270, y: 0, z: 0}
+        _scale: {x: 0.5, y: 1, z: 1}
+        _blockType: 2
+        _blendValue: 0
+      - _position: {x: -0.5, y: 6, z: 1.5}
+        _rotation: {x: -0, y: 90, z: 270.00006}
+        _scale: {x: 0.5, y: 1, z: 1}
+        _blockType: 2
+        _blendValue: 0
+      - _position: {x: -0.5, y: 7.5, z: 0}
+        _rotation: {x: 0.00017758492, y: 89.99978, z: 269.99988}
+        _scale: {x: 1, y: 1, z: 1}
+        _blockType: 0
+        _blendValue: 0
+      - _position: {x: 0, y: 5.5, z: 1.5}
+        _rotation: {x: 270, y: 0, z: 0}
+        _scale: {x: 0.5, y: 1, z: 1}
+        _blockType: 2
+        _blendValue: 0
+      - _position: {x: 0.5, y: 6, z: 1.5}
+        _rotation: {x: -0, y: 90, z: 270.00006}
+        _scale: {x: 0.5, y: 1, z: 1}
+        _blockType: 2
+        _blendValue: 0
+      - _position: {x: 0.5, y: 7.5, z: 0}
+        _rotation: {x: 270, y: -2.8978768E-05, z: 0}
+        _scale: {x: 1, y: 1, z: 1}
+        _blockType: 0
+        _blendValue: 0
+      - _position: {x: -4, y: 0.5, z: 1.5}
+        _rotation: {x: 270, y: 0, z: 0}
+        _scale: {x: 0.5, y: 1, z: 1}
+        _blockType: 2
+        _blendValue: 0
+      - _position: {x: 4, y: 0.5, z: 1.5}
+        _rotation: {x: 270, y: 0, z: 0}
+        _scale: {x: 0.5, y: 1, z: 1}
+        _blockType: 2
+        _blendValue: 0
+      - _position: {x: -4, y: -0.5, z: 1.5}
+        _rotation: {x: 270, y: 0, z: 0}
+        _scale: {x: 0.5, y: 1, z: 1}
+        _blockType: 2
+        _blendValue: 0
+      - _position: {x: 4, y: -0.5, z: 1.5}
+        _rotation: {x: 270, y: 0, z: 0}
+        _scale: {x: 0.5, y: 1, z: 1}
+        _blockType: 2
+        _blendValue: 0
+      - _position: {x: -3.5, y: 0, z: 1.5}
+        _rotation: {x: -0, y: 90, z: 270.00006}
+        _scale: {x: 0.5, y: 1, z: 1}
+        _blockType: 2
+        _blendValue: 0
+      - _position: {x: -5.5, y: 0.5, z: 0}
+        _rotation: {x: -0.00012294341, y: 269.99982, z: 90.00012}
+        _scale: {x: 1, y: 1, z: 1}
+        _blockType: 0
+        _blendValue: 0
+      - _position: {x: -5.5, y: -0.5, z: 0}
+        _rotation: {x: 270, y: -2.8978768E-05, z: 0}
+        _scale: {x: 1, y: 1, z: 1}
+        _blockType: 0
+        _blendValue: 0
+      - _position: {x: 5.5, y: 0.5, z: 0}
+        _rotation: {x: 90, y: 179.99988, z: 0}
+        _scale: {x: 1, y: 1, z: 1}
+        _blockType: 0
+        _blendValue: 0
+      - _position: {x: 5.5, y: -0.5, z: 0}
+        _rotation: {x: 0.00017758492, y: 89.99978, z: 269.99988}
+        _scale: {x: 1, y: 1, z: 1}
+        _blockType: 0
+        _blendValue: 0
+      - _position: {x: 5.5, y: -4, z: 1.5}
+        _rotation: {x: -0, y: 90, z: 270.00006}
+        _scale: {x: 1.5, y: 1, z: 1}
+        _blockType: 2
+        _blendValue: 0
+      - _position: {x: -5.5, y: -4, z: 1.5}
+        _rotation: {x: -0, y: 90, z: 270.00006}
+        _scale: {x: 1.5, y: 1, z: 1}
+        _blockType: 2
+        _blendValue: 0
+      - _position: {x: 0, y: -9.5, z: 1.5}
+        _rotation: {x: 270, y: 0, z: 0}
+        _scale: {x: 1.5, y: 1, z: 1}
+        _blockType: 2
+        _blendValue: 0
+      - _position: {x: -3.5, y: -9.5, z: 0}
+        _rotation: {x: -0.00012294341, y: 269.99982, z: 90.00012}
+        _scale: {x: 1, y: 1, z: 1}
+        _blockType: 0
+        _blendValue: 0
+      - _position: {x: 3.5, y: -9.5, z: 0}
+        _rotation: {x: 90, y: 179.99988, z: 0}
+        _scale: {x: 1, y: 1, z: 1}
+        _blockType: 0
+        _blendValue: 0
+      - _position: {x: 3.5, y: 0, z: 1.5}
+        _rotation: {x: -0, y: 90, z: 270.00006}
+        _scale: {x: 0.5, y: 1, z: 1}
+        _blockType: 2
+        _blendValue: 0
+      - _position: {x: -3.5, y: -8, z: 1.5}
+        _rotation: {x: -0, y: 90, z: 270.00006}
+        _scale: {x: 0.5, y: 1, z: 1}
+        _blockType: 2
+        _blendValue: 0
+      - _position: {x: 3.5, y: -8, z: 1.5}
+        _rotation: {x: -0, y: 90, z: 270.00006}
+        _scale: {x: 0.5, y: 1, z: 1}
+        _blockType: 2
+        _blendValue: 0
+    _levelBlockGroupsData:
+      _blockGroupDatas:
+      - _position: {x: 0, y: 2, z: 0}
+        _rotation: {x: -0, y: 0, z: 0}
+        _blockGroupType: 2
+        _blockType: 0
+        _isOneWayMovementActive: 0
+        _wayDirection: 0
+        _blockGroupLevelElementData:
+          _levelElementType: 1
+          _iceCount: 10
+          _lockCount: 0
+          _timerBombDuration: 60
+          _curtainIsClosed: 0
+          _ropesData:
+            _ropeDatas: []
+          _scissorsColorType: 0
+        _joinedGroupData:
+          _isMemberOfJoinedGorup: 0
+          _groupIndex: 0
+        _layerData:
+          _hasLayer: 0
+          _blockType: 0
+        _isBlocker: 0
+        _isBlockerFixed: 0
+        _isBlockerCounterActive: 0
+        _blockerCounter: 0
+      - _position: {x: -4, y: 7, z: 0}
+        _rotation: {x: -0, y: 0, z: 0}
+        _blockGroupType: 1
+        _blockType: 2
+        _isOneWayMovementActive: 0
+        _wayDirection: 0
+        _blockGroupLevelElementData:
+          _levelElementType: 0
+          _iceCount: 1
+          _lockCount: 0
+          _timerBombDuration: 60
+          _curtainIsClosed: 0
+          _ropesData:
+            _ropeDatas: []
+          _scissorsColorType: 0
+        _joinedGroupData:
+          _isMemberOfJoinedGorup: 0
+          _groupIndex: 0
+        _layerData:
+          _hasLayer: 0
+          _blockType: 0
+        _isBlocker: 0
+        _isBlockerFixed: 0
+        _isBlockerCounterActive: 0
+        _blockerCounter: 0
+      - _position: {x: 4, y: 7, z: 0}
+        _rotation: {x: -0, y: 0, z: 0}
+        _blockGroupType: 1
+        _blockType: 1
+        _isOneWayMovementActive: 0
+        _wayDirection: 0
+        _blockGroupLevelElementData:
+          _levelElementType: 0
+          _iceCount: 1
+          _lockCount: 0
+          _timerBombDuration: 60
+          _curtainIsClosed: 0
+          _ropesData:
+            _ropeDatas: []
+          _scissorsColorType: 0
+        _joinedGroupData:
+          _isMemberOfJoinedGorup: 0
+          _groupIndex: 0
+        _layerData:
+          _hasLayer: 0
+          _blockType: 0
+        _isBlocker: 0
+        _isBlockerFixed: 0
+        _isBlockerCounterActive: 0
+        _blockerCounter: 0
+      - _position: {x: 0, y: -6, z: 0}
+        _rotation: {x: -0, y: 0, z: 0}
+        _blockGroupType: 2
+        _blockType: 6
+        _isOneWayMovementActive: 0
+        _wayDirection: 0
+        _blockGroupLevelElementData:
+          _levelElementType: 0
+          _iceCount: 1
+          _lockCount: 0
+          _timerBombDuration: 60
+          _curtainIsClosed: 0
+          _ropesData:
+            _ropeDatas: []
+          _scissorsColorType: 0
+        _joinedGroupData:
+          _isMemberOfJoinedGorup: 0
+          _groupIndex: 0
+        _layerData:
+          _hasLayer: 0
+          _blockType: 0
+        _isBlocker: 0
+        _isBlockerFixed: 0
+        _isBlockerCounterActive: 0
+        _blockerCounter: 0
+      - _position: {x: 4, y: 2, z: 0}
+        _rotation: {x: -0, y: 0, z: 0}
+        _blockGroupType: 0
+        _blockType: 8
+        _isOneWayMovementActive: 1
+        _wayDirection: 1
+        _blockGroupLevelElementData:
+          _levelElementType: 0
+          _iceCount: 1
+          _lockCount: 0
+          _timerBombDuration: 60
+          _curtainIsClosed: 0
+          _ropesData:
+            _ropeDatas: []
+          _scissorsColorType: 0
+        _joinedGroupData:
+          _isMemberOfJoinedGorup: 0
+          _groupIndex: 0
+        _layerData:
+          _hasLayer: 0
+          _blockType: 0
+        _isBlocker: 0
+        _isBlockerFixed: 0
+        _isBlockerCounterActive: 0
+        _blockerCounter: 0
+      - _position: {x: -4, y: 2, z: 0}
+        _rotation: {x: -0, y: 0, z: 0}
+        _blockGroupType: 0
+        _blockType: 4
+        _isOneWayMovementActive: 1
+        _wayDirection: 1
+        _blockGroupLevelElementData:
+          _levelElementType: 0
+          _iceCount: 1
+          _lockCount: 0
+          _timerBombDuration: 60
+          _curtainIsClosed: 0
+          _ropesData:
+            _ropeDatas: []
+          _scissorsColorType: 0
+        _joinedGroupData:
+          _isMemberOfJoinedGorup: 0
+          _groupIndex: 0
+        _layerData:
+          _hasLayer: 0
+          _blockType: 0
+        _isBlocker: 0
+        _isBlockerFixed: 0
+        _isBlockerCounterActive: 0
+        _blockerCounter: 0
+      - _position: {x: -2, y: -7, z: 0}
+        _rotation: {x: -0, y: 0, z: 0}
+        _blockGroupType: 1
+        _blockType: 0
+        _isOneWayMovementActive: 0
+        _wayDirection: 0
+        _blockGroupLevelElementData:
+          _levelElementType: 0
+          _iceCount: 1
+          _lockCount: 0
+          _timerBombDuration: 60
+          _curtainIsClosed: 0
+          _ropesData:
+            _ropeDatas: []
+          _scissorsColorType: 0
+        _joinedGroupData:
+          _isMemberOfJoinedGorup: 0
+          _groupIndex: 0
+        _layerData:
+          _hasLayer: 0
+          _blockType: 0
+        _isBlocker: 0
+        _isBlockerFixed: 0
+        _isBlockerCounterActive: 0
+        _blockerCounter: 0
+      - _position: {x: 2, y: -7, z: 0}
+        _rotation: {x: -0, y: 0, z: 0}
+        _blockGroupType: 1
+        _blockType: 5
+        _isOneWayMovementActive: 0
+        _wayDirection: 0
+        _blockGroupLevelElementData:
+          _levelElementType: 0
+          _iceCount: 1
+          _lockCount: 0
+          _timerBombDuration: 60
+          _curtainIsClosed: 0
+          _ropesData:
+            _ropeDatas: []
+          _scissorsColorType: 0
+        _joinedGroupData:
+          _isMemberOfJoinedGorup: 0
+          _groupIndex: 0
+        _layerData:
+          _hasLayer: 0
+          _blockType: 0
+        _isBlocker: 0
+        _isBlockerFixed: 0
+        _isBlockerCounterActive: 0
+        _blockerCounter: 0
+      - _position: {x: -2, y: 0, z: 0}
+        _rotation: {x: -0, y: 0, z: 0}
+        _blockGroupType: 0
+        _blockType: 6
+        _isOneWayMovementActive: 0
+        _wayDirection: 0
+        _blockGroupLevelElementData:
+          _levelElementType: 0
+          _iceCount: 1
+          _lockCount: 0
+          _timerBombDuration: 60
+          _curtainIsClosed: 0
+          _ropesData:
+            _ropeDatas: []
+          _scissorsColorType: 0
+        _joinedGroupData:
+          _isMemberOfJoinedGorup: 0
+          _groupIndex: 0
+        _layerData:
+          _hasLayer: 0
+          _blockType: 0
+        _isBlocker: 0
+        _isBlockerFixed: 0
+        _isBlockerCounterActive: 0
+        _blockerCounter: 0
+      - _position: {x: 2, y: 0, z: 0}
+        _rotation: {x: -0, y: 0, z: 0}
+        _blockGroupType: 0
+        _blockType: 1
+        _isOneWayMovementActive: 0
+        _wayDirection: 0
+        _blockGroupLevelElementData:
+          _levelElementType: 0
+          _iceCount: 1
+          _lockCount: 0
+          _timerBombDuration: 60
+          _curtainIsClosed: 0
+          _ropesData:
+            _ropeDatas: []
+          _scissorsColorType: 0
+        _joinedGroupData:
+          _isMemberOfJoinedGorup: 0
+          _groupIndex: 0
+        _layerData:
+          _hasLayer: 0
+          _blockType: 0
+        _isBlocker: 0
+        _isBlockerFixed: 0
+        _isBlockerCounterActive: 0
+        _blockerCounter: 0
+      - _position: {x: -4, y: -3, z: 0}
+        _rotation: {x: -0, y: 0, z: 0}
+        _blockGroupType: 1
+        _blockType: 5
+        _isOneWayMovementActive: 0
+        _wayDirection: 0
+        _blockGroupLevelElementData:
+          _levelElementType: 0
+          _iceCount: 1
+          _lockCount: 0
+          _timerBombDuration: 60
+          _curtainIsClosed: 0
+          _ropesData:
+            _ropeDatas: []
+          _scissorsColorType: 0
+        _joinedGroupData:
+          _isMemberOfJoinedGorup: 1
+          _groupIndex: 0
+        _layerData:
+          _hasLayer: 0
+          _blockType: 0
+        _isBlocker: 0
+        _isBlockerFixed: 0
+        _isBlockerCounterActive: 0
+        _blockerCounter: 0
+      - _position: {x: -4, y: -6, z: 0}
+        _rotation: {x: -0, y: 0, z: 0}
+        _blockGroupType: 0
+        _blockType: 8
+        _isOneWayMovementActive: 0
+        _wayDirection: 0
+        _blockGroupLevelElementData:
+          _levelElementType: 0
+          _iceCount: 1
+          _lockCount: 0
+          _timerBombDuration: 60
+          _curtainIsClosed: 0
+          _ropesData:
+            _ropeDatas: []
+          _scissorsColorType: 0
+        _joinedGroupData:
+          _isMemberOfJoinedGorup: 1
+          _groupIndex: 0
+        _layerData:
+          _hasLayer: 0
+          _blockType: 0
+        _isBlocker: 0
+        _isBlockerFixed: 0
+        _isBlockerCounterActive: 0
+        _blockerCounter: 0
+      - _position: {x: 4, y: -3, z: 0}
+        _rotation: {x: -0, y: 0, z: 0}
+        _blockGroupType: 1
+        _blockType: 7
+        _isOneWayMovementActive: 0
+        _wayDirection: 0
+        _blockGroupLevelElementData:
+          _levelElementType: 0
+          _iceCount: 1
+          _lockCount: 0
+          _timerBombDuration: 60
+          _curtainIsClosed: 0
+          _ropesData:
+            _ropeDatas: []
+          _scissorsColorType: 0
+        _joinedGroupData:
+          _isMemberOfJoinedGorup: 1
+          _groupIndex: 1
+        _layerData:
+          _hasLayer: 0
+          _blockType: 0
+        _isBlocker: 0
+        _isBlockerFixed: 0
+        _isBlockerCounterActive: 0
+        _blockerCounter: 0
+      - _position: {x: 4, y: -6, z: 0}
+        _rotation: {x: -0, y: 0, z: 0}
+        _blockGroupType: 0
+        _blockType: 2
+        _isOneWayMovementActive: 0
+        _wayDirection: 0
+        _blockGroupLevelElementData:
+          _levelElementType: 0
+          _iceCount: 1
+          _lockCount: 0
+          _timerBombDuration: 60
+          _curtainIsClosed: 0
+          _ropesData:
+            _ropeDatas: []
+          _scissorsColorType: 0
+        _joinedGroupData:
+          _isMemberOfJoinedGorup: 1
+          _groupIndex: 1
+        _layerData:
+          _hasLayer: 0
+          _blockType: 0
+        _isBlocker: 0
+        _isBlockerFixed: 0
+        _isBlockerCounterActive: 0
+        _blockerCounter: 0
+      - _position: {x: -2, y: -2, z: 0}
+        _rotation: {x: -0, y: 0, z: 0}
+        _blockGroupType: 0
+        _blockType: 7
+        _isOneWayMovementActive: 0
+        _wayDirection: 0
+        _blockGroupLevelElementData:
+          _levelElementType: 0
+          _iceCount: 1
+          _lockCount: 0
+          _timerBombDuration: 60
+          _curtainIsClosed: 0
+          _ropesData:
+            _ropeDatas: []
+          _scissorsColorType: 0
+        _joinedGroupData:
+          _isMemberOfJoinedGorup: 1
+          _groupIndex: 2
+        _layerData:
+          _hasLayer: 0
+          _blockType: 0
+        _isBlocker: 0
+        _isBlockerFixed: 0
+        _isBlockerCounterActive: 0
+        _blockerCounter: 0
+      - _position: {x: -2, y: -4, z: 0}
+        _rotation: {x: -0, y: 0, z: 0}
+        _blockGroupType: 0
+        _blockType: 9
+        _isOneWayMovementActive: 0
+        _wayDirection: 0
+        _blockGroupLevelElementData:
+          _levelElementType: 0
+          _iceCount: 1
+          _lockCount: 0
+          _timerBombDuration: 60
+          _curtainIsClosed: 0
+          _ropesData:
+            _ropeDatas: []
+          _scissorsColorType: 0
+        _joinedGroupData:
+          _isMemberOfJoinedGorup: 1
+          _groupIndex: 2
+        _layerData:
+          _hasLayer: 0
+          _blockType: 0
+        _isBlocker: 0
+        _isBlockerFixed: 0
+        _isBlockerCounterActive: 0
+        _blockerCounter: 0
+      - _position: {x: 2, y: -4, z: 0}
+        _rotation: {x: -0, y: 0, z: 0}
+        _blockGroupType: 0
+        _blockType: 3
+        _isOneWayMovementActive: 0
+        _wayDirection: 0
+        _blockGroupLevelElementData:
+          _levelElementType: 0
+          _iceCount: 1
+          _lockCount: 0
+          _timerBombDuration: 60
+          _curtainIsClosed: 0
+          _ropesData:
+            _ropeDatas: []
+          _scissorsColorType: 0
+        _joinedGroupData:
+          _isMemberOfJoinedGorup: 1
+          _groupIndex: 3
+        _layerData:
+          _hasLayer: 0
+          _blockType: 0
+        _isBlocker: 0
+        _isBlockerFixed: 0
+        _isBlockerCounterActive: 0
+        _blockerCounter: 0
+      - _position: {x: 2, y: -2, z: 0}
+        _rotation: {x: -0, y: 0, z: 0}
+        _blockGroupType: 0
+        _blockType: 9
+        _isOneWayMovementActive: 0
+        _wayDirection: 0
+        _blockGroupLevelElementData:
+          _levelElementType: 0
+          _iceCount: 1
+          _lockCount: 0
+          _timerBombDuration: 60
+          _curtainIsClosed: 0
+          _ropesData:
+            _ropeDatas: []
+          _scissorsColorType: 0
+        _joinedGroupData:
+          _isMemberOfJoinedGorup: 1
+          _groupIndex: 3
+        _layerData:
+          _hasLayer: 0
+          _blockType: 0
+        _isBlocker: 0
+        _isBlockerFixed: 0
+        _isBlockerCounterActive: 0
+        _blockerCounter: 0
+      - _position: {x: -2, y: 6, z: 0}
+        _rotation: {x: -0, y: 0, z: 0}
+        _blockGroupType: 0
+        _blockType: 4
+        _isOneWayMovementActive: 0
+        _wayDirection: 0
+        _blockGroupLevelElementData:
+          _levelElementType: 0
+          _iceCount: 1
+          _lockCount: 0
+          _timerBombDuration: 60
+          _curtainIsClosed: 0
+          _ropesData:
+            _ropeDatas: []
+          _scissorsColorType: 0
+        _joinedGroupData:
+          _isMemberOfJoinedGorup: 0
+          _groupIndex: 0
+        _layerData:
+          _hasLayer: 0
+          _blockType: 0
+        _isBlocker: 0
+        _isBlockerFixed: 0
+        _isBlockerCounterActive: 0
+        _blockerCounter: 0
+      - _position: {x: 2, y: 6, z: 0}
+        _rotation: {x: -0, y: 0, z: 0}
+        _blockGroupType: 0
+        _blockType: 3
+        _isOneWayMovementActive: 0
+        _wayDirection: 0
+        _blockGroupLevelElementData:
+          _levelElementType: 0
+          _iceCount: 1
+          _lockCount: 0
+          _timerBombDuration: 60
+          _curtainIsClosed: 0
+          _ropesData:
+            _ropeDatas: []
+          _scissorsColorType: 0
+        _joinedGroupData:
+          _isMemberOfJoinedGorup: 0
+          _groupIndex: 0
+        _layerData:
+          _hasLayer: 0
+          _blockType: 0
+        _isBlocker: 0
+        _isBlockerFixed: 0
+        _isBlockerCounterActive: 0
+        _blockerCounter: 0
+    _levelCratesData:
+      _levelCrateDatas: []

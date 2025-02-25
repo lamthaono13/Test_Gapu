@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9f3fab98a5fa1eedc0f8692edd0844c, type: 3}
+  m_Name: BlocksData
+  m_EditorClassIdentifier:
+  datas:
+  - {fileID: 11400000, guid: f32d5ea9aefef9c43bcda2d73336db1f, type: 2}
+  - {fileID: 11400000, guid: f988528e87d2e9e449590b13dc39f419, type: 2}
+  - {fileID: 11400000, guid: 4400db0d6638bb4499fa25f7bd8c0735, type: 2}
+  - {fileID: 11400000, guid: cb5115d2c2e5dd342a8d58817f2ee66c, type: 2}
+  - {fileID: 11400000, guid: 4e8cbb608c4dd754d9708a47a564ce65, type: 2}
+  - {fileID: 11400000, guid: 09da8dadb18c8f541a65cac516289790, type: 2}
+  - {fileID: 11400000, guid: 87de65674e63cb741836624c015dda33, type: 2}
+  - {fileID: 11400000, guid: d01361de9d05d7d4b98e06a46041bafc, type: 2}
+  - {fileID: 11400000, guid: 8792f32c77a50374faa1c9356ecc7644, type: 2}
+  - {fileID: 11400000, guid: 1d4edfb75763f8b42a92d2aebf516404, type: 2}
+  - {fileID: 11400000, guid: 9ae52c378ad1ac74e902acab18e9e38b, type: 2}
+  stickyPrefab: {fileID: 114989504176908617, guid: a5387120cd5bffc4ea545eabf09747b9, type: 2}
+  movingBlockerMaterial: {fileID: 2100000, guid: b50969e4253ef234083ad48975d5e20b, type: 2}
+  movingBlockerOutlineColor: {r: 0.32941177, g: 0.32941177, b: 0.32941177, a: 1}
+  blockGroupInstantiationDataHolder: {fileID: 11400000, guid: 24182b453ca09134686c7a334f9a8fb2, type: 2}

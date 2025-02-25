@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf9a52e684f8e3870e3a29c3baa66468, type: 3}
+  m_Name: BattlePassRewardPrefabsData
+  m_EditorClassIdentifier:
+  IconPrefabDatas:
+  - RewardType: 0
+    Prefab: {fileID: 114944495197210025, guid: a494f548def99c447bc4ea596ffc6461, type: 2}
+  - RewardType: 1
+    Prefab: {fileID: 114810409319372725, guid: 887f02d7a09d9d244ac364ea7f1cdb4e, type: 2}
+  - RewardType: 2
+    Prefab: {fileID: 114525291954154915, guid: f312d18a7dcec6944b21b99befc477bc, type: 2}
+  - RewardType: 3
+    Prefab: {fileID: 114845378318958599, guid: 3ec4e5bf04b29914bbc688a78696c5ab, type: 2}
+  - RewardType: 4
+    Prefab: {fileID: 114691103108070214, guid: 05363c8bbb0dce74c92e0936fdb0acc5, type: 2}
+  - RewardType: 5
+    Prefab: {fileID: 114361256024458069, guid: 23b2c2f5f8aa63543a4c0e3ea11a1bfb, type: 2}
+  - RewardType: 6
+    Prefab: {fileID: 114383291050338219, guid: a6d9d7b47415a824eadddf5fed00310f, type: 2}
+  - RewardType: 7
+    Prefab: {fileID: 114178063541927770, guid: 767c8012b5924d84e83af26a28725d2f, type: 2}
+  - RewardType: 8
+    Prefab: {fileID: 114127142040065653, guid: 8978cb1c771d3b34c97590a582d84fb9, type: 2}
+  - RewardType: 9
+    Prefab: {fileID: 114010925896269634, guid: 7238ede437a470c4ebcbc579288006aa, type: 2}
+  - RewardType: 10
+    Prefab: {fileID: 114259390035533281, guid: cc16c8b6f62dc6441af64013aab05f18, type: 2}
+  IconGroupPrefabDatas:
+  - ShowType: 1
+    ShowTypeIndex: 0
+    Prefab: {fileID: 114165390441499512, guid: b8022f0af81bc3e46a83e358aa255e35, type: 2}
+  - ShowType: 1
+    ShowTypeIndex: 1
+    Prefab: {fileID: 114013637441997633, guid: 04027e9e5fd44214bb318b94d5bd87f6, type: 2}
+  - ShowType: 2
+    ShowTypeIndex: 0
+    Prefab: {fileID: 114465196324958484, guid: f2d64f7e33eef9647a119a0e4222db2a, type: 2}
+  - ShowType: 2
+    ShowTypeIndex: 1
+    Prefab: {fileID: 114736804637033465, guid: 6f2dd61a21429404ca2190c5d8893be2, type: 2}
+  - ShowType: 2
+    ShowTypeIndex: 2
+    Prefab: {fileID: 114431851439818227, guid: caca39f71ceaaf9489b1110912b3e320, type: 2}
+  - ShowType: 2
+    ShowTypeIndex: 3
+    Prefab: {fileID: 114390471047983447, guid: ddebffd6b49f45e4aab74a78afc2a7bb, type: 2}
+  - ShowType: 2
+    ShowTypeIndex: 4
+    Prefab: {fileID: 114043937790672385, guid: 88f867de33cafff4d893bfabdc044443, type: 2}
+  - ShowType: 2
+    ShowTypeIndex: 5
+    Prefab: {fileID: 114191160340559468, guid: 92e26414cf9c831408a3a8d6a7677605, type: 2}

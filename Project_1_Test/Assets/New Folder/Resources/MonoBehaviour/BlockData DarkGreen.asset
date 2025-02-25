@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df4348f45305837961456b615b38ecb6, type: 3}
+  m_Name: BlockData DarkGreen
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 020e281b25be09f40806e4134e8f9f00, type: 2}
+  outlineColor: {r: 1, g: 0.9809598, b: 0.7688679, a: 1}
+  gateMaterial: {fileID: 2100000, guid: de297045cc0169846a28628b6923a2e2, type: 2}
+  gateArrowMaterial: {fileID: 2100000, guid: ce20edfcffea64644a03f03eb45b2410, type: 2}
+  explodeParticle: {fileID: 1473960438564315, guid: 102ea3f26a0fa8d4c945489e79460ef0, type: 2}
+  ropeMaterial: {fileID: 2100000, guid: 37c05486ad03daa48a0d9229184dea83, type: 2}
+  pathMaterialIn: {fileID: 2100000, guid: b0ee72414c651ee4181d901e724b6a07, type: 2}

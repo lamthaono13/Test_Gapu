@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df4348f45305837961456b615b38ecb6, type: 3}
+  m_Name: BlockData Orange
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 069e3610033968f4dbdd2ed4eb8b6a91, type: 2}
+  outlineColor: {r: 1, g: 0.9809598, b: 0.7688679, a: 1}
+  gateMaterial: {fileID: 2100000, guid: 6de4dc90aa735264c83ad019aa360126, type: 2}
+  gateArrowMaterial: {fileID: 2100000, guid: a0469147e76d460449479ed24f86f797, type: 2}
+  explodeParticle: {fileID: 1977930198512949, guid: 7f58a472971e8414a93e8d6d06c740f0, type: 2}
+  ropeMaterial: {fileID: 2100000, guid: 90c37c2738bd7f34e867f4505c545c71, type: 2}
+  pathMaterialIn: {fileID: 2100000, guid: a9c8eb07e8869a145b2c0a449281b55b, type: 2}

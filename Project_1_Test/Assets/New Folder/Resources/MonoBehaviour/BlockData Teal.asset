@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df4348f45305837961456b615b38ecb6, type: 3}
+  m_Name: BlockData Teal
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 18a879ad2641b304b80850828e4fd728, type: 2}
+  outlineColor: {r: 1, g: 0.9809598, b: 0.7688679, a: 1}
+  gateMaterial: {fileID: 2100000, guid: 0b1564f9fdebc1145adde983e7ede5b9, type: 2}
+  gateArrowMaterial: {fileID: 2100000, guid: 930cf94e32267d143a794adf8c196af6, type: 2}
+  explodeParticle: {fileID: 1135469420425457, guid: 9b33ec8ae0055ad499e6b99b43cadc8e, type: 2}
+  ropeMaterial: {fileID: 2100000, guid: 40ef5429412ad904da15f76f9f5e3d1b, type: 2}
+  pathMaterialIn: {fileID: 2100000, guid: 4b669451d3880dd489d0174455dec865, type: 2}

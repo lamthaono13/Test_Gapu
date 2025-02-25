@@ -1,0 +1,1726 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 198377fc9d97be7ba5569c11048113f0, type: 3}
+  m_Name: BattlePassRewardDatas
+  m_EditorClassIdentifier:
+  _battlePassAllData:
+    _montlyBattlePassDatas:
+    - _dayCountForMonth: 31
+      _rewardLevels:
+      - _token: 1
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 200
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 2
+      - _token: 1
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 30
+      - _token: 2
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 15
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 400
+      - _token: 3
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 2
+      - _token: 4
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 200
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 2
+      - _token: 5
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 15
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 1000
+      - _token: 6
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 2
+      - _token: 8
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 30
+      - _token: 10
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 2
+      - _token: 10
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 2
+      - _token: 10
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 200
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 30
+      - _token: 25
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 15
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 1
+      - _token: 25
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 2
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 2
+      - _token: 30
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 1000
+      - _token: 30
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 200
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 2
+      - _token: 35
+        _rewardGroup:
+          _showType: 2
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 45
+          - _rewardType: 2
+            _count: 2
+        _rewardGroupGolden:
+          _showType: 2
+          _showTypeIndex: 1
+          _rewards:
+          - _rewardType: 1
+            _count: 60
+          - _rewardType: 4
+            _count: 1
+          - _rewardType: 3
+            _count: 2
+      - _token: 35
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 2
+      - _token: 40
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 400
+      - _token: 40
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 200
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 45
+      - _token: 45
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 30
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 2
+      - _token: 45
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 2
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 60
+      - _token: 50
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 1000
+      - _token: 50
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 2
+      - _token: 55
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 200
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 2
+      - _token: 60
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 15
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 400
+      - _token: 65
+        _rewardGroup:
+          _showType: 2
+          _showTypeIndex: 2
+          _rewards:
+          - _rewardType: 1
+            _count: 60
+          - _rewardType: 2
+            _count: 2
+        _rewardGroupGolden:
+          _showType: 2
+          _showTypeIndex: 3
+          _rewards:
+          - _rewardType: 1
+            _count: 60
+          - _rewardType: 2
+            _count: 2
+          - _rewardType: 3
+            _count: 2
+      - _token: 65
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 200
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 400
+      - _token: 70
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 2
+      - _token: 70
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 30
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 4
+            _count: 1
+      - _token: 75
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 400
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 30
+      - _token: 75
+        _rewardGroup:
+          _showType: 2
+          _showTypeIndex: 4
+          _rewards:
+          - _rewardType: 3
+            _count: 2
+          - _rewardType: 2
+            _count: 2
+          - _rewardType: 4
+            _count: 1
+          - _rewardType: 1
+            _count: 60
+        _rewardGroupGolden:
+          _showType: 2
+          _showTypeIndex: 5
+          _rewards:
+          - _rewardType: 1
+            _count: 120
+          - _rewardType: 2
+            _count: 5
+          - _rewardType: 3
+            _count: 5
+          - _rewardType: 0
+            _count: 1000
+    - _dayCountForMonth: 30
+      _rewardLevels:
+      - _token: 1
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 2
+      - _token: 1
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 2
+      - _token: 2
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 200
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 30
+      - _token: 3
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 400
+      - _token: 4
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 15
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 2
+      - _token: 5
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 2
+      - _token: 6
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 200
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 400
+      - _token: 10
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 4
+            _count: 1
+      - _token: 10
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 2
+      - _token: 10
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 2
+      - _token: 10
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 15
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 400
+      - _token: 25
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 4
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 2
+      - _token: 25
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 2
+      - _token: 30
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 200
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 30
+      - _token: 30
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 4
+            _count: 2
+      - _token: 35
+        _rewardGroup:
+          _showType: 2
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 4
+            _count: 1
+          - _rewardType: 3
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 2
+          _showTypeIndex: 1
+          _rewards:
+          - _rewardType: 1
+            _count: 60
+          - _rewardType: 2
+            _count: 1
+          - _rewardType: 3
+            _count: 2
+      - _token: 35
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 30
+      - _token: 40
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 4
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 2
+      - _token: 40
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 4
+            _count: 2
+      - _token: 45
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 15
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 1
+      - _token: 45
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 400
+      - _token: 50
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 200
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 2
+      - _token: 50
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 4
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 2
+      - _token: 55
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 2
+      - _token: 55
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 4
+            _count: 1
+      - _token: 60
+        _rewardGroup:
+          _showType: 2
+          _showTypeIndex: 2
+          _rewards:
+          - _rewardType: 4
+            _count: 1
+          - _rewardType: 1
+            _count: 30
+        _rewardGroupGolden:
+          _showType: 2
+          _showTypeIndex: 3
+          _rewards:
+          - _rewardType: 1
+            _count: 60
+          - _rewardType: 2
+            _count: 2
+          - _rewardType: 3
+            _count: 2
+      - _token: 60
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 200
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 400
+      - _token: 65
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 30
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 1
+      - _token: 65
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 30
+      - _token: 70
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 4
+            _count: 1
+      - _token: 70
+        _rewardGroup:
+          _showType: 2
+          _showTypeIndex: 4
+          _rewards:
+          - _rewardType: 3
+            _count: 2
+          - _rewardType: 2
+            _count: 2
+          - _rewardType: 4
+            _count: 2
+        _rewardGroupGolden:
+          _showType: 2
+          _showTypeIndex: 5
+          _rewards:
+          - _rewardType: 0
+            _count: 3000
+          - _rewardType: 2
+            _count: 3
+          - _rewardType: 3
+            _count: 3
+          - _rewardType: 4
+            _count: 3
+    - _dayCountForMonth: 29
+      _rewardLevels:
+      - _token: 1
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 200
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 2
+      - _token: 1
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 30
+      - _token: 2
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 15
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 200
+      - _token: 3
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 4
+            _count: 2
+      - _token: 4
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 200
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 2
+      - _token: 5
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 15
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 400
+      - _token: 6
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 4
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 2
+      - _token: 8
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 30
+      - _token: 8
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 2
+      - _token: 10
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 2
+      - _token: 10
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 200
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 30
+      - _token: 25
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 15
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 400
+      - _token: 25
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 4
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 2
+      - _token: 30
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 4
+            _count: 1
+      - _token: 30
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 200
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 400
+      - _token: 35
+        _rewardGroup:
+          _showType: 2
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 4
+            _count: 1
+          - _rewardType: 2
+            _count: 2
+        _rewardGroupGolden:
+          _showType: 2
+          _showTypeIndex: 1
+          _rewards:
+          - _rewardType: 1
+            _count: 60
+          - _rewardType: 4
+            _count: 1
+          - _rewardType: 3
+            _count: 2
+      - _token: 35
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 2
+      - _token: 40
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 400
+      - _token: 40
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 200
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 30
+      - _token: 45
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 15
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 1
+      - _token: 45
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 400
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 60
+      - _token: 50
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 4
+            _count: 1
+      - _token: 50
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 2
+      - _token: 50
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 200
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 2
+      - _token: 50
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 15
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 400
+      - _token: 55
+        _rewardGroup:
+          _showType: 2
+          _showTypeIndex: 2
+          _rewards:
+          - _rewardType: 4
+            _count: 2
+          - _rewardType: 2
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 2
+          _showTypeIndex: 3
+          _rewards:
+          - _rewardType: 1
+            _count: 60
+          - _rewardType: 4
+            _count: 2
+          - _rewardType: 3
+            _count: 1
+      - _token: 55
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 200
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 400
+      - _token: 60
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 4
+            _count: 1
+      - _token: 60
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 30
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 2
+      - _token: 65
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 200
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 30
+      - _token: 65
+        _rewardGroup:
+          _showType: 2
+          _showTypeIndex: 4
+          _rewards:
+          - _rewardType: 3
+            _count: 2
+          - _rewardType: 2
+            _count: 2
+          - _rewardType: 4
+            _count: 2
+        _rewardGroupGolden:
+          _showType: 2
+          _showTypeIndex: 5
+          _rewards:
+          - _rewardType: 0
+            _count: 3000
+          - _rewardType: 2
+            _count: 3
+          - _rewardType: 3
+            _count: 3
+          - _rewardType: 4
+            _count: 3
+    - _dayCountForMonth: 28
+      _rewardLevels:
+      - _token: 1
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 2
+      - _token: 1
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 2
+      - _token: 2
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 200
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 400
+      - _token: 3
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 15
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 30
+      - _token: 4
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 2
+      - _token: 5
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 400
+      - _token: 6
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 200
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 2
+      - _token: 8
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 4
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 30
+      - _token: 10
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 15
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 2
+      - _token: 10
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 1000
+      - _token: 10
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 200
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 2
+      - _token: 15
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 15
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 4
+            _count: 1
+      - _token: 15
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 30
+      - _token: 20
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 1
+      - _token: 20
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 2
+      - _token: 30
+        _rewardGroup:
+          _showType: 2
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 1
+          - _rewardType: 1
+            _count: 45
+        _rewardGroupGolden:
+          _showType: 2
+          _showTypeIndex: 1
+          _rewards:
+          - _rewardType: 1
+            _count: 60
+          - _rewardType: 2
+            _count: 2
+          - _rewardType: 3
+            _count: 2
+      - _token: 30
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 200
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 2
+      - _token: 35
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 2
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 1000
+      - _token: 35
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 1
+      - _token: 40
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 15
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 2
+      - _token: 45
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 200
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 30
+      - _token: 50
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 2
+      - _token: 50
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 15
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 400
+      - _token: 55
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 200
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 2
+      - _token: 55
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 30
+      - _token: 60
+        _rewardGroup:
+          _showType: 2
+          _showTypeIndex: 2
+          _rewards:
+          - _rewardType: 1
+            _count: 60
+          - _rewardType: 2
+            _count: 2
+        _rewardGroupGolden:
+          _showType: 2
+          _showTypeIndex: 3
+          _rewards:
+          - _rewardType: 0
+            _count: 1000
+          - _rewardType: 2
+            _count: 2
+          - _rewardType: 3
+            _count: 2
+      - _token: 60
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 200
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 2
+      - _token: 65
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 15
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 1
+            _count: 60
+      - _token: 65
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 2
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 0
+            _count: 400
+      - _token: 70
+        _rewardGroup:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 0
+          _showTypeIndex: 0
+          _rewards:
+          - _rewardType: 3
+            _count: 2
+      - _token: 70
+        _rewardGroup:
+          _showType: 2
+          _showTypeIndex: 4
+          _rewards:
+          - _rewardType: 1
+            _count: 60
+          - _rewardType: 2
+            _count: 2
+          - _rewardType: 4
+            _count: 1
+        _rewardGroupGolden:
+          _showType: 2
+          _showTypeIndex: 5
+          _rewards:
+          - _rewardType: 1
+            _count: 60
+          - _rewardType: 0
+            _count: 1000
+          - _rewardType: 3
+            _count: 4
+          - _rewardType: 2
+            _count: 4

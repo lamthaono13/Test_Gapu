@@ -1,0 +1,354 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e3fdc69d33a09b7411ed93eb86b1586, type: 3}
+  m_Name: BlockGroupInstantiationDataHolder
+  m_EditorClassIdentifier:
+  _joinedBlockGroupsParentPrefab: {fileID: 114937040973656121, guid: 9ec66b4403917f646a132c047ef940af, type: 2}
+  _prefabDictionary:
+    m_keys:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    m_values:
+    - _blockGroupPrefab: {fileID: 114445733030243420, guid: f1125f5ea2cfdf34ea74b473bc37121e, type: 2}
+      _levelElementTypePrefabDictionary:
+        m_keys:
+        - 1
+        - 6
+        - 2
+        - 5
+        - 3
+        - 4
+        - 8
+        - 7
+        m_values:
+        - {fileID: 114977615840795952, guid: 7714d5357219bf44bbbbbd8e7df02918, type: 2}
+        - {fileID: 114863446907983309, guid: 3deb77be180369346bb326c1064c0289, type: 2}
+        - {fileID: 114887594408136413, guid: 93f3da36fd8f03c459720cf2e9b2b301, type: 2}
+        - {fileID: 114210703853243542, guid: cb1c6ceb2ea30f0449f98ee9da7929dc, type: 2}
+        - {fileID: 114313215530250912, guid: fc9407865b0fd1349b8708e1f44fa04b, type: 2}
+        - {fileID: 114489924126965287, guid: a1ff3b672f7c1f440b6619097e54f527, type: 2}
+        - {fileID: 114154125528319612, guid: 194756774bd379142bc89cca50de5fdd, type: 2}
+        - {fileID: 114804743945965389, guid: 01f42f99cc158ec4e9efe382ab4f5c01, type: 2}
+      _directionPrefabDictionary:
+        m_keys:
+        - 0
+        - 1
+        m_values:
+        - {fileID: 1530350764017719, guid: e5abee50651a7a847952d98e30fd07ac, type: 2}
+        - {fileID: 1650368120446883, guid: c410f807954a8034bad13fa45cb91d56, type: 2}
+    - _blockGroupPrefab: {fileID: 114399855617638351, guid: ce7b6f363bfce0a4089477bbd5d1e232, type: 2}
+      _levelElementTypePrefabDictionary:
+        m_keys:
+        - 1
+        - 6
+        - 2
+        - 5
+        - 3
+        - 4
+        - 8
+        - 7
+        m_values:
+        - {fileID: 114977615840795952, guid: 7714d5357219bf44bbbbbd8e7df02918, type: 2}
+        - {fileID: 114561509745283715, guid: ea1119749d8a671448b1f95ccf293d58, type: 2}
+        - {fileID: 114369047681614106, guid: 88a270e7f31a6124490065284505f63d, type: 2}
+        - {fileID: 114210703853243542, guid: cb1c6ceb2ea30f0449f98ee9da7929dc, type: 2}
+        - {fileID: 114313215530250912, guid: fc9407865b0fd1349b8708e1f44fa04b, type: 2}
+        - {fileID: 114087013873018702, guid: 25f1903b3c1e309458a304f8c85378a8, type: 2}
+        - {fileID: 114495315617950394, guid: e509fdc6882928341b06b9e98e345a6f, type: 2}
+        - {fileID: 114804743945965389, guid: 01f42f99cc158ec4e9efe382ab4f5c01, type: 2}
+      _directionPrefabDictionary:
+        m_keys:
+        - 0
+        - 1
+        m_values:
+        - {fileID: 1530350764017719, guid: e5abee50651a7a847952d98e30fd07ac, type: 2}
+        - {fileID: 1522080074357228, guid: e9ccb5bb143a1dd428c2045b53933b2f, type: 2}
+    - _blockGroupPrefab: {fileID: 114974428074736522, guid: 0e53b33d3517d0b40a1924692f3cdd5e, type: 2}
+      _levelElementTypePrefabDictionary:
+        m_keys:
+        - 1
+        - 6
+        - 2
+        - 5
+        - 3
+        - 4
+        - 8
+        - 7
+        m_values:
+        - {fileID: 114977615840795952, guid: 7714d5357219bf44bbbbbd8e7df02918, type: 2}
+        - {fileID: 114035423504883937, guid: 7f3c09bf76a24e5409f07e26f285d08d, type: 2}
+        - {fileID: 114370772887377296, guid: 278715c60f4827448a10bae271c43456, type: 2}
+        - {fileID: 114210703853243542, guid: cb1c6ceb2ea30f0449f98ee9da7929dc, type: 2}
+        - {fileID: 114313215530250912, guid: fc9407865b0fd1349b8708e1f44fa04b, type: 2}
+        - {fileID: 114407177190919792, guid: 5e1e0d6800e68734d9edbe31ca18ef11, type: 2}
+        - {fileID: 114773091882015995, guid: 28ad6440eba5ca247b0c14541cb55c87, type: 2}
+        - {fileID: 114804743945965389, guid: 01f42f99cc158ec4e9efe382ab4f5c01, type: 2}
+      _directionPrefabDictionary:
+        m_keys:
+        - 0
+        - 1
+        m_values:
+        - {fileID: 1530350764017719, guid: e5abee50651a7a847952d98e30fd07ac, type: 2}
+        - {fileID: 1678333420593018, guid: 6669f257bcb1ed941b37daf4244561d7, type: 2}
+    - _blockGroupPrefab: {fileID: 114256390612963809, guid: 2aef28a81e51ddb49ad8123b7f0bf785, type: 2}
+      _levelElementTypePrefabDictionary:
+        m_keys:
+        - 1
+        - 6
+        - 2
+        - 5
+        - 3
+        - 4
+        - 8
+        - 7
+        m_values:
+        - {fileID: 114939558051130784, guid: 05c2f1d8bc814ba43820a5de09d9f502, type: 2}
+        - {fileID: 114916598428177084, guid: 9feaad32ebf18dd44913ed5f5ddd6861, type: 2}
+        - {fileID: 114413257285583397, guid: 337790d0647dd6e438fb514ece4d349e, type: 2}
+        - {fileID: 114610743024246373, guid: 158bb28f4d8a753498c9d10b30423323, type: 2}
+        - {fileID: 114531979010255523, guid: 2d8101e28b2ff96438f3d4a760313393, type: 2}
+        - {fileID: 114521040896079239, guid: 3a6b6f26f0d0e104298d4c473eea1807, type: 2}
+        - {fileID: 114636827710943003, guid: beef615f5a67b544c96fe471549283d4, type: 2}
+        - {fileID: 114154450027167831, guid: ad2baa3869d315c4c983e60a1e7869f7, type: 2}
+      _directionPrefabDictionary:
+        m_keys:
+        - 0
+        - 1
+        m_values:
+        - {fileID: 1607477292555231, guid: 3b5458307e0059b46a8ac01202e4c74a, type: 2}
+        - {fileID: 1926494790220795, guid: 0362dad59a4096a40bfbd15deca03fdb, type: 2}
+    - _blockGroupPrefab: {fileID: 114133276976106915, guid: 28fc3f91977103845ad0471d94d0871f, type: 2}
+      _levelElementTypePrefabDictionary:
+        m_keys:
+        - 1
+        - 6
+        - 2
+        - 5
+        - 3
+        - 4
+        - 8
+        - 7
+        m_values:
+        - {fileID: 114454629282326926, guid: ab46691dcd3048f4b9d84e37c05b5948, type: 2}
+        - {fileID: 114178607546974920, guid: fc50a230121ca864ba2998f34bc190f3, type: 2}
+        - {fileID: 114940147648406381, guid: bb504a91533424440ad3bb89f96aed4b, type: 2}
+        - {fileID: 114472072493139439, guid: af910da223c3f4949af3d3f2987a1261, type: 2}
+        - {fileID: 114354624731327771, guid: 3e7262b58ab967845b550f952829949d, type: 2}
+        - {fileID: 114601963464669181, guid: 29350618f632e4f4bac544c201426efa, type: 2}
+        - {fileID: 114081093562897936, guid: 7a8b41c5237ef034d8e609b8338a1457, type: 2}
+        - {fileID: 114428427248459175, guid: 323e17ff49959d04cb1dd482ea670917, type: 2}
+      _directionPrefabDictionary:
+        m_keys:
+        - 0
+        - 1
+        m_values:
+        - {fileID: 1852934058990445, guid: 8e182a58de2d6234d83c4e700c87bf26, type: 2}
+        - {fileID: 1013607304443086, guid: 88679ebc92531204baeb04842fdec0a9, type: 2}
+    - _blockGroupPrefab: {fileID: 114497515372204171, guid: 73efe9fcf04d2964f942fb7ed9c2b62e, type: 2}
+      _levelElementTypePrefabDictionary:
+        m_keys:
+        - 1
+        - 6
+        - 2
+        - 5
+        - 3
+        - 4
+        - 8
+        - 7
+        m_values:
+        - {fileID: 114656801004740373, guid: 6f7a8cc68fa31374a944e2089f666f13, type: 2}
+        - {fileID: 114340621522231901, guid: 68fdec2af329640409593bf20711de04, type: 2}
+        - {fileID: 114071549036788778, guid: e3774717f8df5084389d720f6c28a8bd, type: 2}
+        - {fileID: 114248673705665982, guid: ecba51475b56d5d4cb018549164c5230, type: 2}
+        - {fileID: 114477872709329091, guid: f240bd17c12d11045bcca9fd09856d21, type: 2}
+        - {fileID: 114535193355195810, guid: 5dd8366e7532e6a4aabd51f50d06d1a7, type: 2}
+        - {fileID: 114429179740984448, guid: 591561c87def71a4a8df817f3c7886e1, type: 2}
+        - {fileID: 114649304924568061, guid: f49a2d797f797fe4494083960625dbdf, type: 2}
+      _directionPrefabDictionary:
+        m_keys:
+        - 0
+        - 1
+        m_values:
+        - {fileID: 1578347991069295, guid: e4d1c434b064c1645a4449628d248a2d, type: 2}
+        - {fileID: 1627554969447367, guid: 3b87d0db054ff3246a8108384d7afb1e, type: 2}
+    - _blockGroupPrefab: {fileID: 114224854054984093, guid: 738229952b38b724b963eb0ad6d5169e, type: 2}
+      _levelElementTypePrefabDictionary:
+        m_keys:
+        - 1
+        - 6
+        - 2
+        - 5
+        - 3
+        - 4
+        - 8
+        - 7
+        m_values:
+        - {fileID: 114977615840795952, guid: 7714d5357219bf44bbbbbd8e7df02918, type: 2}
+        - {fileID: 114278090692282082, guid: d1a5d753c7cf1b641856753ed83cf43a, type: 2}
+        - {fileID: 114037463705801043, guid: d6ee8688ec8d39b4abc7b8304c864fc8, type: 2}
+        - {fileID: 114210703853243542, guid: cb1c6ceb2ea30f0449f98ee9da7929dc, type: 2}
+        - {fileID: 114313215530250912, guid: fc9407865b0fd1349b8708e1f44fa04b, type: 2}
+        - {fileID: 114239894057247026, guid: 9eee1d0aa9fe7244eb5ba3df570d92b6, type: 2}
+        - {fileID: 114425572206878354, guid: 6b2f4579d0ea16a4c8b1febe7222cde6, type: 2}
+        - {fileID: 114804743945965389, guid: 01f42f99cc158ec4e9efe382ab4f5c01, type: 2}
+      _directionPrefabDictionary:
+        m_keys:
+        - 0
+        - 1
+        m_values:
+        - {fileID: 1032419754341265, guid: 6e6d2fbb6ae8e7247b24753e1f7a813b, type: 2}
+        - {fileID: 1678333420593018, guid: 6669f257bcb1ed941b37daf4244561d7, type: 2}
+    - _blockGroupPrefab: {fileID: 114300866363528439, guid: 31074001e7650b341b44adc980051809, type: 2}
+      _levelElementTypePrefabDictionary:
+        m_keys:
+        - 1
+        - 6
+        - 2
+        - 5
+        - 3
+        - 4
+        - 8
+        - 7
+        m_values:
+        - {fileID: 114977615840795952, guid: 7714d5357219bf44bbbbbd8e7df02918, type: 2}
+        - {fileID: 114412953482371488, guid: 2acc332329d4ba34e890b0152e8cacf3, type: 2}
+        - {fileID: 114197954576732512, guid: 5048e989430f8344f8d5f7f45efd626e, type: 2}
+        - {fileID: 114210703853243542, guid: cb1c6ceb2ea30f0449f98ee9da7929dc, type: 2}
+        - {fileID: 114313215530250912, guid: fc9407865b0fd1349b8708e1f44fa04b, type: 2}
+        - {fileID: 114642322649322129, guid: f79d93b0012a9ab4a80add4d926be1a8, type: 2}
+        - {fileID: 114277163116571292, guid: a4bbcf2594cb9f64686d411c73a694fe, type: 2}
+        - {fileID: 114804743945965389, guid: 01f42f99cc158ec4e9efe382ab4f5c01, type: 2}
+      _directionPrefabDictionary:
+        m_keys:
+        - 0
+        - 1
+        m_values:
+        - {fileID: 1542824088929872, guid: b7658706e5d6485479e1f7d7e57ab384, type: 2}
+        - {fileID: 1522080074357228, guid: e9ccb5bb143a1dd428c2045b53933b2f, type: 2}
+    - _blockGroupPrefab: {fileID: 114441524592333986, guid: fdcc02705ed33294db787d40f1464387, type: 2}
+      _levelElementTypePrefabDictionary:
+        m_keys:
+        - 1
+        - 6
+        - 2
+        - 5
+        - 3
+        - 4
+        - 8
+        - 7
+        m_values:
+        - {fileID: 114972144335717335, guid: 47098c1dd1c48e44a892026592c6da9f, type: 2}
+        - {fileID: 114817597680765833, guid: 6c4f189f95de8fb40b44c14e4c8268a5, type: 2}
+        - {fileID: 114514712945949640, guid: 478c714027ab2b342bddaf2f5e03ff2b, type: 2}
+        - {fileID: 114210703853243542, guid: cb1c6ceb2ea30f0449f98ee9da7929dc, type: 2}
+        - {fileID: 114523052563558540, guid: faeb8a4c563a4bf44a93b098048495b0, type: 2}
+        - {fileID: 114299950151923285, guid: 693020541ecdb3e4093ad97e40a8ef8f, type: 2}
+        - {fileID: 114308477383445223, guid: 36d9299198ba2f040ba181d5e256cd66, type: 2}
+        - {fileID: 114804743945965389, guid: 01f42f99cc158ec4e9efe382ab4f5c01, type: 2}
+      _directionPrefabDictionary:
+        m_keys:
+        - 0
+        - 1
+        m_values:
+        - {fileID: 1131303165981043, guid: f7eaff0df2ff0b04da65801d8040ac38, type: 2}
+        - {fileID: 1522080074357228, guid: e9ccb5bb143a1dd428c2045b53933b2f, type: 2}
+    - _blockGroupPrefab: {fileID: 114542235546188453, guid: 15d9ed01f4c918b4690c7ae4079aca95, type: 2}
+      _levelElementTypePrefabDictionary:
+        m_keys:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        m_values:
+        - {fileID: 114977615840795952, guid: 7714d5357219bf44bbbbbd8e7df02918, type: 2}
+        - {fileID: 114697023491848847, guid: 2421249c04093fc4c90bc6ff829113c2, type: 2}
+        - {fileID: 114313215530250912, guid: fc9407865b0fd1349b8708e1f44fa04b, type: 2}
+        - {fileID: 114175231364313186, guid: 8a733307c862be44a9aa0b8240cc47de, type: 2}
+        - {fileID: 114210703853243542, guid: cb1c6ceb2ea30f0449f98ee9da7929dc, type: 2}
+        - {fileID: 114521799149280775, guid: 10a15e96de84cee43b921ca803effa5d, type: 2}
+        - {fileID: 114804743945965389, guid: 01f42f99cc158ec4e9efe382ab4f5c01, type: 2}
+        - {fileID: 114838061873186605, guid: 0b69302069cfb5f47885e2a16c72a695, type: 2}
+      _directionPrefabDictionary:
+        m_keys:
+        - 0
+        - 1
+        m_values:
+        - {fileID: 1530350764017719, guid: e5abee50651a7a847952d98e30fd07ac, type: 2}
+        - {fileID: 1522080074357228, guid: e9ccb5bb143a1dd428c2045b53933b2f, type: 2}
+    - _blockGroupPrefab: {fileID: 114739724266258248, guid: 118cb672114845c4eacb7c42eaadea99, type: 2}
+      _levelElementTypePrefabDictionary:
+        m_keys:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        m_values:
+        - {fileID: 114977615840795952, guid: 7714d5357219bf44bbbbbd8e7df02918, type: 2}
+        - {fileID: 114122734067574335, guid: b77c8df17e46abe428bd7acc3425e5aa, type: 2}
+        - {fileID: 114313215530250912, guid: fc9407865b0fd1349b8708e1f44fa04b, type: 2}
+        - {fileID: 114628766485061060, guid: e49542afdd58af34bb4bd5165f94102a, type: 2}
+        - {fileID: 114210703853243542, guid: cb1c6ceb2ea30f0449f98ee9da7929dc, type: 2}
+        - {fileID: 114521799149280775, guid: 10a15e96de84cee43b921ca803effa5d, type: 2}
+        - {fileID: 114804743945965389, guid: 01f42f99cc158ec4e9efe382ab4f5c01, type: 2}
+        - {fileID: 114262267453407669, guid: 6a6cd060683ecb84b9667d0b183d4e06, type: 2}
+      _directionPrefabDictionary:
+        m_keys:
+        - 0
+        - 1
+        m_values:
+        - {fileID: 1530350764017719, guid: e5abee50651a7a847952d98e30fd07ac, type: 2}
+        - {fileID: 1522080074357228, guid: e9ccb5bb143a1dd428c2045b53933b2f, type: 2}
+    - _blockGroupPrefab: {fileID: 114748279183864519, guid: 70b6fdfbd3cb0724faf319b93d6f8eb0, type: 2}
+      _levelElementTypePrefabDictionary:
+        m_keys:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        m_values:
+        - {fileID: 114273729033155745, guid: 17f8c18b72dd2794da3b2247f9206b2e, type: 2}
+        - {fileID: 114275708557697560, guid: 6458e8ac42e7c554d98c2b229ccfb5b9, type: 2}
+        - {fileID: 114492894098199651, guid: 473681db324a2ac4bbee3c4e971b6429, type: 2}
+        - {fileID: 114382438943926297, guid: 9d298ca0a80c09f459c55492417dc84a, type: 2}
+        - {fileID: 114039907857292852, guid: d5ef9adcfd19d8e4ca18a2445234bdf7, type: 2}
+        - {fileID: 114521799149280775, guid: 10a15e96de84cee43b921ca803effa5d, type: 2}
+        - {fileID: 114050681230863216, guid: 7b71ee53cf46dbb49a8442fbe63ba538, type: 2}
+        - {fileID: 114677004441875094, guid: 435f9815b1b113f4d9e7f87a098b0b11, type: 2}
+      _directionPrefabDictionary:
+        m_keys:
+        - 0
+        - 1
+        m_values:
+        - {fileID: 1028798694702837, guid: 2c3f18538fe068c40b232d76f3c4f5ea, type: 2}
+        - {fileID: 1603297569165195, guid: d91c9f17e53eca245adf751ddedb499d, type: 2}
